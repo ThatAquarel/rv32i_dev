@@ -1,9 +1,12 @@
-FROM ubuntu:20.04
+FROM ubuntu:20.04 AS build
 
-RUN apt-get install -y autoconf automake  \
-    autotools-dev curl python3 libmpc-dev  \
-    libmpfr-dev libgmp-dev gawk build-essential \
-    bison flex texinfo gperf libtool  \
-    patchutils bc zlib1g-dev libexpat-dev \
+WORKDIR /opt/app/
+COPY ./dev/ ./dev/
+COPY ./bin/ ./bin/
+RUN find ./ -type f -name "*.asm" | \
+    xargs -I {} ./bin/riscv32-as  \
+    -march=rv32i -o {}.o {}
 
-
+RUN find ./ -type f -name "*.o" | \
+    xargs -I {} ./bin/riscv32-objcopy  \
+    -O binary {} {}.bin
