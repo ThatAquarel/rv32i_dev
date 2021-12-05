@@ -1,0 +1,42 @@
+https://msyksphinz-self.github.io/riscv-isadoc/html/rvi.html#
+
+https://github.com/jameslzhu/riscv-card/blob/master/riscv-card.pdf
+https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/notebooks/RISCV/RISCV_CARD.pdf
+
+http://csl.snu.ac.kr/courses/4190.307/2020-1/riscv-user-isa.pdf
+
+0  |0  |0  |1  |1  |1  |1  |1  |1  |1  |1  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |1  |0  |0  |1  |0  |0  |1  |1
+31 |30 |29 |28 |27 |26 |25 |24 |23 |21 |20 |19 |18 |17 |16 |15 |14 |13 |12 |11 |10 |09 |08 |07 |06 |05 |04 |03 |02 |01 |00
+
+addi x1, x0, 255
+
+255          x0    0   x1    addi
+imm[11:0]    rs1   fc3 rd    opcode
+000011111111 00000 000 00001 0010011
+
+
+rv32_as -march=rv32i -o hello_world.o hello_world.s
+rv32_ld -o hello_world hello_world.o
+rv32_objdump -d hello_world
+
+rv32_objcopy -O binary simple output.bin
+
+
+find ./ -type f -name "*.asm" | xargs rv32_as -march=rv32i -o
+
+0110011
+add x 0 
+sub x 0 2
+
+sll x 1
+
+slt x 2
+sltu x 3
+
+xor x 4
+
+srl x 5
+sra x 5 10 0000
+
+or x 6
+and x 7
