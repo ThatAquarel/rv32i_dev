@@ -40,6 +40,12 @@ int main(int argc, char *argv[]) {
                 k = k >> 1;
             }
         }
+
+        cout << "  ";
+        for (int j = 3; j >= 0; j--) {
+            printf("%02hhX ", buffer[i + j]);
+        }
+
         cout << endl;
     }
 
