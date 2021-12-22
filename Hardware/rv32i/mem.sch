@@ -265,8 +265,8 @@
 <pin name="I/O0" x="27.94" y="-38.1" length="middle" rot="R180"/>
 <pin name="I/O1" x="27.94" y="-35.56" length="middle" rot="R180"/>
 <pin name="I/O2" x="27.94" y="-33.02" length="middle" rot="R180"/>
-<pin name="GND" x="0" y="15.24" length="middle"/>
-<pin name="VDD" x="0" y="12.7" length="middle"/>
+<pin name="GND" x="0" y="12.7" length="middle"/>
+<pin name="VDD" x="0" y="15.24" length="middle"/>
 <pin name="A15" x="0" y="0" length="middle"/>
 <pin name="A18" x="0" y="7.62" length="middle"/>
 <pin name="!WE" x="27.94" y="12.7" length="middle" rot="R180"/>
@@ -2775,27 +2775,27 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="VDD"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="30.48" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="106.68" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="GND"/>
+<pinref part="IC6" gate="G$1" pin="VDD"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="182.88" y1="165.1" x2="170.18" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="GND"/>
+<pinref part="IC7" gate="G$1" pin="VDD"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
 <wire x1="259.08" y1="165.1" x2="246.38" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="GND"/>
+<pinref part="IC8" gate="G$1" pin="VDD"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <wire x1="30.48" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
 </segment>
@@ -2898,17 +2898,17 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="JP4" gate="A" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="106.68" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="VDD"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="182.88" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="IC4" gate="G$1" pin="VDD"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <wire x1="259.08" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -2963,27 +2963,27 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="VDD"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="30.48" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="106.68" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="VDD"/>
+<pinref part="IC6" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="182.88" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="VDD"/>
+<pinref part="IC7" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="259.08" y1="162.56" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="VDD"/>
+<pinref part="IC8" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="30.48" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
 </segment>
@@ -3099,17 +3099,17 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="JP4" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VDD"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="106.68" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="VDD"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="182.88" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="VDD"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="259.08" y1="71.12" x2="246.38" y2="71.12" width="0.1524" layer="91"/>
 </segment>

@@ -1483,10 +1483,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="33.02" y1="12.7" x2="20.32" y2="12.7" width="0.762" layer="92"/>
 <wire x1="20.32" y1="12.7" x2="20.32" y2="63.5" width="0.762" layer="92"/>
 </segment>
-<segment>
-<wire x1="96.52" y1="236.22" x2="81.28" y2="236.22" width="0.762" layer="92"/>
-<wire x1="81.28" y1="236.22" x2="81.28" y2="220.98" width="0.762" layer="92"/>
-</segment>
 </bus>
 <bus name="DATA_0:B0_D[0..7]">
 <segment>
@@ -2897,12 +2893,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="17.78" y1="218.44" x2="15.24" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="G$1" pin="B"/>
-<wire x1="91.44" y1="218.44" x2="83.82" y2="218.44" width="0.1524" layer="91"/>
-<label x="83.82" y="218.44" size="1.778" layer="95"/>
-<wire x1="83.82" y1="218.44" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="50.8" y1="294.64" x2="35.56" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="14"/>
 <label x="48.26" y="294.64" size="1.778" layer="95"/>
@@ -2921,12 +2911,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="25.4" y1="220.98" x2="17.78" y2="220.98" width="0.1524" layer="91"/>
 <label x="17.78" y="220.98" size="1.778" layer="95"/>
 <wire x1="17.78" y1="220.98" x2="15.24" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC10" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="220.98" x2="83.82" y2="220.98" width="0.1524" layer="91"/>
-<label x="83.82" y="220.98" size="1.778" layer="95"/>
-<wire x1="83.82" y1="220.98" x2="81.28" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="297.18" x2="35.56" y2="297.18" width="0.1524" layer="91"/>
@@ -3289,6 +3273,22 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="30.48" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="66.04" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 <label x="22.86" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B1_A19" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="A"/>
+<wire x1="91.44" y1="220.98" x2="83.82" y2="220.98" width="0.1524" layer="91"/>
+<label x="83.82" y="220.98" size="1.778" layer="95"/>
+<wire x1="83.82" y1="220.98" x2="81.28" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="B1_A20" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="B"/>
+<wire x1="91.44" y1="218.44" x2="83.82" y2="218.44" width="0.1524" layer="91"/>
+<label x="83.82" y="218.44" size="1.778" layer="95"/>
+<wire x1="83.82" y1="218.44" x2="81.28" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1_D7" class="0">

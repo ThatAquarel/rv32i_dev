@@ -1291,6 +1291,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="317.5" y1="243.84" x2="317.5" y2="190.5" width="0.1524" layer="97"/>
 <wire x1="317.5" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="97"/>
 <text x="152.4" y="241.3" size="1.778" layer="97">Decoupling Capacitors</text>
+<wire x1="317.5" y1="248.92" x2="0" y2="248.92" width="0.1524" layer="97"/>
+<wire x1="0" y1="248.92" x2="0" y2="317.5" width="0.1524" layer="97"/>
+<wire x1="0" y1="317.5" x2="317.5" y2="317.5" width="0.1524" layer="97"/>
+<wire x1="317.5" y1="317.5" x2="317.5" y2="248.92" width="0.1524" layer="97"/>
+<text x="0" y="314.96" size="1.778" layer="97">Headers</text>
 </plain>
 <instances>
 <instance part="IC5" gate="G$1" x="30.48" y="58.42" smashed="yes">

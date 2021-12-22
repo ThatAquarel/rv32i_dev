@@ -4536,10 +4536,10 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <pinref part="IC4" gate="G$1" pin="I/O0"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="304.8" x2="241.3" y2="304.8" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="6"/>
 <label x="248.92" y="304.8" size="1.778" layer="95"/>
 <wire x1="256.54" y1="304.8" x2="259.08" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="304.8" x2="256.54" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="304.8" x2="289.56" y2="304.8" width="0.1524" layer="91"/>
@@ -4706,8 +4706,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 </sheet>
 </sheets>
 <errors>
-<approved hash="108,1,88.9,203.2,GND,,,,,"/>
-<approved hash="108,1,22.86,203.2,GND,,,,,"/>
+<approved hash="113,1,31.7077,287.246,JP1,,,,,"/>
+<approved hash="113,1,79.9677,287.246,JP2,,,,,"/>
+<approved hash="113,1,237.448,287.246,JP4,,,,,"/>
+<approved hash="113,1,135.848,287.246,JP3,,,,,"/>
+<approved hash="113,1,184.108,287.246,JP5,,,,,"/>
+<approved hash="113,1,285.708,287.246,JP6,,,,,"/>
 </errors>
 </schematic>
 </drawing>

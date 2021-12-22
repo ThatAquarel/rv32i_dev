@@ -1624,7 +1624,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 </segment>
 <segment>
 <wire x1="215.9" y1="302.26" x2="215.9" y2="254" width="0.762" layer="92"/>
-<wire x1="215.9" y1="254" x2="231.14" y2="254" width="0.762" layer="92"/>
+<wire x1="215.9" y1="254" x2="223.52" y2="254" width="0.762" layer="92"/>
 <label x="215.9" y="251.46" size="1.778" layer="95"/>
 </segment>
 </bus>
@@ -1648,6 +1648,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="289.56" y1="12.7" x2="297.18" y2="12.7" width="0.762" layer="92"/>
 <wire x1="297.18" y1="12.7" x2="297.18" y2="35.56" width="0.762" layer="92"/>
 <label x="289.56" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="259.08" y1="254" x2="251.46" y2="254" width="0.762" layer="92"/>
+<label x="251.46" y="251.46" size="1.778" layer="95"/>
+<wire x1="259.08" y1="254" x2="259.08" y2="302.26" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -2367,10 +2372,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <label x="218.44" y="287.02" size="1.778" layer="95"/>
 <wire x1="218.44" y1="287.02" x2="215.9" y2="284.48" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="256.54" y1="289.56" x2="241.3" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="18"/>
-</segment>
 </net>
 <net name="B0_D6" class="0">
 <segment>
@@ -2402,10 +2403,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <pinref part="JP4" gate="A" pin="17"/>
 <label x="218.44" y="289.56" size="1.778" layer="95"/>
 <wire x1="218.44" y1="289.56" x2="215.9" y2="287.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="256.54" y1="292.1" x2="241.3" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="16"/>
 </segment>
 </net>
 <net name="B0_D5" class="0">
@@ -2439,10 +2436,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <label x="218.44" y="292.1" size="1.778" layer="95"/>
 <wire x1="218.44" y1="292.1" x2="215.9" y2="289.56" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="256.54" y1="294.64" x2="241.3" y2="294.64" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="14"/>
-</segment>
 </net>
 <net name="B0_D4" class="0">
 <segment>
@@ -2474,10 +2467,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <pinref part="JP4" gate="A" pin="13"/>
 <label x="218.44" y="294.64" size="1.778" layer="95"/>
 <wire x1="218.44" y1="294.64" x2="215.9" y2="292.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="256.54" y1="297.18" x2="241.3" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="12"/>
 </segment>
 </net>
 <net name="B0_D3" class="0">
@@ -2511,10 +2500,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <label x="218.44" y="297.18" size="1.778" layer="95"/>
 <wire x1="218.44" y1="297.18" x2="215.9" y2="294.64" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="256.54" y1="299.72" x2="241.3" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="10"/>
-</segment>
 </net>
 <net name="B0_D2" class="0">
 <segment>
@@ -2547,10 +2532,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <label x="218.44" y="299.72" size="1.778" layer="95"/>
 <wire x1="218.44" y1="299.72" x2="215.9" y2="297.18" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="256.54" y1="302.26" x2="241.3" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="8"/>
-</segment>
 </net>
 <net name="B0_D1" class="0">
 <segment>
@@ -2582,10 +2563,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="233.68" y1="302.26" x2="218.44" y2="302.26" width="0.1524" layer="91"/>
 <label x="218.44" y="302.26" size="1.778" layer="95"/>
 <wire x1="218.44" y1="302.26" x2="215.9" y2="299.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="256.54" y1="304.8" x2="241.3" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="B0_D0" class="0">
@@ -3349,12 +3326,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <pinref part="JP2" gate="A" pin="16"/>
 <label x="96.52" y="292.1" size="1.778" layer="95"/>
 <wire x1="99.06" y1="292.1" x2="101.6" y2="289.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="20"/>
-<wire x1="241.3" y1="287.02" x2="256.54" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B0_A15" class="0">
@@ -4182,6 +4153,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="294.64" y1="38.1" x2="297.18" y2="35.56" width="0.1524" layer="91"/>
 <label x="289.56" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="A" pin="20"/>
+<wire x1="241.3" y1="287.02" x2="256.54" y2="287.02" width="0.1524" layer="91"/>
+<label x="248.92" y="287.02" size="1.778" layer="95"/>
+<wire x1="256.54" y1="287.02" x2="259.08" y2="284.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="B1_D6" class="0">
 <segment>
@@ -4207,6 +4184,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="294.64" y1="35.56" x2="297.18" y2="33.02" width="0.1524" layer="91"/>
 <label x="289.56" y="35.56" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="I/O6"/>
+</segment>
+<segment>
+<wire x1="256.54" y1="289.56" x2="241.3" y2="289.56" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="18"/>
+<label x="248.92" y="289.56" size="1.778" layer="95"/>
+<wire x1="256.54" y1="289.56" x2="259.08" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1_D5" class="0">
@@ -4234,6 +4217,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <label x="289.56" y="33.02" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="I/O5"/>
 </segment>
+<segment>
+<wire x1="256.54" y1="292.1" x2="241.3" y2="292.1" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="16"/>
+<label x="248.92" y="292.1" size="1.778" layer="95"/>
+<wire x1="256.54" y1="292.1" x2="259.08" y2="289.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="B1_D4" class="0">
 <segment>
@@ -4259,6 +4248,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="294.64" y1="30.48" x2="297.18" y2="27.94" width="0.1524" layer="91"/>
 <label x="289.56" y="30.48" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="I/O4"/>
+</segment>
+<segment>
+<wire x1="256.54" y1="294.64" x2="241.3" y2="294.64" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="14"/>
+<label x="248.92" y="294.64" size="1.778" layer="95"/>
+<wire x1="256.54" y1="294.64" x2="259.08" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1_D3" class="0">
@@ -4286,6 +4281,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <label x="289.56" y="27.94" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="I/O3"/>
 </segment>
+<segment>
+<wire x1="256.54" y1="297.18" x2="241.3" y2="297.18" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="12"/>
+<label x="248.92" y="297.18" size="1.778" layer="95"/>
+<wire x1="256.54" y1="297.18" x2="259.08" y2="294.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="B1_D2" class="0">
 <segment>
@@ -4311,6 +4312,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="294.64" y1="25.4" x2="297.18" y2="22.86" width="0.1524" layer="91"/>
 <label x="289.56" y="25.4" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="I/O2"/>
+</segment>
+<segment>
+<wire x1="256.54" y1="299.72" x2="241.3" y2="299.72" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="10"/>
+<label x="248.92" y="299.72" size="1.778" layer="95"/>
+<wire x1="256.54" y1="299.72" x2="259.08" y2="297.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1_D1" class="0">
@@ -4338,6 +4345,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <label x="289.56" y="22.86" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="I/O1"/>
 </segment>
+<segment>
+<wire x1="256.54" y1="302.26" x2="241.3" y2="302.26" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="8"/>
+<label x="248.92" y="302.26" size="1.778" layer="95"/>
+<wire x1="256.54" y1="302.26" x2="259.08" y2="299.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="B1_D0" class="0">
 <segment>
@@ -4363,6 +4376,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74hc138"&gt; Datasheet &lt;/a&gt
 <wire x1="294.64" y1="20.32" x2="297.18" y2="17.78" width="0.1524" layer="91"/>
 <label x="289.56" y="20.32" size="1.778" layer="95"/>
 <pinref part="IC4" gate="G$1" pin="I/O0"/>
+</segment>
+<segment>
+<wire x1="256.54" y1="304.8" x2="241.3" y2="304.8" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="6"/>
+<label x="248.92" y="304.8" size="1.778" layer="95"/>
+<wire x1="256.54" y1="304.8" x2="259.08" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1_A21" class="0">
