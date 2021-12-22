@@ -15,11 +15,11 @@ Passname          :    Busses     Route
 
 Time per pass     :  00:00:01  00:00:00
 Number of Ripups  :         0         4
-max. Level        :         0         1
-max. Total        :         0         3
+max. Level        :         0         7
+max. Total        :         0         6
 
-Routed            :        94       336
-Vias              :         0       382
-Resolution        :    22.6 %    80.8 %
+Routed            :        94       352
+Vias              :         0       413
+Resolution        :    22.6 %    84.6 %
 
 Final             : 

@@ -18,8 +18,8 @@ Number of Ripups  :         0         0
 max. Level        :         0         1
 max. Total        :         0         0
 
-Routed            :        94       286
-Vias              :         0       299
-Resolution        :    22.6 %    68.8 %
+Routed            :        94       294
+Vias              :         0       301
+Resolution        :    22.6 %    70.7 %
 
 Final             : 

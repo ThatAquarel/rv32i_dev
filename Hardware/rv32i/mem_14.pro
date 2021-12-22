@@ -14,12 +14,12 @@ Router memory :   3413184
 Passname          :    Busses     Route
 
 Time per pass     :  00:00:01  00:00:00
-Number of Ripups  :         0         1
-max. Level        :         0         1
+Number of Ripups  :         0         2
+max. Level        :         0         4
 max. Total        :         0         3
 
-Routed            :         0       307
-Vias              :         0       289
-Resolution        :     0.0 %    73.8 %
+Routed            :         0       346
+Vias              :         0       368
+Resolution        :     0.0 %    83.2 %
 
 Final             : 

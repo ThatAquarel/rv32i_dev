@@ -15,11 +15,11 @@ Passname          :     Route
 
 Time per pass     :  00:00:00
 Number of Ripups  :         2
-max. Level        :         1
+max. Level        :         4
 max. Total        :         3
 
-Routed            :       314
-Vias              :       237
-Resolution        :    75.5 %
+Routed            :       348
+Vias              :       271
+Resolution        :    83.7 %
 
 Final             : 
