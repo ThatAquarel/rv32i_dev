@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -585,7 +585,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="power" width="0" drill="0">
-<clearance class="1" value="0.254"/>
+<clearance class="1" value="0.4064"/>
 </class>
 </classes>
 <designrules name="default *">
@@ -784,17 +784,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.035" y="82.8675" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="26.035" y="82.8675" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="C2" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="80.01" y="73.025" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="123.19" y="-18.415" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="80.01" y="73.025" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="80.01" y="73.025" size="1.27" layer="27" align="center"/>
+<element name="C2" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="80.01" y="72.39" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="123.19" y="-19.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="72.39" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="80.01" y="72.39" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C3" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="80.01" y="46.99" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="143.51" y="-44.45" size="1.778" layer="27" display="off"/>
@@ -820,29 +820,29 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.37" y="46.99" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="39.37" y="46.99" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C5" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="39.37" y="73.025" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="62.23" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="39.37" y="73.025" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="39.37" y="73.025" size="1.27" layer="27" align="center"/>
+<element name="C5" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="39.37" y="72.39" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="62.23" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.37" y="72.39" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="39.37" y="72.39" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C6" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="59.69" y="73.025" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="102.87" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="59.69" y="73.025" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="59.69" y="73.025" size="1.27" layer="27" align="center"/>
+<element name="C6" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="59.69" y="72.39" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="102.87" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="59.69" y="72.39" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="59.69" y="72.39" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C7" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="59.69" y="46.99" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="123.19" y="-46.99" size="1.778" layer="27" display="off"/>
@@ -856,17 +856,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.69" y="46.99" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="59.69" y="46.99" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C8" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="18.415" y="73.025" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="102.235" y="-20.955" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.415" y="73.025" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="18.415" y="73.025" size="1.27" layer="27" align="center"/>
+<element name="C8" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="17.78" y="72.39" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="101.6" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="17.78" y="72.39" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="17.78" y="72.39" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C9" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="17.78" y="46.99" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="40.64" y="-49.53" size="1.778" layer="27" display="off"/>
@@ -2962,11 +2962,16 @@ design rules under a new name.</description>
 <contactref element="JP6" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C10" pad="2"/>
-<wire x1="40.03" y1="73.025" x2="40.904" y2="73.025" width="0.8128" layer="1"/>
-<wire x1="40.904" y1="73.025" x2="40.904" y2="71.59625" width="0.8128" layer="1"/>
-<wire x1="40.904" y1="71.59625" x2="40.904" y2="70.485" width="0.8128" layer="1"/>
-<wire x1="60.35" y1="73.025" x2="61.224" y2="73.025" width="0.8128" layer="1"/>
-<wire x1="61.224" y1="73.025" x2="61.224" y2="71.59625" width="0.8128" layer="1"/>
+<wire x1="18.44" y1="72.39" x2="19.314" y2="72.39" width="0.8128" layer="1"/>
+<wire x1="19.314" y1="72.39" x2="19.314" y2="71.59625" width="0.8128" layer="1"/>
+<wire x1="19.314" y1="71.59625" x2="19.314" y2="71.4375" width="0.8128" layer="1"/>
+<wire x1="19.314" y1="71.4375" x2="19.314" y2="70.485" width="0.8128" layer="1"/>
+<wire x1="40.03" y1="72.39" x2="40.904" y2="72.39" width="0.8128" layer="1"/>
+<wire x1="40.904" y1="72.39" x2="40.904" y2="71.59625" width="0.8128" layer="1"/>
+<wire x1="40.904" y1="71.59625" x2="40.904" y2="71.4375" width="0.8128" layer="1"/>
+<wire x1="40.904" y1="71.4375" x2="40.904" y2="70.485" width="0.8128" layer="1"/>
+<wire x1="60.35" y1="72.39" x2="61.224" y2="72.39" width="0.8128" layer="1"/>
+<wire x1="61.224" y1="72.39" x2="61.224" y2="71.59625" width="0.8128" layer="1"/>
 <wire x1="61.224" y1="71.59625" x2="61.224" y2="70.485" width="0.8128" layer="1"/>
 <wire x1="18.44" y1="46.99" x2="19.314" y2="46.99" width="0.8128" layer="1"/>
 <wire x1="19.314" y1="46.99" x2="19.314" y2="46.0375" width="0.8128" layer="1"/>
@@ -2980,13 +2985,16 @@ design rules under a new name.</description>
 <wire x1="61.224" y1="46.19625" x2="61.224" y2="45.085" width="0.8128" layer="1"/>
 <wire x1="80.67" y1="46.99" x2="81.544" y2="46.99" width="0.8128" layer="1"/>
 <wire x1="81.544" y1="46.99" x2="81.544" y2="45.085" width="0.8128" layer="1"/>
+<wire x1="80.67" y1="72.39" x2="81.544" y2="72.39" width="0.8128" layer="1"/>
+<wire x1="81.544" y1="72.39" x2="81.544" y2="70.485" width="0.8128" layer="1"/>
 <wire x1="35.8775" y1="17.4875" x2="35.08375" y2="17.4875" width="0.1524" layer="1"/>
 <wire x1="35.08375" y1="17.4875" x2="34.053" y2="17.4875" width="0.1524" layer="1"/>
 <wire x1="34.053" y1="17.4875" x2="34.053" y2="17.515" width="0.1524" layer="1"/>
 <wire x1="26.035" y1="82.2075" x2="27.8595" y2="82.2075" width="0.1524" layer="1"/>
 <wire x1="27.8595" y1="82.2075" x2="27.8595" y2="82.18" width="0.1524" layer="1"/>
+<wire x1="82.8675" y1="73.50125" x2="81.915" y2="72.54875" width="0.1524" layer="1"/>
 <wire x1="86.36" y1="73.50125" x2="82.8675" y2="73.50125" width="0.1524" layer="1"/>
-<wire x1="82.8675" y1="73.50125" x2="81.544" y2="72.934928125" width="0.1524" layer="1"/>
+<wire x1="81.915" y1="72.54875" x2="81.544" y2="72.39" width="0.1524" layer="1"/>
 <wire x1="34.6075" y1="85.56625" x2="33.81375" y2="85.56625" width="0.1524" layer="1"/>
 <wire x1="37.7825" y1="88.74125" x2="36.67125" y2="87.63" width="0.1524" layer="1"/>
 <wire x1="36.67125" y1="87.63" x2="34.6075" y2="85.56625" width="0.1524" layer="1"/>
@@ -2997,16 +3005,17 @@ design rules under a new name.</description>
 <wire x1="25.24125" y1="87.63" x2="25.24125" y2="83.02625" width="0.1524" layer="1"/>
 <wire x1="36.67125" y1="87.63" x2="25.24125" y2="87.63" width="0.1524" layer="1"/>
 <wire x1="26.035" y1="82.2325" x2="26.035" y2="82.2075" width="0.1524" layer="1"/>
-<wire x1="59.055" y1="71.59625" x2="60.16625" y2="72.7075" width="0.1524" layer="1"/>
-<wire x1="40.904" y1="71.59625" x2="59.055" y2="71.59625" width="0.1524" layer="1"/>
-<wire x1="60.16625" y1="72.7075" x2="60.35" y2="73.025" width="0.1524" layer="1"/>
+<wire x1="40.904" y1="71.4375" x2="19.314" y2="71.4375" width="0.1524" layer="1"/>
+<wire x1="59.69" y1="71.59625" x2="60.16625" y2="72.0725" width="0.1524" layer="1"/>
+<wire x1="40.904" y1="71.59625" x2="59.69" y2="71.59625" width="0.1524" layer="1"/>
+<wire x1="60.16625" y1="72.0725" x2="60.35" y2="72.39" width="0.1524" layer="1"/>
 <wire x1="16.35125" y1="72.86625" x2="25.87625" y2="82.39125" width="0.1524" layer="1"/>
 <wire x1="16.35125" y1="71.59625" x2="16.35125" y2="72.86625" width="0.1524" layer="1"/>
+<wire x1="19.314" y1="71.59625" x2="16.35125" y2="71.59625" width="0.1524" layer="1"/>
 <wire x1="25.87625" y1="82.39125" x2="26.035" y2="82.2075" width="0.1524" layer="1"/>
-<wire x1="79.375" y1="71.59625" x2="80.48625" y2="72.7075" width="0.1524" layer="1"/>
-<wire x1="61.224" y1="71.59625" x2="79.375" y2="71.59625" width="0.1524" layer="1"/>
-<wire x1="80.48625" y1="72.7075" x2="80.663728125" y2="73.0141625" width="0.1524" layer="1"/>
-<wire x1="80.663728125" y1="73.0141625" x2="80.67" y2="73.025" width="0.1524" layer="1"/>
+<wire x1="80.01" y1="71.59625" x2="80.48625" y2="72.0725" width="0.1524" layer="1"/>
+<wire x1="61.224" y1="71.59625" x2="80.01" y2="71.59625" width="0.1524" layer="1"/>
+<wire x1="80.48625" y1="72.0725" x2="80.67" y2="72.39" width="0.1524" layer="1"/>
 <wire x1="97.79" y1="25.4" x2="97.6176" y2="25.4" width="0.1524" layer="1"/>
 <wire x1="86.51875" y1="10.4775" x2="86.36" y2="10.16" width="0.1524" layer="1"/>
 <wire x1="90.4875" y1="25.0825" x2="90.17" y2="25.4" width="0.1524" layer="1"/>
@@ -3062,18 +3071,6 @@ design rules under a new name.</description>
 <wire x1="38.1" y1="96.52" x2="38.1" y2="93.98" width="0.8128" layer="1"/>
 <wire x1="38.1" y1="93.98" x2="38.1" y2="91.44" width="0.8128" layer="1"/>
 <wire x1="38.1" y1="91.44" x2="38.1" y2="88.9" width="0.8128" layer="1"/>
-<wire x1="40.03" y1="73.025" x2="39.6076" y2="72.6026" width="0.1524" layer="1"/>
-<wire x1="39.6076" y1="72.6026" x2="39.6076" y2="72.3551" width="0.1524" layer="1"/>
-<wire x1="39.6076" y1="72.3551" x2="38.84875" y2="71.59625" width="0.1524" layer="1"/>
-<wire x1="38.84875" y1="71.59625" x2="19.05" y2="71.59625" width="0.1524" layer="1"/>
-<wire x1="19.05" y1="71.59625" x2="16.35125" y2="71.59625" width="0.1524" layer="1"/>
-<wire x1="19.314" y1="70.485" x2="19.314" y2="72.786" width="0.8128" layer="1"/>
-<wire x1="19.314" y1="72.786" x2="19.075" y2="73.025" width="0.8128" layer="1"/>
-<wire x1="19.05" y1="71.59625" x2="19.075" y2="71.59625" width="0.2032" layer="1"/>
-<wire x1="19.075" y1="71.59625" x2="19.075" y2="73.025" width="0.2032" layer="1"/>
-<wire x1="81.544" y1="70.485" x2="81.544" y2="72.934928125" width="0.8128" layer="1"/>
-<wire x1="81.544" y1="72.934928125" x2="80.663728125" y2="72.934928125" width="0.8128" layer="1"/>
-<wire x1="80.663728125" y1="72.934928125" x2="80.663728125" y2="73.0141625" width="0.8128" layer="1"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="IC5" pad="16"/>
@@ -3190,27 +3187,119 @@ design rules under a new name.</description>
 <contactref element="R63" pad="2"/>
 <contactref element="C7" pad="1"/>
 <contactref element="C10" pad="1"/>
-<polygon width="0.2032" layer="1">
-<vertex x="0" y="99.06"/>
-<vertex x="100.33" y="99.06"/>
-<vertex x="100.33" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<polygon width="0.2032" layer="16">
-<vertex x="0" y="99.695"/>
-<vertex x="100.33" y="99.695"/>
-<vertex x="100.33" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<via x="26.035" y="86.36" extent="1-16" drill="0.35"/>
-<via x="79.375" y="48.26" extent="1-16" drill="0.35"/>
-<via x="59.055" y="48.26" extent="1-16" drill="0.35"/>
-<via x="38.735" y="48.26" extent="1-16" drill="0.35"/>
-<via x="17.145" y="48.26" extent="1-16" drill="0.35"/>
-<via x="18.923" y="74.2442" extent="1-16" drill="0.35"/>
-<wire x1="17.755" y1="73.025" x2="17.755" y2="73.3012" width="0.2032" layer="1"/>
-<wire x1="17.755" y1="73.3012" x2="18.698" y2="74.2442" width="0.508" layer="1"/>
-<wire x1="18.698" y1="74.2442" x2="18.923" y2="74.2442" width="0.2032" layer="1"/>
+<wire x1="83.82" y1="93.98" x2="83.82" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="91.44" x2="83.82" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="88.9" x2="83.82" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="85.56" x2="83.82" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="85.56" x2="81.28" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="85.56" x2="78.74" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="85.56" x2="76.2" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="85.56" x2="73.66" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="68.58" y1="85.56" x2="71.12" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="85.56" x2="68.58" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="85.56" x2="66.04" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="85.56" x2="63.5" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="85.56" x2="60.96" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="85.56" x2="58.42" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="85.56" x2="55.88" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="50.8" y1="85.56" x2="53.34" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="85.56" x2="50.8" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="85.56" x2="48.26" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="85.56" x2="45.72" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="83.02" x2="81.28" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="77.47" y1="83.02" x2="80.01" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="74.93" y1="83.02" x2="77.47" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="83.02" x2="74.93" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="83.02" x2="72.39" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="83.02" x2="69.85" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="83.02" x2="67.31" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="83.02" x2="64.77" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="83.02" x2="62.23" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="83.02" x2="59.69" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="83.02" x2="57.15" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="83.02" x2="54.61" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="83.02" x2="52.07" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="83.02" x2="49.53" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="83.02" x2="46.99" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="83.02" x2="44.45" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="88.9" x2="43.18" y2="85.56" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="91.44" x2="40.64" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="93.98" x2="40.64" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="96.52" x2="40.64" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7355" y1="86.73" x2="40.64" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7355" y1="84.78" x2="33.7355" y2="86.73" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7355" y1="84.13" x2="33.7355" y2="84.78" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7355" y1="83.48" x2="33.7355" y2="84.13" width="0" layer="19" extent="1-1"/>
+<wire x1="26.035" y1="83.5275" x2="33.7355" y2="83.48" width="0" layer="19" extent="1-1"/>
+<wire x1="79.35" y1="72.39" x2="80.01" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="59.03" y1="72.39" x2="59.69" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="71.12" x2="79.35" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="92.71" y1="71.12" x2="90.17" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="95.25" y1="71.12" x2="92.71" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="97.79" y1="71.12" x2="95.25" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="38.71" y1="72.39" x2="41.91" y2="83.02" width="0" layer="19" extent="1-1"/>
+<wire x1="17.12" y1="72.39" x2="26.035" y2="83.5275" width="0" layer="19" extent="1-1"/>
+<wire x1="68.316" y1="51.435" x2="59.03" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="59.03" y1="46.99" x2="68.316" y2="51.435" width="0" layer="19" extent="1-1"/>
+<wire x1="79.35" y1="46.99" x2="68.316" y2="51.435" width="0" layer="19" extent="1-1"/>
+<wire x1="47.996" y1="51.435" x2="59.03" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="38.71" y1="46.99" x2="47.996" y2="51.435" width="0" layer="19" extent="1-1"/>
+<wire x1="27.676" y1="51.435" x2="38.71" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="17.12" y1="46.99" x2="27.676" y2="51.435" width="0" layer="19" extent="1-1"/>
+<wire x1="6.086" y1="51.435" x2="17.12" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="27.94" x2="79.35" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="92.71" y1="27.94" x2="90.17" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="95.25" y1="27.94" x2="92.71" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="97.79" y1="27.94" x2="95.25" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="82.55" y1="16.04" x2="90.17" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="16.04" x2="82.55" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="77.47" y1="16.04" x2="80.01" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="74.93" y1="16.04" x2="77.47" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="16.04" x2="74.93" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="16.04" x2="72.39" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="16.04" x2="69.85" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="16.04" x2="67.31" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="16.04" x2="64.77" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="16.04" x2="62.23" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="16.04" x2="59.69" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="54.61" y1="16.04" x2="57.15" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="16.04" x2="54.61" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="16.04" x2="52.07" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="16.04" x2="49.53" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="16.04" x2="46.99" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="13.5" x2="82.55" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="78.74" y1="13.5" x2="81.28" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="13.5" x2="78.74" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="13.5" x2="76.2" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="13.5" x2="73.66" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="68.58" y1="13.5" x2="71.12" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="13.5" x2="68.58" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="13.5" x2="66.04" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="13.5" x2="63.5" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="13.5" x2="60.96" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="13.5" x2="58.42" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="13.5" x2="55.88" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="50.8" y1="13.5" x2="53.34" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="13.5" x2="50.8" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="45.72" y1="13.5" x2="48.26" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="13.5" x2="45.72" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="10.16" x2="81.28" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="7.62" x2="83.82" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="5.08" x2="83.82" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="2.54" x2="83.82" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="10.16" x2="43.18" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="7.62" x2="40.64" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="5.08" x2="40.64" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="2.54" x2="40.64" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="35.8775" y1="16.1675" x2="40.64" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="28.177" y1="16.215" x2="35.8775" y2="16.1675" width="0" layer="19" extent="1-1"/>
+<wire x1="28.177" y1="15.565" x2="28.177" y2="16.215" width="0" layer="19" extent="1-1"/>
+<wire x1="28.177" y1="14.915" x2="28.177" y2="15.565" width="0" layer="19" extent="1-1"/>
+<wire x1="28.177" y1="12.965" x2="28.177" y2="14.915" width="0" layer="19" extent="1-1"/>
+<wire x1="27.676" y1="26.035" x2="28.177" y2="16.215" width="0" layer="19" extent="1-1"/>
+<wire x1="68.316" y1="26.035" x2="67.31" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="47.996" y1="26.035" x2="46.99" y2="16.04" width="0" layer="19" extent="1-1"/>
+<wire x1="6.086" y1="26.035" x2="27.676" y2="26.035" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WE">
 <contactref element="IC5" pad="29"/>

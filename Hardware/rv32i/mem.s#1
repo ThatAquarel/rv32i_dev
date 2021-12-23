@@ -1258,6 +1258,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="power" width="0" drill="0">
+<clearance class="1" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="IC5" library="IS61C5128AS-25QLI" deviceset="IS61C5128AS-25QLI" device=""/>
@@ -3203,7 +3206,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="266.7" y1="304.8" x2="264.16" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC" class="1">
 <segment>
 <pinref part="IC5" gate="G$1" pin="VDD"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
@@ -3259,15 +3262,17 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <junction x="215.9" y="213.36"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="213.36" x2="236.22" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="213.36" x2="246.38" y2="213.36" width="0.1524" layer="91"/>
-<junction x="236.22" y="213.36"/>
 <junction x="185.42" y="213.36"/>
 <junction x="226.06" y="213.36"/>
-<junction x="246.38" y="213.36"/>
 <junction x="165.1" y="213.36"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <junction x="205.74" y="213.36"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="213.36" x2="246.38" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="213.36" x2="256.54" y2="213.36" width="0.1524" layer="91"/>
+<junction x="246.38" y="213.36"/>
+<junction x="236.22" y="213.36"/>
 </segment>
 <segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
@@ -3391,7 +3396,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="JP6" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="IC5" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -3437,9 +3442,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="200.66" x2="236.22" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="200.66" x2="236.22" y2="200.66" width="0.1524" layer="91"/>
-<junction x="236.22" y="200.66"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="200.66" x2="215.9" y2="200.66" width="0.1524" layer="91"/>
@@ -3459,9 +3461,14 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <junction x="175.26" y="200.66"/>
 <junction x="185.42" y="200.66"/>
 <junction x="226.06" y="200.66"/>
-<junction x="246.38" y="200.66"/>
 <junction x="165.1" y="200.66"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
+<junction x="236.22" y="200.66"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="200.66" x2="256.54" y2="200.66" width="0.1524" layer="91"/>
+<junction x="246.38" y="200.66"/>
 </segment>
 <segment>
 <pinref part="IC10" gate="G$1" pin="GND"/>
@@ -5695,20 +5702,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <label x="104.14" y="330.2" size="1.778" layer="95"/>
 <pinref part="R64" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="330.2" x2="101.6" y2="327.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VCC1" class="0">
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="213.36" x2="256.54" y2="213.36" width="0.1524" layer="91"/>
-<junction x="256.54" y="213.36"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
-<junction x="256.54" y="200.66"/>
 </segment>
 </net>
 </nets>

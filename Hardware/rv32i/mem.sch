@@ -1258,6 +1258,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="power" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="IC5" library="IS61C5128AS-25QLI" deviceset="IS61C5128AS-25QLI" device=""/>
@@ -3203,7 +3205,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="266.7" y1="304.8" x2="264.16" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC" class="1">
 <segment>
 <pinref part="IC5" gate="G$1" pin="VDD"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
@@ -3393,7 +3395,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="JP6" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="IC5" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
