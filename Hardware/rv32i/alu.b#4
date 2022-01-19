@@ -1,0 +1,3550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<fusionsync huburn="a.YnVzaW5lc3M6aWNsb3VkNTE2MzI" projecturn="a.YnVzaW5lc3M6aWNsb3VkNTE2MzIjRDIwMjExMjIzNDc4NTc4NDUx" f3durn="urn:adsk.wipprod:dm.lineage:ymVisGcPSkCd6Nu5tR2HsA" pcbguid="a67cde1c-45ce-458a-8bde-aa1170920334" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="992aebff-ddf2-4f96-8a26-52e763b9a9aa" lastsyncedrevisionid="992aebff-ddf2-4f96-8a26-52e763b9a9aa" lastboardhashguid="1d767903-7ab4-6cde-fbf9-85e340a577eb" lastpushedtime="2021-12-23T03:20:58Z" linktopcb3d="true"/>
+<plain>
+<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
+<wire x1="100" y1="0" x2="100" y2="101.59" width="0" layer="20"/>
+<wire x1="100" y1="101.59" x2="0" y2="101.59" width="0" layer="20"/>
+<wire x1="0" y1="101.59" x2="0" y2="0" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="SN74HCS86DR">
+<description>&lt;Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X175-14N">
+<description>&lt;b&gt;D (R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="11" x="2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="3.055" x2="-0.68" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="4.325" x2="1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="SN74ACT08D">
+<description>&lt;Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X175-14N">
+<description>&lt;b&gt;SOIC127P600X175-14N&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.4638" y="3.81" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="2" x="-2.4638" y="2.54" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="3" x="-2.4638" y="1.27" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="4" x="-2.4638" y="0" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="5" x="-2.4638" y="-1.27" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="6" x="-2.4638" y="-2.54" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="7" x="-2.4638" y="-3.81" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="8" x="2.4638" y="-3.81" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="9" x="2.4638" y="-2.54" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="10" x="2.4638" y="-1.27" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="11" x="2.4638" y="0" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="12" x="2.4638" y="1.27" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="13" x="2.4638" y="2.54" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="14" x="2.4638" y="3.81" dx="1.9812" dy="0.5588" layer="1"/>
+<text x="-4.6228" y="5.207" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-5.3086" y="-7.1374" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.0066" y1="3.556" x2="-2.0066" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="4.064" x2="-3.0988" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="4.064" x2="-3.0988" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="3.556" x2="-2.0066" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="2.286" x2="-2.0066" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="2.794" x2="-3.0988" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="2.794" x2="-3.0988" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="2.286" x2="-2.0066" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="1.016" x2="-2.0066" y2="1.524" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="1.524" x2="-3.0988" y2="1.524" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="1.524" x2="-3.0988" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="1.016" x2="-2.0066" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-0.254" x2="-2.0066" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="0.254" x2="-3.0988" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="0.254" x2="-3.0988" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="-0.254" x2="-2.0066" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-1.524" x2="-2.0066" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-1.016" x2="-3.0988" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="-1.016" x2="-3.0988" y2="-1.524" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="-1.524" x2="-2.0066" y2="-1.524" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-2.794" x2="-2.0066" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-2.286" x2="-3.0988" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="-2.286" x2="-3.0988" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="-2.794" x2="-2.0066" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-4.064" x2="-2.0066" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-3.556" x2="-3.0988" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="-3.556" x2="-3.0988" y2="-4.064" width="0.1524" layer="51"/>
+<wire x1="-3.0988" y1="-4.064" x2="-2.0066" y2="-4.064" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-3.556" x2="2.0066" y2="-4.064" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-4.064" x2="3.0988" y2="-4.064" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="-4.064" x2="3.0988" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="-3.556" x2="2.0066" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-2.286" x2="2.0066" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-2.794" x2="3.0988" y2="-2.794" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="-2.794" x2="3.0988" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="-2.286" x2="2.0066" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-1.016" x2="2.0066" y2="-1.524" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-1.524" x2="3.0988" y2="-1.524" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="-1.524" x2="3.0988" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="-1.016" x2="2.0066" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="0.254" x2="2.0066" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-0.254" x2="3.0988" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="-0.254" x2="3.0988" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="0.254" x2="2.0066" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="1.524" x2="2.0066" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="1.016" x2="3.0988" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="1.016" x2="3.0988" y2="1.524" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="1.524" x2="2.0066" y2="1.524" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="2.794" x2="2.0066" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="2.286" x2="3.0988" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="2.286" x2="3.0988" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="2.794" x2="2.0066" y2="2.794" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="4.064" x2="2.0066" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="3.556" x2="3.0988" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="3.556" x2="3.0988" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="3.0988" y1="4.064" x2="2.0066" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="-4.3688" x2="2.0066" y2="-4.3688" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="-4.3688" x2="2.0066" y2="4.3688" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="4.3688" x2="0.3048" y2="4.3688" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="4.3688" x2="-0.3048" y2="4.3688" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="4.3688" x2="-2.0066" y2="4.3688" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="4.3688" x2="-2.0066" y2="-4.3688" width="0.1524" layer="51"/>
+<wire x1="-1.2954" y1="-4.3688" x2="1.2954" y2="-4.3688" width="0.1524" layer="21"/>
+<wire x1="1.2954" y1="4.3688" x2="0.3048" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="4.3688" x2="-0.3048" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="4.3688" x2="-1.2954" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="3.9624" y1="-1.0668" x2="3.9624" y2="-1.4732" width="0.1524" layer="21"/>
+<wire x1="3.9624" y1="-1.4732" x2="3.7084" y2="-1.4732" width="0.1524" layer="21"/>
+<wire x1="3.7084" y1="-1.4732" x2="3.7084" y2="-1.0668" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="SN74HCS32DR">
+<description>&lt;Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X175-14N">
+<description>&lt;b&gt;D (-R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="11" x="2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="3.055" x2="-0.68" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="4.325" x2="1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="con-lstb" urn="urn:adsk.eagle:library:162">
+<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
+Naming:&lt;p&gt;
+MA = male&lt;p&gt;
+# contacts - # rows&lt;p&gt;
+W = angled&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MA20-2" urn="urn:adsk.eagle:footprint:8277/1" library_version="2">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-24.765" y1="2.54" x2="-23.495" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-23.495" y1="2.54" x2="-22.86" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-22.86" y1="1.905" x2="-22.225" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-22.225" y1="2.54" x2="-20.955" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-20.955" y1="2.54" x2="-20.32" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-24.765" y1="2.54" x2="-25.4" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="1.905" x2="-19.685" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-19.685" y1="2.54" x2="-18.415" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-18.415" y1="2.54" x2="-17.78" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-17.145" y1="2.54" x2="-15.875" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-15.875" y1="2.54" x2="-15.24" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="1.905" x2="-14.605" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-14.605" y1="2.54" x2="-13.335" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="2.54" x2="-12.7" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-17.145" y1="2.54" x2="-17.78" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="1.905" x2="-12.065" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-12.065" y1="2.54" x2="-10.795" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="2.54" x2="-10.16" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-22.86" y1="-1.905" x2="-23.495" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-20.32" y1="-1.905" x2="-20.955" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-20.955" y1="-2.54" x2="-22.225" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-22.225" y1="-2.54" x2="-22.86" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="1.905" x2="-25.4" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-1.905" x2="-24.765" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-23.495" y1="-2.54" x2="-24.765" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="-1.905" x2="-18.415" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-18.415" y1="-2.54" x2="-19.685" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-19.685" y1="-2.54" x2="-20.32" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-1.905" x2="-15.875" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-1.905" x2="-13.335" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-13.335" y1="-2.54" x2="-14.605" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-14.605" y1="-2.54" x2="-15.24" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-17.78" y1="-1.905" x2="-17.145" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-15.875" y1="-2.54" x2="-17.145" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-1.905" x2="-10.795" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="-2.54" x2="-12.065" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-12.065" y1="-2.54" x2="-12.7" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="2.54" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="2.54" x2="-8.255" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="1.905" x2="-9.525" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-9.525" y1="-2.54" x2="-10.16" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="-2.54" x2="-9.525" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-1.905" x2="-8.255" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="2.54" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="2.54" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="2.54" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="2.54" x2="7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-1.905" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-1.905" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-2.54" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="2.54" x2="10.16" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="2.54" x2="9.525" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="8.255" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="-2.54" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="9.525" y1="-2.54" x2="8.255" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-1.905" x2="9.525" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="2.54" x2="12.065" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="12.065" y1="2.54" x2="12.7" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="1.905" x2="13.335" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="13.335" y1="2.54" x2="14.605" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="14.605" y1="2.54" x2="15.24" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="10.795" y1="2.54" x2="10.16" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="1.905" x2="15.875" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="15.875" y1="2.54" x2="17.145" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="17.145" y1="2.54" x2="17.78" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="18.415" y1="2.54" x2="19.685" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="19.685" y1="2.54" x2="20.32" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="1.905" x2="20.955" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="20.955" y1="2.54" x2="22.225" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="22.225" y1="2.54" x2="22.86" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="18.415" y1="2.54" x2="17.78" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="1.905" x2="23.495" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="23.495" y1="2.54" x2="24.765" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="-1.905" x2="12.065" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="-1.905" x2="14.605" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="14.605" y1="-2.54" x2="13.335" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="13.335" y1="-2.54" x2="12.7" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-1.905" x2="10.795" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="12.065" y1="-2.54" x2="10.795" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="-1.905" x2="17.145" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="17.145" y1="-2.54" x2="15.875" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="15.875" y1="-2.54" x2="15.24" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="-1.905" x2="19.685" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="22.86" y1="-1.905" x2="22.225" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="22.225" y1="-2.54" x2="20.955" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="20.955" y1="-2.54" x2="20.32" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="-1.905" x2="18.415" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="19.685" y1="-2.54" x2="18.415" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="24.765" y1="-2.54" x2="23.495" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="23.495" y1="-2.54" x2="22.86" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="1.905" x2="25.4" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="24.765" y1="2.54" x2="25.4" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-1.905" x2="24.765" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-24.13" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-21.59" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="-19.05" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="7" x="-16.51" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="9" x="-13.97" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="11" x="-11.43" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-24.13" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="-21.59" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="-19.05" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="-16.51" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="10" x="-13.97" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="12" x="-11.43" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="13" x="-8.89" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="14" x="-8.89" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="15" x="-6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="17" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="19" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="21" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="23" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="25" x="6.35" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="16" x="-6.35" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="18" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="20" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="22" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="24" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="26" x="6.35" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="27" x="8.89" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="28" x="8.89" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="29" x="11.43" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="31" x="13.97" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="33" x="16.51" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="35" x="19.05" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="37" x="21.59" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="39" x="24.13" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="30" x="11.43" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="32" x="13.97" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="34" x="16.51" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="36" x="19.05" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="38" x="21.59" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="40" x="24.13" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-24.638" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="-25.4" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="12.7" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="22.86" y="2.921" size="1.27" layer="21" ratio="10">40</text>
+<rectangle x1="-21.844" y1="-1.524" x2="-21.336" y2="-1.016" layer="51"/>
+<rectangle x1="-24.384" y1="-1.524" x2="-23.876" y2="-1.016" layer="51"/>
+<rectangle x1="-19.304" y1="-1.524" x2="-18.796" y2="-1.016" layer="51"/>
+<rectangle x1="-14.224" y1="-1.524" x2="-13.716" y2="-1.016" layer="51"/>
+<rectangle x1="-16.764" y1="-1.524" x2="-16.256" y2="-1.016" layer="51"/>
+<rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51"/>
+<rectangle x1="-24.384" y1="1.016" x2="-23.876" y2="1.524" layer="51"/>
+<rectangle x1="-21.844" y1="1.016" x2="-21.336" y2="1.524" layer="51"/>
+<rectangle x1="-19.304" y1="1.016" x2="-18.796" y2="1.524" layer="51"/>
+<rectangle x1="-16.764" y1="1.016" x2="-16.256" y2="1.524" layer="51"/>
+<rectangle x1="-14.224" y1="1.016" x2="-13.716" y2="1.524" layer="51"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51"/>
+<rectangle x1="-9.144" y1="1.016" x2="-8.636" y2="1.524" layer="51"/>
+<rectangle x1="-9.144" y1="-1.524" x2="-8.636" y2="-1.016" layer="51"/>
+<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
+<rectangle x1="-6.604" y1="-1.524" x2="-6.096" y2="-1.016" layer="51"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="6.096" y1="-1.524" x2="6.604" y2="-1.016" layer="51"/>
+<rectangle x1="-6.604" y1="1.016" x2="-6.096" y2="1.524" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
+<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
+<rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
+<rectangle x1="8.636" y1="-1.524" x2="9.144" y2="-1.016" layer="51"/>
+<rectangle x1="13.716" y1="-1.524" x2="14.224" y2="-1.016" layer="51"/>
+<rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51"/>
+<rectangle x1="16.256" y1="-1.524" x2="16.764" y2="-1.016" layer="51"/>
+<rectangle x1="21.336" y1="-1.524" x2="21.844" y2="-1.016" layer="51"/>
+<rectangle x1="18.796" y1="-1.524" x2="19.304" y2="-1.016" layer="51"/>
+<rectangle x1="23.876" y1="-1.524" x2="24.384" y2="-1.016" layer="51"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51"/>
+<rectangle x1="13.716" y1="1.016" x2="14.224" y2="1.524" layer="51"/>
+<rectangle x1="16.256" y1="1.016" x2="16.764" y2="1.524" layer="51"/>
+<rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51"/>
+<rectangle x1="21.336" y1="1.016" x2="21.844" y2="1.524" layer="51"/>
+<rectangle x1="23.876" y1="1.016" x2="24.384" y2="1.524" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MA20-2" urn="urn:adsk.eagle:package:8338/1" type="box" library_version="2">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="MA20-2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="IC1" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-72.39" y="71.12" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="71.12" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.39" y="71.12" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC10" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-104.14" y="81.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-104.14" y="81.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-104.14" y="81.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC11" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-20.32" y="91.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.32" y="91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-20.32" y="91.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC12" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-34.29" y="91.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-34.29" y="91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-34.29" y="91.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC13" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-48.26" y="91.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.26" y="91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-48.26" y="91.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC14" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-62.23" y="91.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-62.23" y="91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-62.23" y="91.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC15" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-76.2" y="91.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-76.2" y="91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-76.2" y="91.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC16" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-90.17" y="91.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-90.17" y="91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-90.17" y="91.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC17" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-104.14" y="91.44" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-104.14" y="91.44" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-104.14" y="91.44" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC18" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-20.32" y="101.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.32" y="101.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-20.32" y="101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC19" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-34.29" y="101.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-34.29" y="101.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-34.29" y="101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC2" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-86.36" y="71.12" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-86.36" y="71.12" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-85.09" y="71.12" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC20" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-48.26" y="101.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.26" y="101.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-48.26" y="101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC21" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-62.23" y="101.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-62.23" y="101.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-62.23" y="101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC22" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-76.2" y="101.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-76.2" y="101.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-76.2" y="101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC23" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-90.17" y="101.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-90.17" y="101.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-90.17" y="101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC24" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-104.14" y="101.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-104.14" y="101.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-104.14" y="101.6" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC25" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-17.78" y="8.89" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.4028" y="14.097" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-23.0886" y="1.7526" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC26" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-34.29" y="8.89" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.9128" y="14.097" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-39.5986" y="1.7526" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC27" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-50.8" y="8.89" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.4228" y="14.097" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-56.1086" y="1.7526" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC28" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-67.31" y="8.89" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-71.9328" y="14.097" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.6186" y="1.7526" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC29" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-83.82" y="8.89" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-88.4428" y="14.097" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-89.1286" y="1.7526" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC3" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-100.33" y="71.12" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-100.33" y="71.12" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-100.33" y="71.12" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC30" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-100.33" y="8.89" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-104.9528" y="14.097" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-105.6386" y="1.7526" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC31" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-17.78" y="24.13" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.4028" y="29.337" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-23.0886" y="16.9926" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC32" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-34.29" y="24.13" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.9128" y="29.337" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-39.5986" y="16.9926" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC33" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-50.8" y="24.13" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.4228" y="29.337" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-56.1086" y="16.9926" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC34" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-67.31" y="24.13" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-71.9328" y="29.337" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.6186" y="16.9926" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC35" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-83.82" y="24.13" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-88.4428" y="29.337" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-89.1286" y="16.9926" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC36" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-100.33" y="24.13" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-104.9528" y="29.337" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-105.6386" y="16.9926" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC37" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-17.78" y="39.37" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.4028" y="44.577" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-23.0886" y="32.2326" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC38" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-34.29" y="39.37" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.9128" y="44.577" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-39.5986" y="32.2326" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC39" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-50.8" y="39.37" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.4228" y="44.577" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-56.1086" y="32.2326" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC4" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-20.32" y="81.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.32" y="81.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-20.32" y="81.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC40" library="SN74ACT08D" package="SOIC127P600X175-14N" value="SN74ACT08D" x="-67.31" y="39.37" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74act08d/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments SN74ACT08D, AND Quad 2 Input AND, 4.5  5.5 V, 14-Pin SOIC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74ACT08D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-71.9328" y="44.577" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.6186" y="32.2326" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC41" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-20.32" y="111.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.32" y="111.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-20.32" y="111.76" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC42" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-34.29" y="111.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-34.29" y="111.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-34.29" y="111.76" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC43" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-48.26" y="111.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.26" y="111.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-48.26" y="111.76" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC44" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-62.23" y="111.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-62.23" y="111.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-62.23" y="111.76" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC45" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-76.2" y="111.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-76.2" y="111.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-76.2" y="111.76" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC46" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-90.17" y="111.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-90.17" y="111.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-90.17" y="111.76" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC47" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-104.14" y="111.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-104.14" y="111.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-104.14" y="111.76" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC48" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-20.32" y="121.92" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.32" y="121.92" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-20.32" y="121.92" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC5" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-34.29" y="81.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-34.29" y="81.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-34.29" y="81.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC6" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-48.26" y="81.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-48.26" y="81.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-48.26" y="81.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC7" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-62.23" y="81.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-62.23" y="81.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-62.23" y="81.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC8" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-76.2" y="81.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-76.2" y="81.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-76.2" y="81.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC9" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-90.17" y="81.28" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input XOR gates with Schmitt-trigger inputs" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS86DR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS86DR/?qs=7MVldsJ5Uax3N1HpQm%2FwtA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-90.17" y="81.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-90.17" y="81.28" size="1.27" layer="27" align="center"/>
+</element>
+<element name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA20-2" package3d_urn="urn:adsk.eagle:package:8338/1" value="" x="27.94" y="96.52" smashed="yes">
+<attribute name="MF" value="" x="67.31" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="67.31" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.54" y="99.441" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="67.31" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="67.31" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="1" x="67.31" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="40.64" y="92.329" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA20-2" package3d_urn="urn:adsk.eagle:package:8338/1" value="" x="27.94" y="86.36" smashed="yes">
+<attribute name="MF" value="" x="67.31" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="67.31" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.54" y="89.281" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="67.31" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="67.31" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="1" x="67.31" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="40.64" y="82.169" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA20-2" package3d_urn="urn:adsk.eagle:package:8338/1" value="" x="-39.37" y="71.12" smashed="yes">
+<attribute name="MF" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-64.77" y="74.041" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="1" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-26.67" y="66.929" size="1.27" layer="27" ratio="10"/>
+</element>
+</elements>
+<signals>
+<signal name="N$1">
+<contactref element="IC1" pad="7"/>
+</signal>
+<signal name="XOR_B2">
+<contactref element="IC1" pad="6"/>
+</signal>
+<signal name="N$8">
+<contactref element="IC1" pad="14"/>
+</signal>
+<signal name="N$11">
+<contactref element="IC1" pad="11"/>
+</signal>
+<signal name="N$14">
+<contactref element="IC1" pad="8"/>
+</signal>
+<signal name="N$15">
+<contactref element="IC2" pad="7"/>
+</signal>
+<signal name="N$16">
+<contactref element="IC2" pad="6"/>
+</signal>
+<signal name="N$19">
+<contactref element="IC2" pad="3"/>
+</signal>
+<signal name="N$22">
+<contactref element="IC2" pad="14"/>
+</signal>
+<signal name="N$25">
+<contactref element="IC2" pad="11"/>
+</signal>
+<signal name="N$28">
+<contactref element="IC2" pad="8"/>
+</signal>
+<signal name="N$29">
+<contactref element="IC3" pad="7"/>
+</signal>
+<signal name="N$30">
+<contactref element="IC3" pad="6"/>
+</signal>
+<signal name="N$33">
+<contactref element="IC3" pad="3"/>
+</signal>
+<signal name="N$39">
+<contactref element="IC3" pad="11"/>
+</signal>
+<signal name="N$42">
+<contactref element="IC3" pad="8"/>
+</signal>
+<signal name="N$43">
+<contactref element="IC4" pad="7"/>
+</signal>
+<signal name="N$44">
+<contactref element="IC4" pad="6"/>
+</signal>
+<signal name="N$47">
+<contactref element="IC4" pad="3"/>
+</signal>
+<signal name="N$50">
+<contactref element="IC4" pad="14"/>
+</signal>
+<signal name="N$53">
+<contactref element="IC4" pad="11"/>
+</signal>
+<signal name="N$56">
+<contactref element="IC4" pad="8"/>
+</signal>
+<signal name="N$57">
+<contactref element="IC5" pad="7"/>
+</signal>
+<signal name="N$58">
+<contactref element="IC5" pad="6"/>
+</signal>
+<signal name="N$61">
+<contactref element="IC5" pad="3"/>
+</signal>
+<signal name="N$64">
+<contactref element="IC5" pad="14"/>
+</signal>
+<signal name="N$67">
+<contactref element="IC5" pad="11"/>
+</signal>
+<signal name="N$70">
+<contactref element="IC5" pad="8"/>
+</signal>
+<signal name="N$71">
+<contactref element="IC6" pad="7"/>
+</signal>
+<signal name="N$72">
+<contactref element="IC6" pad="6"/>
+</signal>
+<signal name="N$75">
+<contactref element="IC6" pad="3"/>
+</signal>
+<signal name="N$78">
+<contactref element="IC6" pad="14"/>
+</signal>
+<signal name="N$81">
+<contactref element="IC6" pad="11"/>
+</signal>
+<signal name="N$84">
+<contactref element="IC6" pad="8"/>
+</signal>
+<signal name="N$85">
+<contactref element="IC7" pad="7"/>
+</signal>
+<signal name="N$86">
+<contactref element="IC7" pad="6"/>
+</signal>
+<signal name="N$89">
+<contactref element="IC7" pad="3"/>
+</signal>
+<signal name="N$92">
+<contactref element="IC7" pad="14"/>
+</signal>
+<signal name="N$95">
+<contactref element="IC7" pad="11"/>
+</signal>
+<signal name="N$98">
+<contactref element="IC7" pad="8"/>
+</signal>
+<signal name="N$99">
+<contactref element="IC8" pad="7"/>
+</signal>
+<signal name="N$100">
+<contactref element="IC8" pad="6"/>
+</signal>
+<signal name="N$103">
+<contactref element="IC8" pad="3"/>
+</signal>
+<signal name="N$106">
+<contactref element="IC8" pad="14"/>
+</signal>
+<signal name="N$109">
+<contactref element="IC8" pad="11"/>
+</signal>
+<signal name="N$112">
+<contactref element="IC8" pad="8"/>
+</signal>
+<signal name="N$113">
+<contactref element="IC9" pad="7"/>
+</signal>
+<signal name="N$114">
+<contactref element="IC9" pad="6"/>
+</signal>
+<signal name="N$115">
+<contactref element="IC9" pad="5"/>
+</signal>
+<signal name="N$116">
+<contactref element="IC9" pad="4"/>
+</signal>
+<signal name="N$117">
+<contactref element="IC9" pad="3"/>
+</signal>
+<signal name="N$118">
+<contactref element="IC9" pad="2"/>
+</signal>
+<signal name="N$119">
+<contactref element="IC9" pad="1"/>
+</signal>
+<signal name="N$120">
+<contactref element="IC9" pad="14"/>
+</signal>
+<signal name="N$121">
+<contactref element="IC9" pad="13"/>
+</signal>
+<signal name="N$122">
+<contactref element="IC9" pad="12"/>
+</signal>
+<signal name="N$123">
+<contactref element="IC9" pad="11"/>
+</signal>
+<signal name="N$124">
+<contactref element="IC9" pad="10"/>
+</signal>
+<signal name="N$125">
+<contactref element="IC9" pad="9"/>
+</signal>
+<signal name="N$126">
+<contactref element="IC9" pad="8"/>
+</signal>
+<signal name="N$127">
+<contactref element="IC10" pad="7"/>
+</signal>
+<signal name="N$128">
+<contactref element="IC10" pad="6"/>
+</signal>
+<signal name="N$129">
+<contactref element="IC10" pad="5"/>
+</signal>
+<signal name="N$130">
+<contactref element="IC10" pad="4"/>
+</signal>
+<signal name="N$131">
+<contactref element="IC10" pad="3"/>
+</signal>
+<signal name="N$132">
+<contactref element="IC10" pad="2"/>
+</signal>
+<signal name="N$133">
+<contactref element="IC10" pad="1"/>
+</signal>
+<signal name="N$134">
+<contactref element="IC10" pad="14"/>
+</signal>
+<signal name="N$135">
+<contactref element="IC10" pad="13"/>
+</signal>
+<signal name="N$136">
+<contactref element="IC10" pad="12"/>
+</signal>
+<signal name="N$137">
+<contactref element="IC10" pad="11"/>
+</signal>
+<signal name="N$138">
+<contactref element="IC10" pad="10"/>
+</signal>
+<signal name="N$139">
+<contactref element="IC10" pad="9"/>
+</signal>
+<signal name="N$140">
+<contactref element="IC10" pad="8"/>
+</signal>
+<signal name="N$141">
+<contactref element="IC11" pad="7"/>
+</signal>
+<signal name="N$142">
+<contactref element="IC11" pad="6"/>
+</signal>
+<signal name="N$143">
+<contactref element="IC11" pad="5"/>
+</signal>
+<signal name="N$144">
+<contactref element="IC11" pad="4"/>
+</signal>
+<signal name="N$145">
+<contactref element="IC11" pad="3"/>
+</signal>
+<signal name="N$146">
+<contactref element="IC11" pad="2"/>
+</signal>
+<signal name="N$147">
+<contactref element="IC11" pad="1"/>
+</signal>
+<signal name="N$148">
+<contactref element="IC11" pad="14"/>
+</signal>
+<signal name="N$149">
+<contactref element="IC11" pad="13"/>
+</signal>
+<signal name="N$150">
+<contactref element="IC11" pad="12"/>
+</signal>
+<signal name="N$151">
+<contactref element="IC11" pad="11"/>
+</signal>
+<signal name="N$152">
+<contactref element="IC11" pad="10"/>
+</signal>
+<signal name="N$153">
+<contactref element="IC11" pad="9"/>
+</signal>
+<signal name="N$154">
+<contactref element="IC11" pad="8"/>
+</signal>
+<signal name="N$155">
+<contactref element="IC12" pad="7"/>
+</signal>
+<signal name="N$156">
+<contactref element="IC12" pad="6"/>
+</signal>
+<signal name="N$157">
+<contactref element="IC12" pad="5"/>
+</signal>
+<signal name="N$158">
+<contactref element="IC12" pad="4"/>
+</signal>
+<signal name="N$159">
+<contactref element="IC12" pad="3"/>
+</signal>
+<signal name="N$160">
+<contactref element="IC12" pad="2"/>
+</signal>
+<signal name="N$161">
+<contactref element="IC12" pad="1"/>
+</signal>
+<signal name="N$162">
+<contactref element="IC12" pad="14"/>
+</signal>
+<signal name="N$163">
+<contactref element="IC12" pad="13"/>
+</signal>
+<signal name="N$164">
+<contactref element="IC12" pad="12"/>
+</signal>
+<signal name="N$165">
+<contactref element="IC12" pad="11"/>
+</signal>
+<signal name="N$166">
+<contactref element="IC12" pad="10"/>
+</signal>
+<signal name="N$167">
+<contactref element="IC12" pad="9"/>
+</signal>
+<signal name="N$168">
+<contactref element="IC12" pad="8"/>
+</signal>
+<signal name="N$169">
+<contactref element="IC13" pad="7"/>
+</signal>
+<signal name="N$170">
+<contactref element="IC13" pad="6"/>
+</signal>
+<signal name="N$171">
+<contactref element="IC13" pad="5"/>
+</signal>
+<signal name="N$172">
+<contactref element="IC13" pad="4"/>
+</signal>
+<signal name="N$173">
+<contactref element="IC13" pad="3"/>
+</signal>
+<signal name="N$174">
+<contactref element="IC13" pad="2"/>
+</signal>
+<signal name="N$175">
+<contactref element="IC13" pad="1"/>
+</signal>
+<signal name="N$176">
+<contactref element="IC13" pad="14"/>
+</signal>
+<signal name="N$177">
+<contactref element="IC13" pad="13"/>
+</signal>
+<signal name="N$178">
+<contactref element="IC13" pad="12"/>
+</signal>
+<signal name="N$179">
+<contactref element="IC13" pad="11"/>
+</signal>
+<signal name="N$180">
+<contactref element="IC13" pad="10"/>
+</signal>
+<signal name="N$181">
+<contactref element="IC13" pad="9"/>
+</signal>
+<signal name="N$182">
+<contactref element="IC13" pad="8"/>
+</signal>
+<signal name="N$183">
+<contactref element="IC14" pad="7"/>
+</signal>
+<signal name="N$184">
+<contactref element="IC14" pad="6"/>
+</signal>
+<signal name="N$185">
+<contactref element="IC14" pad="5"/>
+</signal>
+<signal name="N$186">
+<contactref element="IC14" pad="4"/>
+</signal>
+<signal name="N$187">
+<contactref element="IC14" pad="3"/>
+</signal>
+<signal name="N$188">
+<contactref element="IC14" pad="2"/>
+</signal>
+<signal name="N$189">
+<contactref element="IC14" pad="1"/>
+</signal>
+<signal name="N$190">
+<contactref element="IC14" pad="14"/>
+</signal>
+<signal name="N$191">
+<contactref element="IC14" pad="13"/>
+</signal>
+<signal name="N$192">
+<contactref element="IC14" pad="12"/>
+</signal>
+<signal name="N$193">
+<contactref element="IC14" pad="11"/>
+</signal>
+<signal name="N$194">
+<contactref element="IC14" pad="10"/>
+</signal>
+<signal name="N$195">
+<contactref element="IC14" pad="9"/>
+</signal>
+<signal name="N$196">
+<contactref element="IC14" pad="8"/>
+</signal>
+<signal name="N$197">
+<contactref element="IC15" pad="7"/>
+</signal>
+<signal name="N$198">
+<contactref element="IC15" pad="6"/>
+</signal>
+<signal name="N$199">
+<contactref element="IC15" pad="5"/>
+</signal>
+<signal name="N$200">
+<contactref element="IC15" pad="4"/>
+</signal>
+<signal name="N$201">
+<contactref element="IC15" pad="3"/>
+</signal>
+<signal name="N$202">
+<contactref element="IC15" pad="2"/>
+</signal>
+<signal name="N$203">
+<contactref element="IC15" pad="1"/>
+</signal>
+<signal name="N$204">
+<contactref element="IC15" pad="14"/>
+</signal>
+<signal name="N$205">
+<contactref element="IC15" pad="13"/>
+</signal>
+<signal name="N$206">
+<contactref element="IC15" pad="12"/>
+</signal>
+<signal name="N$207">
+<contactref element="IC15" pad="11"/>
+</signal>
+<signal name="N$208">
+<contactref element="IC15" pad="10"/>
+</signal>
+<signal name="N$209">
+<contactref element="IC15" pad="9"/>
+</signal>
+<signal name="N$210">
+<contactref element="IC15" pad="8"/>
+</signal>
+<signal name="N$211">
+<contactref element="IC16" pad="7"/>
+</signal>
+<signal name="N$212">
+<contactref element="IC16" pad="6"/>
+</signal>
+<signal name="N$213">
+<contactref element="IC16" pad="5"/>
+</signal>
+<signal name="N$214">
+<contactref element="IC16" pad="4"/>
+</signal>
+<signal name="N$215">
+<contactref element="IC16" pad="3"/>
+</signal>
+<signal name="N$216">
+<contactref element="IC16" pad="2"/>
+</signal>
+<signal name="N$217">
+<contactref element="IC16" pad="1"/>
+</signal>
+<signal name="N$218">
+<contactref element="IC16" pad="14"/>
+</signal>
+<signal name="N$219">
+<contactref element="IC16" pad="13"/>
+</signal>
+<signal name="N$220">
+<contactref element="IC16" pad="12"/>
+</signal>
+<signal name="N$221">
+<contactref element="IC16" pad="11"/>
+</signal>
+<signal name="N$222">
+<contactref element="IC16" pad="10"/>
+</signal>
+<signal name="N$223">
+<contactref element="IC16" pad="9"/>
+</signal>
+<signal name="N$224">
+<contactref element="IC16" pad="8"/>
+</signal>
+<signal name="N$345">
+<contactref element="IC17" pad="7"/>
+</signal>
+<signal name="INV_B2">
+<contactref element="IC17" pad="6"/>
+<contactref element="IC1" pad="5"/>
+<wire x1="-75.102" y1="69.85" x2="-106.852" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B1">
+<contactref element="IC17" pad="3"/>
+<contactref element="IC1" pad="2"/>
+<wire x1="-75.102" y1="73.66" x2="-106.852" y2="92.71" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SUB">
+<contactref element="IC17" pad="2"/>
+<contactref element="IC17" pad="5"/>
+<contactref element="IC17" pad="13"/>
+<contactref element="IC17" pad="10"/>
+<contactref element="IC19" pad="2"/>
+<contactref element="IC19" pad="5"/>
+<contactref element="IC19" pad="13"/>
+<contactref element="IC19" pad="10"/>
+<contactref element="IC21" pad="2"/>
+<contactref element="IC21" pad="5"/>
+<contactref element="IC21" pad="13"/>
+<contactref element="IC21" pad="10"/>
+<contactref element="IC23" pad="2"/>
+<contactref element="IC23" pad="5"/>
+<contactref element="IC23" pad="13"/>
+<contactref element="IC23" pad="10"/>
+<contactref element="IC18" pad="2"/>
+<contactref element="IC18" pad="5"/>
+<contactref element="IC18" pad="13"/>
+<contactref element="IC18" pad="10"/>
+<contactref element="IC20" pad="2"/>
+<contactref element="IC20" pad="5"/>
+<contactref element="IC20" pad="13"/>
+<contactref element="IC20" pad="10"/>
+<contactref element="IC22" pad="2"/>
+<contactref element="IC22" pad="5"/>
+<contactref element="IC22" pad="13"/>
+<contactref element="IC22" pad="10"/>
+<contactref element="IC24" pad="2"/>
+<contactref element="IC24" pad="5"/>
+<contactref element="IC24" pad="13"/>
+<contactref element="IC24" pad="10"/>
+<wire x1="-17.608" y1="100.33" x2="-17.608" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.032" y1="104.14" x2="-17.608" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.032" y1="100.33" x2="-23.032" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.578" y1="104.14" x2="-23.032" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.578" y1="100.33" x2="-31.578" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.002" y1="104.14" x2="-31.578" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.002" y1="100.33" x2="-37.002" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.548" y1="104.14" x2="-37.002" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.548" y1="100.33" x2="-45.548" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.972" y1="104.14" x2="-45.548" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.972" y1="100.33" x2="-50.972" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.518" y1="104.14" x2="-50.972" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.518" y1="100.33" x2="-59.518" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.942" y1="104.14" x2="-59.518" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.942" y1="100.33" x2="-64.942" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.488" y1="104.14" x2="-64.942" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.488" y1="100.33" x2="-73.488" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.912" y1="104.14" x2="-73.488" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.912" y1="100.33" x2="-78.912" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.458" y1="104.14" x2="-78.912" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.458" y1="100.33" x2="-87.458" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-92.882" y1="104.14" x2="-87.458" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-92.882" y1="100.33" x2="-92.882" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.428" y1="104.14" x2="-92.882" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.428" y1="100.33" x2="-101.428" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-106.852" y1="100.33" x2="-101.428" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-106.852" y1="104.14" x2="-106.852" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-106.852" y1="93.98" x2="-106.852" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-106.852" y1="90.17" x2="-106.852" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.428" y1="90.17" x2="-106.852" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.428" y1="93.98" x2="-101.428" y2="90.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$352">
+<contactref element="IC17" pad="14"/>
+</signal>
+<signal name="INV_B3">
+<contactref element="IC17" pad="11"/>
+</signal>
+<signal name="INV_B4">
+<contactref element="IC17" pad="8"/>
+<contactref element="IC1" pad="10"/>
+<wire x1="-69.678" y1="69.85" x2="-101.428" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$359">
+<contactref element="IC18" pad="7"/>
+</signal>
+<signal name="INV_B18">
+<contactref element="IC18" pad="6"/>
+<contactref element="IC2" pad="5"/>
+<wire x1="-89.072" y1="69.85" x2="-23.032" y2="99.06" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B17">
+<contactref element="IC18" pad="3"/>
+<contactref element="IC2" pad="2"/>
+<wire x1="-89.072" y1="73.66" x2="-23.032" y2="102.87" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$366">
+<contactref element="IC18" pad="14"/>
+</signal>
+<signal name="INV_B19">
+<contactref element="IC18" pad="11"/>
+<contactref element="IC2" pad="13"/>
+<wire x1="-83.648" y1="73.66" x2="-17.608" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B20">
+<contactref element="IC18" pad="8"/>
+<contactref element="IC2" pad="10"/>
+<wire x1="-83.648" y1="69.85" x2="-17.608" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$373">
+<contactref element="IC19" pad="7"/>
+</signal>
+<signal name="INV_B6">
+<contactref element="IC19" pad="6"/>
+<contactref element="IC3" pad="5"/>
+<wire x1="-103.042" y1="69.85" x2="-37.002" y2="99.06" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B5">
+<contactref element="IC19" pad="3"/>
+<contactref element="IC3" pad="2"/>
+<wire x1="-103.042" y1="73.66" x2="-37.002" y2="102.87" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$380">
+<contactref element="IC19" pad="14"/>
+</signal>
+<signal name="INV_B7">
+<contactref element="IC19" pad="11"/>
+<contactref element="IC3" pad="13"/>
+<wire x1="-97.618" y1="73.66" x2="-31.578" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B8">
+<contactref element="IC19" pad="8"/>
+<contactref element="IC3" pad="10"/>
+<wire x1="-97.618" y1="69.85" x2="-31.578" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$387">
+<contactref element="IC20" pad="7"/>
+</signal>
+<signal name="INV_B22">
+<contactref element="IC20" pad="6"/>
+<contactref element="IC4" pad="5"/>
+<wire x1="-50.972" y1="99.06" x2="-23.032" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B21">
+<contactref element="IC20" pad="3"/>
+<contactref element="IC4" pad="2"/>
+<wire x1="-50.972" y1="102.87" x2="-23.032" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$394">
+<contactref element="IC20" pad="14"/>
+</signal>
+<signal name="INV_B23">
+<contactref element="IC20" pad="11"/>
+<contactref element="IC4" pad="13"/>
+<wire x1="-45.548" y1="101.6" x2="-17.608" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B24">
+<contactref element="IC20" pad="8"/>
+<contactref element="IC4" pad="10"/>
+<wire x1="-45.548" y1="97.79" x2="-17.608" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$401">
+<contactref element="IC21" pad="7"/>
+</signal>
+<signal name="INV_B10">
+<contactref element="IC21" pad="6"/>
+<contactref element="IC5" pad="5"/>
+<wire x1="-64.942" y1="99.06" x2="-37.002" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B9">
+<contactref element="IC21" pad="3"/>
+<contactref element="IC5" pad="2"/>
+<wire x1="-64.942" y1="102.87" x2="-37.002" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$408">
+<contactref element="IC21" pad="14"/>
+</signal>
+<signal name="INV_B11">
+<contactref element="IC21" pad="11"/>
+<contactref element="IC5" pad="13"/>
+<wire x1="-59.518" y1="101.6" x2="-31.578" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B12">
+<contactref element="IC21" pad="8"/>
+<contactref element="IC5" pad="10"/>
+<wire x1="-59.518" y1="97.79" x2="-31.578" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$415">
+<contactref element="IC22" pad="7"/>
+</signal>
+<signal name="INV_B26">
+<contactref element="IC22" pad="6"/>
+<contactref element="IC6" pad="5"/>
+<wire x1="-78.912" y1="99.06" x2="-50.972" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B25">
+<contactref element="IC22" pad="3"/>
+<contactref element="IC6" pad="2"/>
+<wire x1="-78.912" y1="102.87" x2="-50.972" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$422">
+<contactref element="IC22" pad="14"/>
+</signal>
+<signal name="INV_B27">
+<contactref element="IC22" pad="11"/>
+<contactref element="IC6" pad="13"/>
+<wire x1="-73.488" y1="101.6" x2="-45.548" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B28">
+<contactref element="IC22" pad="8"/>
+<contactref element="IC6" pad="10"/>
+<wire x1="-73.488" y1="97.79" x2="-45.548" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$429">
+<contactref element="IC23" pad="7"/>
+</signal>
+<signal name="INV_B14">
+<contactref element="IC23" pad="6"/>
+<contactref element="IC7" pad="5"/>
+<wire x1="-92.882" y1="99.06" x2="-64.942" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B13">
+<contactref element="IC23" pad="3"/>
+<contactref element="IC7" pad="2"/>
+<wire x1="-92.882" y1="102.87" x2="-64.942" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$436">
+<contactref element="IC23" pad="14"/>
+</signal>
+<signal name="INV_B15">
+<contactref element="IC23" pad="11"/>
+<contactref element="IC7" pad="13"/>
+<wire x1="-87.458" y1="101.6" x2="-59.518" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B16">
+<contactref element="IC23" pad="8"/>
+<contactref element="IC7" pad="10"/>
+<wire x1="-87.458" y1="97.79" x2="-59.518" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$443">
+<contactref element="IC24" pad="7"/>
+</signal>
+<signal name="INV_B30">
+<contactref element="IC24" pad="6"/>
+<contactref element="IC8" pad="5"/>
+<wire x1="-78.912" y1="80.01" x2="-106.852" y2="99.06" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B29">
+<contactref element="IC24" pad="3"/>
+<contactref element="IC8" pad="2"/>
+<wire x1="-78.912" y1="83.82" x2="-106.852" y2="102.87" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$450">
+<contactref element="IC24" pad="14"/>
+</signal>
+<signal name="INV_B31">
+<contactref element="IC24" pad="11"/>
+<contactref element="IC8" pad="13"/>
+<wire x1="-101.428" y1="101.6" x2="-73.488" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="INV_B32">
+<contactref element="IC24" pad="8"/>
+<contactref element="IC8" pad="10"/>
+<wire x1="-101.428" y1="97.79" x2="-73.488" y2="80.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$457">
+<contactref element="IC25" pad="1"/>
+</signal>
+<signal name="N$458">
+<contactref element="IC25" pad="2"/>
+</signal>
+<signal name="N$459">
+<contactref element="IC25" pad="3"/>
+</signal>
+<signal name="N$460">
+<contactref element="IC25" pad="4"/>
+</signal>
+<signal name="N$461">
+<contactref element="IC25" pad="5"/>
+</signal>
+<signal name="N$462">
+<contactref element="IC25" pad="6"/>
+</signal>
+<signal name="N$463">
+<contactref element="IC25" pad="7"/>
+</signal>
+<signal name="N$464">
+<contactref element="IC25" pad="8"/>
+</signal>
+<signal name="N$465">
+<contactref element="IC25" pad="9"/>
+</signal>
+<signal name="N$466">
+<contactref element="IC25" pad="10"/>
+</signal>
+<signal name="N$467">
+<contactref element="IC25" pad="12"/>
+</signal>
+<signal name="N$468">
+<contactref element="IC25" pad="11"/>
+</signal>
+<signal name="N$469">
+<contactref element="IC25" pad="13"/>
+</signal>
+<signal name="N$470">
+<contactref element="IC25" pad="14"/>
+</signal>
+<signal name="N$471">
+<contactref element="IC26" pad="1"/>
+</signal>
+<signal name="N$472">
+<contactref element="IC26" pad="2"/>
+</signal>
+<signal name="N$473">
+<contactref element="IC26" pad="3"/>
+</signal>
+<signal name="N$474">
+<contactref element="IC26" pad="4"/>
+</signal>
+<signal name="N$475">
+<contactref element="IC26" pad="5"/>
+</signal>
+<signal name="N$476">
+<contactref element="IC26" pad="6"/>
+</signal>
+<signal name="N$477">
+<contactref element="IC26" pad="7"/>
+</signal>
+<signal name="N$478">
+<contactref element="IC26" pad="8"/>
+</signal>
+<signal name="N$479">
+<contactref element="IC26" pad="9"/>
+</signal>
+<signal name="N$480">
+<contactref element="IC26" pad="10"/>
+</signal>
+<signal name="N$481">
+<contactref element="IC26" pad="12"/>
+</signal>
+<signal name="N$482">
+<contactref element="IC26" pad="11"/>
+</signal>
+<signal name="N$483">
+<contactref element="IC26" pad="13"/>
+</signal>
+<signal name="N$484">
+<contactref element="IC26" pad="14"/>
+</signal>
+<signal name="N$485">
+<contactref element="IC27" pad="1"/>
+</signal>
+<signal name="N$486">
+<contactref element="IC27" pad="2"/>
+</signal>
+<signal name="N$487">
+<contactref element="IC27" pad="3"/>
+</signal>
+<signal name="N$488">
+<contactref element="IC27" pad="4"/>
+</signal>
+<signal name="N$489">
+<contactref element="IC27" pad="5"/>
+</signal>
+<signal name="N$490">
+<contactref element="IC27" pad="6"/>
+</signal>
+<signal name="N$491">
+<contactref element="IC27" pad="7"/>
+</signal>
+<signal name="N$492">
+<contactref element="IC27" pad="8"/>
+</signal>
+<signal name="N$493">
+<contactref element="IC27" pad="9"/>
+</signal>
+<signal name="N$494">
+<contactref element="IC27" pad="10"/>
+</signal>
+<signal name="N$495">
+<contactref element="IC27" pad="12"/>
+</signal>
+<signal name="N$496">
+<contactref element="IC27" pad="11"/>
+</signal>
+<signal name="N$497">
+<contactref element="IC27" pad="13"/>
+</signal>
+<signal name="N$498">
+<contactref element="IC27" pad="14"/>
+</signal>
+<signal name="N$499">
+<contactref element="IC28" pad="1"/>
+</signal>
+<signal name="N$500">
+<contactref element="IC28" pad="2"/>
+</signal>
+<signal name="N$501">
+<contactref element="IC28" pad="3"/>
+</signal>
+<signal name="N$502">
+<contactref element="IC28" pad="4"/>
+</signal>
+<signal name="N$503">
+<contactref element="IC28" pad="5"/>
+</signal>
+<signal name="N$504">
+<contactref element="IC28" pad="6"/>
+</signal>
+<signal name="N$505">
+<contactref element="IC28" pad="7"/>
+</signal>
+<signal name="N$506">
+<contactref element="IC28" pad="8"/>
+</signal>
+<signal name="N$507">
+<contactref element="IC28" pad="9"/>
+</signal>
+<signal name="N$508">
+<contactref element="IC28" pad="10"/>
+</signal>
+<signal name="N$509">
+<contactref element="IC28" pad="12"/>
+</signal>
+<signal name="N$510">
+<contactref element="IC28" pad="11"/>
+</signal>
+<signal name="N$511">
+<contactref element="IC28" pad="13"/>
+</signal>
+<signal name="N$512">
+<contactref element="IC28" pad="14"/>
+</signal>
+<signal name="N$513">
+<contactref element="IC29" pad="1"/>
+</signal>
+<signal name="N$514">
+<contactref element="IC29" pad="2"/>
+</signal>
+<signal name="N$515">
+<contactref element="IC29" pad="3"/>
+</signal>
+<signal name="N$516">
+<contactref element="IC29" pad="4"/>
+</signal>
+<signal name="N$517">
+<contactref element="IC29" pad="5"/>
+</signal>
+<signal name="N$518">
+<contactref element="IC29" pad="6"/>
+</signal>
+<signal name="N$519">
+<contactref element="IC29" pad="7"/>
+</signal>
+<signal name="N$520">
+<contactref element="IC29" pad="8"/>
+</signal>
+<signal name="N$521">
+<contactref element="IC29" pad="9"/>
+</signal>
+<signal name="N$522">
+<contactref element="IC29" pad="10"/>
+</signal>
+<signal name="N$523">
+<contactref element="IC29" pad="12"/>
+</signal>
+<signal name="N$524">
+<contactref element="IC29" pad="11"/>
+</signal>
+<signal name="N$525">
+<contactref element="IC29" pad="13"/>
+</signal>
+<signal name="N$526">
+<contactref element="IC29" pad="14"/>
+</signal>
+<signal name="N$527">
+<contactref element="IC30" pad="1"/>
+</signal>
+<signal name="N$528">
+<contactref element="IC30" pad="2"/>
+</signal>
+<signal name="N$529">
+<contactref element="IC30" pad="3"/>
+</signal>
+<signal name="N$530">
+<contactref element="IC30" pad="4"/>
+</signal>
+<signal name="N$531">
+<contactref element="IC30" pad="5"/>
+</signal>
+<signal name="N$532">
+<contactref element="IC30" pad="6"/>
+</signal>
+<signal name="N$533">
+<contactref element="IC30" pad="7"/>
+</signal>
+<signal name="N$534">
+<contactref element="IC30" pad="8"/>
+</signal>
+<signal name="N$535">
+<contactref element="IC30" pad="9"/>
+</signal>
+<signal name="N$536">
+<contactref element="IC30" pad="10"/>
+</signal>
+<signal name="N$537">
+<contactref element="IC30" pad="12"/>
+</signal>
+<signal name="N$538">
+<contactref element="IC30" pad="11"/>
+</signal>
+<signal name="N$539">
+<contactref element="IC30" pad="13"/>
+</signal>
+<signal name="N$540">
+<contactref element="IC30" pad="14"/>
+</signal>
+<signal name="N$541">
+<contactref element="IC31" pad="1"/>
+</signal>
+<signal name="N$542">
+<contactref element="IC31" pad="2"/>
+</signal>
+<signal name="N$543">
+<contactref element="IC31" pad="3"/>
+</signal>
+<signal name="N$544">
+<contactref element="IC31" pad="4"/>
+</signal>
+<signal name="N$545">
+<contactref element="IC31" pad="5"/>
+</signal>
+<signal name="N$546">
+<contactref element="IC31" pad="6"/>
+</signal>
+<signal name="N$547">
+<contactref element="IC31" pad="7"/>
+</signal>
+<signal name="N$548">
+<contactref element="IC31" pad="8"/>
+</signal>
+<signal name="N$549">
+<contactref element="IC31" pad="9"/>
+</signal>
+<signal name="N$550">
+<contactref element="IC31" pad="10"/>
+</signal>
+<signal name="N$551">
+<contactref element="IC31" pad="12"/>
+</signal>
+<signal name="N$552">
+<contactref element="IC31" pad="11"/>
+</signal>
+<signal name="N$553">
+<contactref element="IC31" pad="13"/>
+</signal>
+<signal name="N$554">
+<contactref element="IC31" pad="14"/>
+</signal>
+<signal name="N$555">
+<contactref element="IC32" pad="1"/>
+</signal>
+<signal name="N$556">
+<contactref element="IC32" pad="2"/>
+</signal>
+<signal name="N$557">
+<contactref element="IC32" pad="3"/>
+</signal>
+<signal name="N$558">
+<contactref element="IC32" pad="4"/>
+</signal>
+<signal name="N$559">
+<contactref element="IC32" pad="5"/>
+</signal>
+<signal name="N$560">
+<contactref element="IC32" pad="6"/>
+</signal>
+<signal name="N$561">
+<contactref element="IC32" pad="7"/>
+</signal>
+<signal name="N$562">
+<contactref element="IC32" pad="8"/>
+</signal>
+<signal name="N$563">
+<contactref element="IC32" pad="9"/>
+</signal>
+<signal name="N$564">
+<contactref element="IC32" pad="10"/>
+</signal>
+<signal name="N$565">
+<contactref element="IC32" pad="12"/>
+</signal>
+<signal name="N$566">
+<contactref element="IC32" pad="11"/>
+</signal>
+<signal name="N$567">
+<contactref element="IC32" pad="13"/>
+</signal>
+<signal name="N$568">
+<contactref element="IC32" pad="14"/>
+</signal>
+<signal name="N$569">
+<contactref element="SV4" pad="38"/>
+</signal>
+<signal name="N$570">
+<contactref element="SV4" pad="36"/>
+</signal>
+<signal name="D1_B34">
+<contactref element="SV4" pad="34"/>
+</signal>
+<signal name="D1_B32">
+<contactref element="SV4" pad="32"/>
+<contactref element="IC8" pad="9"/>
+<wire x1="-73.488" y1="78.74" x2="41.91" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B30">
+<contactref element="SV4" pad="30"/>
+<contactref element="IC8" pad="4"/>
+<wire x1="-78.912" y1="81.28" x2="39.37" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B28">
+<contactref element="SV4" pad="28"/>
+<contactref element="IC6" pad="9"/>
+<wire x1="-45.548" y1="78.74" x2="36.83" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B26">
+<contactref element="SV4" pad="26"/>
+<contactref element="IC6" pad="4"/>
+<wire x1="-50.972" y1="81.28" x2="34.29" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B24">
+<contactref element="SV4" pad="24"/>
+<contactref element="IC4" pad="9"/>
+<wire x1="-17.608" y1="78.74" x2="31.75" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B22">
+<contactref element="SV4" pad="22"/>
+<contactref element="IC4" pad="4"/>
+<wire x1="-23.032" y1="81.28" x2="29.21" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B20">
+<contactref element="SV4" pad="20"/>
+<contactref element="IC2" pad="9"/>
+<wire x1="-83.648" y1="68.58" x2="26.67" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B18">
+<contactref element="SV4" pad="18"/>
+<contactref element="IC2" pad="4"/>
+<wire x1="-89.072" y1="71.12" x2="24.13" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B16">
+<contactref element="SV4" pad="16"/>
+<contactref element="IC7" pad="9"/>
+<wire x1="-59.518" y1="78.74" x2="21.59" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B14">
+<contactref element="SV4" pad="14"/>
+<contactref element="IC7" pad="4"/>
+<wire x1="-64.942" y1="81.28" x2="19.05" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B12">
+<contactref element="SV4" pad="12"/>
+<contactref element="IC5" pad="9"/>
+<wire x1="-31.578" y1="78.74" x2="16.51" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B10">
+<contactref element="SV4" pad="10"/>
+<contactref element="IC5" pad="4"/>
+<wire x1="-37.002" y1="81.28" x2="13.97" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B8">
+<contactref element="SV4" pad="8"/>
+<contactref element="IC3" pad="9"/>
+<wire x1="-97.618" y1="68.58" x2="11.43" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B6">
+<contactref element="SV4" pad="6"/>
+<contactref element="IC3" pad="4"/>
+<wire x1="-103.042" y1="71.12" x2="8.89" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B4">
+<contactref element="SV4" pad="4"/>
+<contactref element="IC1" pad="9"/>
+<wire x1="-69.678" y1="68.58" x2="6.35" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$587">
+<contactref element="SV4" pad="37"/>
+</signal>
+<signal name="N$588">
+<contactref element="SV4" pad="35"/>
+</signal>
+<signal name="B1_A0">
+<contactref element="SV4" pad="33"/>
+</signal>
+<signal name="D1_B31">
+<contactref element="SV4" pad="31"/>
+<contactref element="IC8" pad="12"/>
+<wire x1="-73.488" y1="82.55" x2="41.91" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B29">
+<contactref element="SV4" pad="29"/>
+<contactref element="IC8" pad="1"/>
+<wire x1="-78.912" y1="85.09" x2="39.37" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B27">
+<contactref element="SV4" pad="27"/>
+<contactref element="IC6" pad="12"/>
+<wire x1="-45.548" y1="82.55" x2="36.83" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B25">
+<contactref element="SV4" pad="25"/>
+<contactref element="IC6" pad="1"/>
+<wire x1="-50.972" y1="85.09" x2="34.29" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B23">
+<contactref element="SV4" pad="23"/>
+<contactref element="IC4" pad="12"/>
+<wire x1="-17.608" y1="82.55" x2="31.75" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B21">
+<contactref element="SV4" pad="21"/>
+<contactref element="IC4" pad="1"/>
+<wire x1="-23.032" y1="85.09" x2="29.21" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B19">
+<contactref element="SV4" pad="19"/>
+<contactref element="IC2" pad="12"/>
+<wire x1="-83.648" y1="72.39" x2="26.67" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B17">
+<contactref element="SV4" pad="17"/>
+<contactref element="IC2" pad="1"/>
+<wire x1="-89.072" y1="74.93" x2="24.13" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B15">
+<contactref element="SV4" pad="15"/>
+<contactref element="IC7" pad="12"/>
+<wire x1="-59.518" y1="82.55" x2="21.59" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B13">
+<contactref element="SV4" pad="13"/>
+<contactref element="IC7" pad="1"/>
+<wire x1="-64.942" y1="85.09" x2="19.05" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B11">
+<contactref element="SV4" pad="11"/>
+<contactref element="IC5" pad="12"/>
+<wire x1="-31.578" y1="82.55" x2="16.51" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B9">
+<contactref element="SV4" pad="9"/>
+<contactref element="IC5" pad="1"/>
+<wire x1="-37.002" y1="85.09" x2="13.97" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B7">
+<contactref element="SV4" pad="7"/>
+<contactref element="IC3" pad="12"/>
+<wire x1="-97.618" y1="72.39" x2="11.43" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B5">
+<contactref element="SV4" pad="5"/>
+<contactref element="IC3" pad="1"/>
+<wire x1="-103.042" y1="74.93" x2="8.89" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B3">
+<contactref element="SV4" pad="3"/>
+<contactref element="IC1" pad="12"/>
+<wire x1="-69.678" y1="72.39" x2="6.35" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B2">
+<contactref element="SV4" pad="2"/>
+<contactref element="IC1" pad="4"/>
+<wire x1="-75.102" y1="71.12" x2="3.81" y2="97.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_B1">
+<contactref element="SV4" pad="1"/>
+<contactref element="IC1" pad="1"/>
+<wire x1="-75.102" y1="74.93" x2="3.81" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$607">
+<contactref element="SV4" pad="39"/>
+</signal>
+<signal name="N$608">
+<contactref element="SV4" pad="40"/>
+</signal>
+<signal name="N$609">
+<contactref element="SV5" pad="38"/>
+</signal>
+<signal name="N$610">
+<contactref element="SV5" pad="36"/>
+</signal>
+<signal name="N$611">
+<contactref element="SV5" pad="34"/>
+</signal>
+<signal name="D2_B32">
+<contactref element="SV5" pad="32"/>
+<contactref element="IC24" pad="9"/>
+<wire x1="-101.428" y1="99.06" x2="41.91" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B30">
+<contactref element="SV5" pad="30"/>
+<contactref element="IC24" pad="4"/>
+<wire x1="-106.852" y1="101.6" x2="39.37" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B28">
+<contactref element="SV5" pad="28"/>
+<contactref element="IC22" pad="9"/>
+<wire x1="-73.488" y1="99.06" x2="36.83" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B26">
+<contactref element="SV5" pad="26"/>
+<contactref element="IC22" pad="4"/>
+<wire x1="-78.912" y1="101.6" x2="34.29" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B24">
+<contactref element="SV5" pad="24"/>
+<contactref element="IC20" pad="9"/>
+<wire x1="-45.548" y1="99.06" x2="31.75" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B22">
+<contactref element="SV5" pad="22"/>
+<contactref element="IC20" pad="4"/>
+<wire x1="-50.972" y1="101.6" x2="29.21" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B20">
+<contactref element="SV5" pad="20"/>
+<contactref element="IC18" pad="9"/>
+<wire x1="-17.608" y1="99.06" x2="26.67" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B18">
+<contactref element="SV5" pad="18"/>
+<contactref element="IC18" pad="4"/>
+<wire x1="-23.032" y1="101.6" x2="24.13" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B16">
+<contactref element="SV5" pad="16"/>
+<contactref element="IC23" pad="9"/>
+<wire x1="-87.458" y1="99.06" x2="21.59" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B14">
+<contactref element="SV5" pad="14"/>
+<contactref element="IC23" pad="4"/>
+<wire x1="-92.882" y1="101.6" x2="19.05" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B12">
+<contactref element="SV5" pad="12"/>
+<contactref element="IC21" pad="9"/>
+<wire x1="-59.518" y1="99.06" x2="16.51" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B10">
+<contactref element="SV5" pad="10"/>
+<contactref element="IC21" pad="4"/>
+<wire x1="-64.942" y1="101.6" x2="13.97" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B8">
+<contactref element="SV5" pad="8"/>
+<contactref element="IC19" pad="9"/>
+<wire x1="-31.578" y1="99.06" x2="11.43" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B6">
+<contactref element="SV5" pad="6"/>
+<contactref element="IC19" pad="4"/>
+<wire x1="-37.002" y1="101.6" x2="8.89" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B4">
+<contactref element="SV5" pad="4"/>
+<contactref element="IC17" pad="9"/>
+<wire x1="-101.428" y1="88.9" x2="6.35" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$627">
+<contactref element="SV5" pad="37"/>
+</signal>
+<signal name="N$628">
+<contactref element="SV5" pad="35"/>
+</signal>
+<signal name="N$629">
+<contactref element="SV5" pad="33"/>
+</signal>
+<signal name="D2_B31">
+<contactref element="SV5" pad="31"/>
+<contactref element="IC24" pad="12"/>
+<wire x1="-101.428" y1="102.87" x2="41.91" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B29">
+<contactref element="SV5" pad="29"/>
+<contactref element="IC24" pad="1"/>
+<wire x1="-106.852" y1="105.41" x2="39.37" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B27">
+<contactref element="SV5" pad="27"/>
+<contactref element="IC22" pad="12"/>
+<wire x1="-73.488" y1="102.87" x2="36.83" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B25">
+<contactref element="SV5" pad="25"/>
+<contactref element="IC22" pad="1"/>
+<wire x1="-78.912" y1="105.41" x2="34.29" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B23">
+<contactref element="SV5" pad="23"/>
+<contactref element="IC20" pad="12"/>
+<wire x1="-45.548" y1="102.87" x2="31.75" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B21">
+<contactref element="SV5" pad="21"/>
+<contactref element="IC20" pad="1"/>
+<wire x1="-50.972" y1="105.41" x2="29.21" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B19">
+<contactref element="SV5" pad="19"/>
+<contactref element="IC18" pad="12"/>
+<wire x1="-17.608" y1="102.87" x2="26.67" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B17">
+<contactref element="SV5" pad="17"/>
+<contactref element="IC18" pad="1"/>
+<wire x1="-23.032" y1="105.41" x2="24.13" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B15">
+<contactref element="SV5" pad="15"/>
+<contactref element="IC23" pad="12"/>
+<wire x1="-87.458" y1="102.87" x2="21.59" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B13">
+<contactref element="SV5" pad="13"/>
+<contactref element="IC23" pad="1"/>
+<wire x1="-92.882" y1="105.41" x2="19.05" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B11">
+<contactref element="SV5" pad="11"/>
+<contactref element="IC21" pad="12"/>
+<wire x1="-59.518" y1="102.87" x2="16.51" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B9">
+<contactref element="SV5" pad="9"/>
+<contactref element="IC21" pad="1"/>
+<wire x1="-64.942" y1="105.41" x2="13.97" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B7">
+<contactref element="SV5" pad="7"/>
+<contactref element="IC19" pad="12"/>
+<wire x1="-31.578" y1="102.87" x2="11.43" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B5">
+<contactref element="SV5" pad="5"/>
+<contactref element="IC19" pad="1"/>
+<wire x1="-37.002" y1="105.41" x2="8.89" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B3">
+<contactref element="SV5" pad="3"/>
+<contactref element="IC1" pad="13"/>
+<contactref element="IC17" pad="12"/>
+<wire x1="-69.678" y1="73.66" x2="6.35" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.428" y1="92.71" x2="-69.678" y2="73.66" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B2">
+<contactref element="SV5" pad="2"/>
+<contactref element="IC17" pad="4"/>
+<wire x1="-106.852" y1="91.44" x2="3.81" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_B1">
+<contactref element="SV5" pad="1"/>
+<contactref element="IC17" pad="1"/>
+<wire x1="-106.852" y1="95.25" x2="3.81" y2="85.09" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$647">
+<contactref element="SV5" pad="39"/>
+</signal>
+<signal name="N$648">
+<contactref element="SV5" pad="40"/>
+</signal>
+<signal name="N$649">
+<contactref element="SV6" pad="38"/>
+</signal>
+<signal name="N$650">
+<contactref element="SV6" pad="36"/>
+</signal>
+<signal name="N$651">
+<contactref element="SV6" pad="34"/>
+</signal>
+<signal name="D3_B32">
+<contactref element="SV6" pad="32"/>
+</signal>
+<signal name="D3_B30">
+<contactref element="SV6" pad="30"/>
+</signal>
+<signal name="D3_B28">
+<contactref element="SV6" pad="28"/>
+</signal>
+<signal name="D3_B26">
+<contactref element="SV6" pad="26"/>
+</signal>
+<signal name="D3_B24">
+<contactref element="SV6" pad="24"/>
+</signal>
+<signal name="D3_B22">
+<contactref element="SV6" pad="22"/>
+</signal>
+<signal name="D3_B20">
+<contactref element="SV6" pad="20"/>
+</signal>
+<signal name="D3_B18">
+<contactref element="SV6" pad="18"/>
+</signal>
+<signal name="D3_B16">
+<contactref element="SV6" pad="16"/>
+</signal>
+<signal name="D3_B14">
+<contactref element="SV6" pad="14"/>
+</signal>
+<signal name="D3_B12">
+<contactref element="SV6" pad="12"/>
+</signal>
+<signal name="D3_B10">
+<contactref element="SV6" pad="10"/>
+</signal>
+<signal name="D3_B8">
+<contactref element="SV6" pad="8"/>
+</signal>
+<signal name="D3_B6">
+<contactref element="SV6" pad="6"/>
+</signal>
+<signal name="D3_B4">
+<contactref element="SV6" pad="4"/>
+</signal>
+<signal name="N$667">
+<contactref element="SV6" pad="37"/>
+</signal>
+<signal name="N$668">
+<contactref element="SV6" pad="35"/>
+</signal>
+<signal name="N$669">
+<contactref element="SV6" pad="33"/>
+</signal>
+<signal name="D3_B31">
+<contactref element="SV6" pad="31"/>
+</signal>
+<signal name="D3_B29">
+<contactref element="SV6" pad="29"/>
+</signal>
+<signal name="D3_B27">
+<contactref element="SV6" pad="27"/>
+</signal>
+<signal name="D3_B25">
+<contactref element="SV6" pad="25"/>
+</signal>
+<signal name="D3_B23">
+<contactref element="SV6" pad="23"/>
+</signal>
+<signal name="D3_B21">
+<contactref element="SV6" pad="21"/>
+</signal>
+<signal name="D3_B19">
+<contactref element="SV6" pad="19"/>
+</signal>
+<signal name="D3_B17">
+<contactref element="SV6" pad="17"/>
+</signal>
+<signal name="D3_B15">
+<contactref element="SV6" pad="15"/>
+</signal>
+<signal name="D3_B13">
+<contactref element="SV6" pad="13"/>
+</signal>
+<signal name="D3_B11">
+<contactref element="SV6" pad="11"/>
+</signal>
+<signal name="D3_B9">
+<contactref element="SV6" pad="9"/>
+</signal>
+<signal name="D3_B7">
+<contactref element="SV6" pad="7"/>
+</signal>
+<signal name="D3_B5">
+<contactref element="SV6" pad="5"/>
+</signal>
+<signal name="D3_B3">
+<contactref element="SV6" pad="3"/>
+</signal>
+<signal name="D3_B2">
+<contactref element="SV6" pad="2"/>
+</signal>
+<signal name="D3_B1">
+<contactref element="SV6" pad="1"/>
+</signal>
+<signal name="N$687">
+<contactref element="SV6" pad="39"/>
+</signal>
+<signal name="N$688">
+<contactref element="SV6" pad="40"/>
+</signal>
+<signal name="N$225">
+<contactref element="IC33" pad="1"/>
+</signal>
+<signal name="N$226">
+<contactref element="IC33" pad="2"/>
+</signal>
+<signal name="N$227">
+<contactref element="IC33" pad="3"/>
+</signal>
+<signal name="N$228">
+<contactref element="IC33" pad="4"/>
+</signal>
+<signal name="N$229">
+<contactref element="IC33" pad="5"/>
+</signal>
+<signal name="N$230">
+<contactref element="IC33" pad="6"/>
+</signal>
+<signal name="N$231">
+<contactref element="IC33" pad="7"/>
+</signal>
+<signal name="N$232">
+<contactref element="IC33" pad="8"/>
+</signal>
+<signal name="N$233">
+<contactref element="IC33" pad="9"/>
+</signal>
+<signal name="N$234">
+<contactref element="IC33" pad="10"/>
+</signal>
+<signal name="N$235">
+<contactref element="IC33" pad="12"/>
+</signal>
+<signal name="N$236">
+<contactref element="IC33" pad="11"/>
+</signal>
+<signal name="N$237">
+<contactref element="IC33" pad="13"/>
+</signal>
+<signal name="N$238">
+<contactref element="IC33" pad="14"/>
+</signal>
+<signal name="N$239">
+<contactref element="IC34" pad="1"/>
+</signal>
+<signal name="N$240">
+<contactref element="IC34" pad="2"/>
+</signal>
+<signal name="N$241">
+<contactref element="IC34" pad="3"/>
+</signal>
+<signal name="N$242">
+<contactref element="IC34" pad="4"/>
+</signal>
+<signal name="N$243">
+<contactref element="IC34" pad="5"/>
+</signal>
+<signal name="N$244">
+<contactref element="IC34" pad="6"/>
+</signal>
+<signal name="N$245">
+<contactref element="IC34" pad="7"/>
+</signal>
+<signal name="N$246">
+<contactref element="IC34" pad="8"/>
+</signal>
+<signal name="N$247">
+<contactref element="IC34" pad="9"/>
+</signal>
+<signal name="N$248">
+<contactref element="IC34" pad="10"/>
+</signal>
+<signal name="N$249">
+<contactref element="IC34" pad="12"/>
+</signal>
+<signal name="N$250">
+<contactref element="IC34" pad="11"/>
+</signal>
+<signal name="N$251">
+<contactref element="IC34" pad="13"/>
+</signal>
+<signal name="N$252">
+<contactref element="IC34" pad="14"/>
+</signal>
+<signal name="N$253">
+<contactref element="IC35" pad="1"/>
+</signal>
+<signal name="N$254">
+<contactref element="IC35" pad="2"/>
+</signal>
+<signal name="N$255">
+<contactref element="IC35" pad="3"/>
+</signal>
+<signal name="N$256">
+<contactref element="IC35" pad="4"/>
+</signal>
+<signal name="N$257">
+<contactref element="IC35" pad="5"/>
+</signal>
+<signal name="N$258">
+<contactref element="IC35" pad="6"/>
+</signal>
+<signal name="N$259">
+<contactref element="IC35" pad="7"/>
+</signal>
+<signal name="N$260">
+<contactref element="IC35" pad="8"/>
+</signal>
+<signal name="N$261">
+<contactref element="IC35" pad="9"/>
+</signal>
+<signal name="N$262">
+<contactref element="IC35" pad="10"/>
+</signal>
+<signal name="N$263">
+<contactref element="IC35" pad="12"/>
+</signal>
+<signal name="N$264">
+<contactref element="IC35" pad="11"/>
+</signal>
+<signal name="N$265">
+<contactref element="IC35" pad="13"/>
+</signal>
+<signal name="N$266">
+<contactref element="IC35" pad="14"/>
+</signal>
+<signal name="N$267">
+<contactref element="IC36" pad="1"/>
+</signal>
+<signal name="N$268">
+<contactref element="IC36" pad="2"/>
+</signal>
+<signal name="N$269">
+<contactref element="IC36" pad="3"/>
+</signal>
+<signal name="N$270">
+<contactref element="IC36" pad="4"/>
+</signal>
+<signal name="N$271">
+<contactref element="IC36" pad="5"/>
+</signal>
+<signal name="N$272">
+<contactref element="IC36" pad="6"/>
+</signal>
+<signal name="N$273">
+<contactref element="IC36" pad="7"/>
+</signal>
+<signal name="N$274">
+<contactref element="IC36" pad="8"/>
+</signal>
+<signal name="N$275">
+<contactref element="IC36" pad="9"/>
+</signal>
+<signal name="N$276">
+<contactref element="IC36" pad="10"/>
+</signal>
+<signal name="N$277">
+<contactref element="IC36" pad="12"/>
+</signal>
+<signal name="N$278">
+<contactref element="IC36" pad="11"/>
+</signal>
+<signal name="N$279">
+<contactref element="IC36" pad="13"/>
+</signal>
+<signal name="N$280">
+<contactref element="IC36" pad="14"/>
+</signal>
+<signal name="N$281">
+<contactref element="IC37" pad="1"/>
+</signal>
+<signal name="N$282">
+<contactref element="IC37" pad="2"/>
+</signal>
+<signal name="N$283">
+<contactref element="IC37" pad="3"/>
+</signal>
+<signal name="N$284">
+<contactref element="IC37" pad="4"/>
+</signal>
+<signal name="N$285">
+<contactref element="IC37" pad="5"/>
+</signal>
+<signal name="N$286">
+<contactref element="IC37" pad="6"/>
+</signal>
+<signal name="N$287">
+<contactref element="IC37" pad="7"/>
+</signal>
+<signal name="N$288">
+<contactref element="IC37" pad="8"/>
+</signal>
+<signal name="N$289">
+<contactref element="IC37" pad="9"/>
+</signal>
+<signal name="N$290">
+<contactref element="IC37" pad="10"/>
+</signal>
+<signal name="N$291">
+<contactref element="IC37" pad="12"/>
+</signal>
+<signal name="N$292">
+<contactref element="IC37" pad="11"/>
+</signal>
+<signal name="N$293">
+<contactref element="IC37" pad="13"/>
+</signal>
+<signal name="N$294">
+<contactref element="IC37" pad="14"/>
+</signal>
+<signal name="N$295">
+<contactref element="IC38" pad="1"/>
+</signal>
+<signal name="N$296">
+<contactref element="IC38" pad="2"/>
+</signal>
+<signal name="N$297">
+<contactref element="IC38" pad="3"/>
+</signal>
+<signal name="N$298">
+<contactref element="IC38" pad="4"/>
+</signal>
+<signal name="N$299">
+<contactref element="IC38" pad="5"/>
+</signal>
+<signal name="N$300">
+<contactref element="IC38" pad="6"/>
+</signal>
+<signal name="N$301">
+<contactref element="IC38" pad="7"/>
+</signal>
+<signal name="N$302">
+<contactref element="IC38" pad="8"/>
+</signal>
+<signal name="N$303">
+<contactref element="IC38" pad="9"/>
+</signal>
+<signal name="N$304">
+<contactref element="IC38" pad="10"/>
+</signal>
+<signal name="N$305">
+<contactref element="IC38" pad="12"/>
+</signal>
+<signal name="N$306">
+<contactref element="IC38" pad="11"/>
+</signal>
+<signal name="N$307">
+<contactref element="IC38" pad="13"/>
+</signal>
+<signal name="N$308">
+<contactref element="IC38" pad="14"/>
+</signal>
+<signal name="N$309">
+<contactref element="IC39" pad="1"/>
+</signal>
+<signal name="N$310">
+<contactref element="IC39" pad="2"/>
+</signal>
+<signal name="N$311">
+<contactref element="IC39" pad="3"/>
+</signal>
+<signal name="N$312">
+<contactref element="IC39" pad="4"/>
+</signal>
+<signal name="N$313">
+<contactref element="IC39" pad="5"/>
+</signal>
+<signal name="N$314">
+<contactref element="IC39" pad="6"/>
+</signal>
+<signal name="N$315">
+<contactref element="IC39" pad="7"/>
+</signal>
+<signal name="N$316">
+<contactref element="IC39" pad="8"/>
+</signal>
+<signal name="N$317">
+<contactref element="IC39" pad="9"/>
+</signal>
+<signal name="N$318">
+<contactref element="IC39" pad="10"/>
+</signal>
+<signal name="N$319">
+<contactref element="IC39" pad="12"/>
+</signal>
+<signal name="N$320">
+<contactref element="IC39" pad="11"/>
+</signal>
+<signal name="N$321">
+<contactref element="IC39" pad="13"/>
+</signal>
+<signal name="N$322">
+<contactref element="IC39" pad="14"/>
+</signal>
+<signal name="N$323">
+<contactref element="IC40" pad="1"/>
+</signal>
+<signal name="N$324">
+<contactref element="IC40" pad="2"/>
+</signal>
+<signal name="N$325">
+<contactref element="IC40" pad="3"/>
+</signal>
+<signal name="N$326">
+<contactref element="IC40" pad="4"/>
+</signal>
+<signal name="N$327">
+<contactref element="IC40" pad="5"/>
+</signal>
+<signal name="N$328">
+<contactref element="IC40" pad="6"/>
+</signal>
+<signal name="N$329">
+<contactref element="IC40" pad="7"/>
+</signal>
+<signal name="N$330">
+<contactref element="IC40" pad="8"/>
+</signal>
+<signal name="N$331">
+<contactref element="IC40" pad="9"/>
+</signal>
+<signal name="N$332">
+<contactref element="IC40" pad="10"/>
+</signal>
+<signal name="N$333">
+<contactref element="IC40" pad="12"/>
+</signal>
+<signal name="N$334">
+<contactref element="IC40" pad="11"/>
+</signal>
+<signal name="N$335">
+<contactref element="IC40" pad="13"/>
+</signal>
+<signal name="N$336">
+<contactref element="IC40" pad="14"/>
+</signal>
+<signal name="N$337">
+<contactref element="IC41" pad="1"/>
+</signal>
+<signal name="N$338">
+<contactref element="IC41" pad="2"/>
+</signal>
+<signal name="N$339">
+<contactref element="IC41" pad="3"/>
+</signal>
+<signal name="N$340">
+<contactref element="IC41" pad="4"/>
+</signal>
+<signal name="N$341">
+<contactref element="IC41" pad="5"/>
+</signal>
+<signal name="N$342">
+<contactref element="IC41" pad="6"/>
+</signal>
+<signal name="N$343">
+<contactref element="IC41" pad="7"/>
+</signal>
+<signal name="N$344">
+<contactref element="IC41" pad="14"/>
+</signal>
+<signal name="N$689">
+<contactref element="IC41" pad="13"/>
+</signal>
+<signal name="N$690">
+<contactref element="IC41" pad="12"/>
+</signal>
+<signal name="N$691">
+<contactref element="IC41" pad="11"/>
+</signal>
+<signal name="N$692">
+<contactref element="IC41" pad="10"/>
+</signal>
+<signal name="N$693">
+<contactref element="IC41" pad="9"/>
+</signal>
+<signal name="N$694">
+<contactref element="IC41" pad="8"/>
+</signal>
+<signal name="N$695">
+<contactref element="IC42" pad="1"/>
+</signal>
+<signal name="N$696">
+<contactref element="IC42" pad="2"/>
+</signal>
+<signal name="N$697">
+<contactref element="IC42" pad="3"/>
+</signal>
+<signal name="N$698">
+<contactref element="IC42" pad="4"/>
+</signal>
+<signal name="N$699">
+<contactref element="IC42" pad="5"/>
+</signal>
+<signal name="N$700">
+<contactref element="IC42" pad="6"/>
+</signal>
+<signal name="N$701">
+<contactref element="IC42" pad="7"/>
+</signal>
+<signal name="N$702">
+<contactref element="IC42" pad="14"/>
+</signal>
+<signal name="N$703">
+<contactref element="IC42" pad="13"/>
+</signal>
+<signal name="N$704">
+<contactref element="IC42" pad="12"/>
+</signal>
+<signal name="N$705">
+<contactref element="IC42" pad="11"/>
+</signal>
+<signal name="N$706">
+<contactref element="IC42" pad="10"/>
+</signal>
+<signal name="N$707">
+<contactref element="IC42" pad="9"/>
+</signal>
+<signal name="N$708">
+<contactref element="IC42" pad="8"/>
+</signal>
+<signal name="N$709">
+<contactref element="IC43" pad="1"/>
+</signal>
+<signal name="N$710">
+<contactref element="IC43" pad="2"/>
+</signal>
+<signal name="N$711">
+<contactref element="IC43" pad="3"/>
+</signal>
+<signal name="N$712">
+<contactref element="IC43" pad="4"/>
+</signal>
+<signal name="N$713">
+<contactref element="IC43" pad="5"/>
+</signal>
+<signal name="N$714">
+<contactref element="IC43" pad="6"/>
+</signal>
+<signal name="N$715">
+<contactref element="IC43" pad="7"/>
+</signal>
+<signal name="N$716">
+<contactref element="IC43" pad="14"/>
+</signal>
+<signal name="N$717">
+<contactref element="IC43" pad="13"/>
+</signal>
+<signal name="N$718">
+<contactref element="IC43" pad="12"/>
+</signal>
+<signal name="N$719">
+<contactref element="IC43" pad="11"/>
+</signal>
+<signal name="N$720">
+<contactref element="IC43" pad="10"/>
+</signal>
+<signal name="N$721">
+<contactref element="IC43" pad="9"/>
+</signal>
+<signal name="N$722">
+<contactref element="IC43" pad="8"/>
+</signal>
+<signal name="N$723">
+<contactref element="IC44" pad="1"/>
+</signal>
+<signal name="N$724">
+<contactref element="IC44" pad="2"/>
+</signal>
+<signal name="N$725">
+<contactref element="IC44" pad="3"/>
+</signal>
+<signal name="N$726">
+<contactref element="IC44" pad="4"/>
+</signal>
+<signal name="N$727">
+<contactref element="IC44" pad="5"/>
+</signal>
+<signal name="N$728">
+<contactref element="IC44" pad="6"/>
+</signal>
+<signal name="N$729">
+<contactref element="IC44" pad="7"/>
+</signal>
+<signal name="N$730">
+<contactref element="IC44" pad="14"/>
+</signal>
+<signal name="N$731">
+<contactref element="IC44" pad="13"/>
+</signal>
+<signal name="N$732">
+<contactref element="IC44" pad="12"/>
+</signal>
+<signal name="N$733">
+<contactref element="IC44" pad="11"/>
+</signal>
+<signal name="N$734">
+<contactref element="IC44" pad="10"/>
+</signal>
+<signal name="N$735">
+<contactref element="IC44" pad="9"/>
+</signal>
+<signal name="N$736">
+<contactref element="IC44" pad="8"/>
+</signal>
+<signal name="N$737">
+<contactref element="IC45" pad="1"/>
+</signal>
+<signal name="N$738">
+<contactref element="IC45" pad="2"/>
+</signal>
+<signal name="N$739">
+<contactref element="IC45" pad="3"/>
+</signal>
+<signal name="N$740">
+<contactref element="IC45" pad="4"/>
+</signal>
+<signal name="N$741">
+<contactref element="IC45" pad="5"/>
+</signal>
+<signal name="N$742">
+<contactref element="IC45" pad="6"/>
+</signal>
+<signal name="N$743">
+<contactref element="IC45" pad="7"/>
+</signal>
+<signal name="N$744">
+<contactref element="IC45" pad="14"/>
+</signal>
+<signal name="N$745">
+<contactref element="IC45" pad="13"/>
+</signal>
+<signal name="N$746">
+<contactref element="IC45" pad="12"/>
+</signal>
+<signal name="N$747">
+<contactref element="IC45" pad="11"/>
+</signal>
+<signal name="N$748">
+<contactref element="IC45" pad="10"/>
+</signal>
+<signal name="N$749">
+<contactref element="IC45" pad="9"/>
+</signal>
+<signal name="N$750">
+<contactref element="IC45" pad="8"/>
+</signal>
+<signal name="N$751">
+<contactref element="IC46" pad="1"/>
+</signal>
+<signal name="N$752">
+<contactref element="IC46" pad="2"/>
+</signal>
+<signal name="N$753">
+<contactref element="IC46" pad="3"/>
+</signal>
+<signal name="N$754">
+<contactref element="IC46" pad="4"/>
+</signal>
+<signal name="N$755">
+<contactref element="IC46" pad="5"/>
+</signal>
+<signal name="N$756">
+<contactref element="IC46" pad="6"/>
+</signal>
+<signal name="N$757">
+<contactref element="IC46" pad="7"/>
+</signal>
+<signal name="N$758">
+<contactref element="IC46" pad="14"/>
+</signal>
+<signal name="N$759">
+<contactref element="IC46" pad="13"/>
+</signal>
+<signal name="N$760">
+<contactref element="IC46" pad="12"/>
+</signal>
+<signal name="N$761">
+<contactref element="IC46" pad="11"/>
+</signal>
+<signal name="N$762">
+<contactref element="IC46" pad="10"/>
+</signal>
+<signal name="N$763">
+<contactref element="IC46" pad="9"/>
+</signal>
+<signal name="N$764">
+<contactref element="IC46" pad="8"/>
+</signal>
+<signal name="N$765">
+<contactref element="IC47" pad="1"/>
+</signal>
+<signal name="N$766">
+<contactref element="IC47" pad="2"/>
+</signal>
+<signal name="N$767">
+<contactref element="IC47" pad="3"/>
+</signal>
+<signal name="N$768">
+<contactref element="IC47" pad="4"/>
+</signal>
+<signal name="N$769">
+<contactref element="IC47" pad="5"/>
+</signal>
+<signal name="N$770">
+<contactref element="IC47" pad="6"/>
+</signal>
+<signal name="N$771">
+<contactref element="IC47" pad="7"/>
+</signal>
+<signal name="N$772">
+<contactref element="IC47" pad="14"/>
+</signal>
+<signal name="N$773">
+<contactref element="IC47" pad="13"/>
+</signal>
+<signal name="N$774">
+<contactref element="IC47" pad="12"/>
+</signal>
+<signal name="N$775">
+<contactref element="IC47" pad="11"/>
+</signal>
+<signal name="N$776">
+<contactref element="IC47" pad="10"/>
+</signal>
+<signal name="N$777">
+<contactref element="IC47" pad="9"/>
+</signal>
+<signal name="N$778">
+<contactref element="IC47" pad="8"/>
+</signal>
+<signal name="N$779">
+<contactref element="IC48" pad="1"/>
+</signal>
+<signal name="N$780">
+<contactref element="IC48" pad="2"/>
+</signal>
+<signal name="N$781">
+<contactref element="IC48" pad="3"/>
+</signal>
+<signal name="N$782">
+<contactref element="IC48" pad="4"/>
+</signal>
+<signal name="N$783">
+<contactref element="IC48" pad="5"/>
+</signal>
+<signal name="N$784">
+<contactref element="IC48" pad="6"/>
+</signal>
+<signal name="N$785">
+<contactref element="IC48" pad="7"/>
+</signal>
+<signal name="N$786">
+<contactref element="IC48" pad="14"/>
+</signal>
+<signal name="N$787">
+<contactref element="IC48" pad="13"/>
+</signal>
+<signal name="N$788">
+<contactref element="IC48" pad="12"/>
+</signal>
+<signal name="N$789">
+<contactref element="IC48" pad="11"/>
+</signal>
+<signal name="N$790">
+<contactref element="IC48" pad="10"/>
+</signal>
+<signal name="N$791">
+<contactref element="IC48" pad="9"/>
+</signal>
+<signal name="N$792">
+<contactref element="IC48" pad="8"/>
+</signal>
+<signal name="N$3">
+<contactref element="IC3" pad="14"/>
+</signal>
+<signal name="XOR_B1">
+<contactref element="IC1" pad="3"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
