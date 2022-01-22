@@ -326,46 +326,6 @@
 </package>
 </packages>
 </library>
-<library name="SN74HCS32DR">
-<description>&lt;Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOIC127P600X175-14N">
-<description>&lt;b&gt;D (-R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
-<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
-<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
-<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
-<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="11" x="2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
-<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
-<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
-<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
-<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
-<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
-<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
-<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
-<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="3.055" x2="-0.68" y2="4.325" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="4.325" x2="1.6" y2="4.325" width="0.2" layer="21"/>
-<wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
-<wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
-<wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
-<wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -626,6 +586,68 @@
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
 <wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="SN74HCS32DR">
+<description>&lt;Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X175-14N">
+<description>&lt;b&gt;D (-R-PDSO-G14)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="11" x="2.712" y="0" dx="1.525" dy="0.65" layer="1"/>
+<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
+<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
+<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="-1.95" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="3.055" x2="-0.68" y2="4.325" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="4.325" x2="1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="CC0603KRX7R9BB104">
+<description>&lt;CAPACITOR, 0603 100nF +/-10% 50V&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPC1608X90N">
+<description>&lt;b&gt;CC0603 (0.9T)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.66" y="0" dx="0.94" dy="0.83" layer="1" rot="R90"/>
+<smd name="2" x="0.66" y="0" dx="0.94" dy="0.83" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.225" y1="0.62" x2="1.225" y2="0.62" width="0.05" layer="51"/>
+<wire x1="1.225" y1="0.62" x2="1.225" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="1.225" y1="-0.62" x2="-1.225" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="-1.225" y1="-0.62" x2="-1.225" y2="0.62" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1243,30 +1265,6 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74ACT08D?qs=d9gICRQKuCebaEBMy8%2FRJw%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-71.9328" y="44.577" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-72.6186" y="32.2326" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC41" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-20.32" y="111.76" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20.32" y="111.76" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-20.32" y="111.76" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC42" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-34.29" y="111.76" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-34.29" y="111.76" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-34.29" y="111.76" size="1.27" layer="27" align="center"/>
 </element>
 <element name="IC5" library="SN74HCS86DR" package="SOIC127P600X175-14N" value="SN74HCS86DR" x="-34.29" y="81.28" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2126,19 +2124,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-146.05" y="-339.09" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-146.05" y="-339.09" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC43" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-345.44" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-177.8" y="-335.28" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-165.1" y="-345.44" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-165.1" y="-345.44" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC44" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-151.13" y="-345.44" smashed="yes">
+<element name="IC42" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-151.13" y="-345.44" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-189.23" y="-335.28" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-189.23" y="-335.28" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-189.23" y="-335.28" size="1.778" layer="27" display="off"/>
@@ -2150,53 +2136,377 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-151.13" y="-345.44" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-151.13" y="-345.44" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC45" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-355.6" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-177.8" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-165.1" y="-355.6" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-165.1" y="-355.6" size="1.27" layer="27" align="center"/>
+<element name="IC44" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-151.13" y="-355.6" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-212.09" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-151.13" y="-355.6" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-151.13" y="-355.6" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC46" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-365.76" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-189.23" y="-345.44" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-165.1" y="-365.76" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-165.1" y="-365.76" size="1.27" layer="27" align="center"/>
+<element name="IC46" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-151.13" y="-365.76" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-234.95" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-151.13" y="-365.76" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-151.13" y="-365.76" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC47" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-375.92" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-177.8" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-165.1" y="-375.92" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-165.1" y="-375.92" size="1.27" layer="27" align="center"/>
+<element name="IC48" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-151.13" y="-375.92" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-257.81" y="-335.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-151.13" y="-375.92" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-151.13" y="-375.92" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC48" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-386.08" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-189.23" y="-365.76" size="1.778" layer="27" display="off"/>
+<element name="IC41" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-386.08" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-177.8" y="-375.92" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-165.1" y="-386.08" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-165.1" y="-386.08" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC43" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-396.24" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-189.23" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-165.1" y="-396.24" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-165.1" y="-396.24" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC45" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-406.4" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-200.66" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-165.1" y="-406.4" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-165.1" y="-406.4" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC47" library="SN74HCS32DR" package="SOIC127P600X175-14N" value="SN74HCS32DR" x="-165.1" y="-416.56" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="SN74HCS32DR" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74hcs32dr/texas-instruments" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Logic Gates Quadruple 2-input OR gates with Schmitt-trigger inputs 14-SOIC -40 to 125" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74HCS32DR" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-SN74HCS32DR" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS32DR?qs=7MVldsJ5Uay%2FXLwyM20zFg%3D%3D" x="-212.09" y="-375.92" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-165.1" y="-416.56" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-165.1" y="-416.56" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C1" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-168.91" y="-422.91" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-168.91" y="-422.91" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-168.91" y="-422.91" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-168.91" y="-422.91" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C2" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-173.99" y="-425.45" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-173.99" y="-425.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-173.99" y="-425.45" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-173.99" y="-425.45" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C3" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-179.07" y="-427.99" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-179.07" y="-427.99" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-179.07" y="-427.99" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-179.07" y="-427.99" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C4" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-184.15" y="-430.53" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-184.15" y="-430.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-184.15" y="-430.53" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-184.15" y="-430.53" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C5" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-189.23" y="-433.07" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-189.23" y="-433.07" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-189.23" y="-433.07" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-189.23" y="-433.07" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C6" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-435.61" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-194.31" y="-435.61" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-435.61" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-435.61" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C7" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-438.15" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-199.39" y="-438.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-438.15" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-438.15" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C8" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-440.69" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-204.47" y="-440.69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-440.69" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-440.69" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C9" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-443.23" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-209.55" y="-443.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-443.23" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-443.23" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C10" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-445.77" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-214.63" y="-445.77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-445.77" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-445.77" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C11" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-448.31" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-219.71" y="-448.31" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-448.31" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-448.31" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C12" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-450.85" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-224.79" y="-450.85" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-450.85" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-450.85" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C13" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-453.39" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-199.39" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-453.39" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-453.39" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C14" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-455.93" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-204.47" y="-455.93" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-455.93" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-455.93" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C15" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-458.47" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-209.55" y="-458.47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-458.47" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-458.47" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C16" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-461.01" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-214.63" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-461.01" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-461.01" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C17" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-463.55" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-219.71" y="-463.55" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-463.55" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-463.55" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C18" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-466.09" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-224.79" y="-466.09" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-466.09" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-466.09" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C19" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-468.63" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-229.87" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-468.63" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-468.63" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C20" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-471.17" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-234.95" y="-471.17" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-471.17" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-471.17" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C21" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-473.71" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-240.03" y="-473.71" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-473.71" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-473.71" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C22" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-476.25" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-245.11" y="-476.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-476.25" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-476.25" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C23" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-478.79" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-250.19" y="-478.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-478.79" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-478.79" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C24" library="CC0603KRX7R9BB104" package="CAPC1608X90N" value="CC0603KRX7R9BB104" x="-194.31" y="-481.33" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CC0603KRX7R9BB104" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/cc0603krx7r9bb104/yageo?region=nac" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAPACITOR, 0603 100nF +/-10% 50V" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB104" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX7R9BB104" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R9BB104?qs=vTakOoo5QyLvVCYM2ge8LQ%3D%3D" x="-255.27" y="-481.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-194.31" y="-481.33" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-194.31" y="-481.33" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2474,10 +2784,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN1">
 <contactref element="IC9" pad="5"/>
-<contactref element="IC42" pad="3"/>
 <contactref element="IC25" pad="5"/>
-<wire x1="-92.882" y1="80.01" x2="-37.002" y2="113.03" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.2438" y1="7.62" x2="-92.882" y2="80.01" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="3"/>
+<wire x1="-20.2438" y1="7.62" x2="-153.842" y2="-344.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-92.882" y1="80.01" x2="-20.2438" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B1">
 <contactref element="IC9" pad="3"/>
@@ -2491,10 +2801,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN2">
 <contactref element="IC9" pad="13"/>
-<contactref element="IC42" pad="6"/>
 <contactref element="IC25" pad="12"/>
-<wire x1="-87.458" y1="83.82" x2="-37.002" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.3162" y1="10.16" x2="-37.002" y2="109.22" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="6"/>
+<wire x1="-15.3162" y1="10.16" x2="-153.842" y2="-347.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.458" y1="83.82" x2="-15.3162" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B3">
 <contactref element="IC9" pad="11"/>
@@ -2505,10 +2815,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN3">
 <contactref element="IC9" pad="10"/>
-<contactref element="IC42" pad="11"/>
 <contactref element="IC25" pad="9"/>
-<wire x1="-87.458" y1="80.01" x2="-31.578" y2="111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.3162" y1="6.35" x2="-87.458" y2="80.01" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="11"/>
+<wire x1="-15.3162" y1="6.35" x2="-148.418" y2="-345.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.458" y1="80.01" x2="-15.3162" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B4">
 <contactref element="IC9" pad="8"/>
@@ -2529,10 +2839,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN17">
 <contactref element="IC10" pad="5"/>
-<contactref element="IC41" pad="3"/>
 <contactref element="IC26" pad="5"/>
-<wire x1="-106.852" y1="80.01" x2="-23.032" y2="113.03" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.7538" y1="7.62" x2="-106.852" y2="80.01" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="3"/>
+<wire x1="-36.7538" y1="7.62" x2="-167.812" y2="-384.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-106.852" y1="80.01" x2="-36.7538" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B17">
 <contactref element="IC10" pad="3"/>
@@ -2545,18 +2855,18 @@ design rules under a new name.</description>
 <contactref element="IC10" pad="2"/>
 <contactref element="IC26" pad="2"/>
 <contactref element="IC48" pad="8"/>
-<wire x1="-36.7538" y1="11.43" x2="-162.388" y2="-389.89" width="0" layer="19" extent="1-1"/>
 <wire x1="-106.852" y1="83.82" x2="-36.7538" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-379.73" x2="-36.7538" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$134">
 <contactref element="IC10" pad="14"/>
 </signal>
 <signal name="CIN18">
 <contactref element="IC10" pad="13"/>
-<contactref element="IC41" pad="6"/>
 <contactref element="IC26" pad="12"/>
-<wire x1="-101.428" y1="83.82" x2="-23.032" y2="109.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.8262" y1="10.16" x2="-23.032" y2="109.22" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="6"/>
+<wire x1="-31.8262" y1="10.16" x2="-167.812" y2="-388.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.428" y1="83.82" x2="-31.8262" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B19">
 <contactref element="IC10" pad="11"/>
@@ -2567,10 +2877,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN19">
 <contactref element="IC10" pad="10"/>
-<contactref element="IC41" pad="11"/>
 <contactref element="IC26" pad="9"/>
-<wire x1="-101.428" y1="80.01" x2="-17.608" y2="111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.8262" y1="6.35" x2="-101.428" y2="80.01" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="11"/>
+<wire x1="-31.8262" y1="6.35" x2="-162.388" y2="-386.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.428" y1="80.01" x2="-31.8262" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B20">
 <contactref element="IC10" pad="8"/>
@@ -2589,7 +2899,7 @@ design rules under a new name.</description>
 <contactref element="IC11" pad="5"/>
 <contactref element="IC27" pad="5"/>
 <contactref element="IC44" pad="3"/>
-<wire x1="-53.2638" y1="7.62" x2="-153.842" y2="-344.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.2638" y1="7.62" x2="-153.842" y2="-354.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.032" y1="90.17" x2="-53.2638" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B5">
@@ -2605,10 +2915,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN4">
 <contactref element="IC11" pad="2"/>
-<contactref element="IC42" pad="8"/>
 <contactref element="IC27" pad="2"/>
-<wire x1="-23.032" y1="93.98" x2="-31.578" y2="107.95" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.2638" y1="11.43" x2="-23.032" y2="93.98" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="8"/>
+<wire x1="-53.2638" y1="11.43" x2="-148.418" y2="-349.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.032" y1="93.98" x2="-53.2638" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$148">
 <contactref element="IC11" pad="14"/>
@@ -2617,8 +2927,8 @@ design rules under a new name.</description>
 <contactref element="IC11" pad="13"/>
 <contactref element="IC27" pad="12"/>
 <contactref element="IC44" pad="6"/>
-<wire x1="-48.3362" y1="10.16" x2="-153.842" y2="-347.98" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.608" y1="93.98" x2="-48.3362" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.3362" y1="10.16" x2="-17.608" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-358.14" x2="-48.3362" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B7">
 <contactref element="IC11" pad="11"/>
@@ -2631,7 +2941,7 @@ design rules under a new name.</description>
 <contactref element="IC11" pad="10"/>
 <contactref element="IC27" pad="9"/>
 <contactref element="IC44" pad="11"/>
-<wire x1="-48.3362" y1="6.35" x2="-148.418" y2="-345.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.3362" y1="6.35" x2="-148.418" y2="-355.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.608" y1="90.17" x2="-48.3362" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B8">
@@ -2656,7 +2966,7 @@ design rules under a new name.</description>
 <contactref element="IC28" pad="5"/>
 <contactref element="IC43" pad="3"/>
 <wire x1="-37.002" y1="90.17" x2="-69.7738" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-167.812" y1="-344.17" x2="-69.7738" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-394.97" x2="-69.7738" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B21">
 <contactref element="IC12" pad="3"/>
@@ -2667,10 +2977,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN20">
 <contactref element="IC12" pad="2"/>
-<contactref element="IC41" pad="8"/>
 <contactref element="IC28" pad="2"/>
-<wire x1="-37.002" y1="93.98" x2="-17.608" y2="107.95" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="8"/>
 <wire x1="-69.7738" y1="11.43" x2="-37.002" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-389.89" x2="-69.7738" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$162">
 <contactref element="IC12" pad="14"/>
@@ -2686,8 +2996,8 @@ design rules under a new name.</description>
 <contactref element="IC12" pad="10"/>
 <contactref element="IC28" pad="9"/>
 <contactref element="IC43" pad="11"/>
-<wire x1="-64.8462" y1="6.35" x2="-162.388" y2="-345.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.578" y1="90.17" x2="-64.8462" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.8462" y1="6.35" x2="-31.578" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-396.24" x2="-64.8462" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B24">
 <contactref element="IC12" pad="8"/>
@@ -2711,7 +3021,7 @@ design rules under a new name.</description>
 <contactref element="IC29" pad="5"/>
 <contactref element="IC46" pad="3"/>
 <wire x1="-50.972" y1="90.17" x2="-86.2838" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-167.812" y1="-364.49" x2="-86.2838" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-364.49" x2="-86.2838" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B9">
 <contactref element="IC13" pad="3"/>
@@ -2724,7 +3034,7 @@ design rules under a new name.</description>
 <contactref element="IC13" pad="2"/>
 <contactref element="IC29" pad="2"/>
 <contactref element="IC44" pad="8"/>
-<wire x1="-86.2838" y1="11.43" x2="-148.418" y2="-349.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.2838" y1="11.43" x2="-148.418" y2="-359.41" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.972" y1="93.98" x2="-86.2838" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$176">
@@ -2735,7 +3045,7 @@ design rules under a new name.</description>
 <contactref element="IC29" pad="12"/>
 <contactref element="IC46" pad="6"/>
 <wire x1="-45.548" y1="93.98" x2="-81.3562" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="-167.812" y1="-368.3" x2="-81.3562" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-368.3" x2="-81.3562" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B11">
 <contactref element="IC13" pad="11"/>
@@ -2749,7 +3059,7 @@ design rules under a new name.</description>
 <contactref element="IC29" pad="9"/>
 <contactref element="IC46" pad="11"/>
 <wire x1="-45.548" y1="90.17" x2="-81.3562" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.388" y1="-365.76" x2="-81.3562" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-365.76" x2="-81.3562" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B12">
 <contactref element="IC13" pad="8"/>
@@ -2773,7 +3083,7 @@ design rules under a new name.</description>
 <contactref element="IC30" pad="5"/>
 <contactref element="IC45" pad="3"/>
 <wire x1="-64.942" y1="90.17" x2="-102.7938" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-167.812" y1="-354.33" x2="-102.7938" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-405.13" x2="-102.7938" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B25">
 <contactref element="IC14" pad="3"/>
@@ -2787,7 +3097,7 @@ design rules under a new name.</description>
 <contactref element="IC30" pad="2"/>
 <contactref element="IC43" pad="8"/>
 <wire x1="-64.942" y1="93.98" x2="-102.7938" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.388" y1="-349.25" x2="-102.7938" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-400.05" x2="-102.7938" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$190">
 <contactref element="IC14" pad="14"/>
@@ -2797,7 +3107,7 @@ design rules under a new name.</description>
 <contactref element="IC30" pad="12"/>
 <contactref element="IC45" pad="6"/>
 <wire x1="-59.518" y1="93.98" x2="-97.8662" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="-167.812" y1="-358.14" x2="-97.8662" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-408.94" x2="-97.8662" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B27">
 <contactref element="IC14" pad="11"/>
@@ -2811,7 +3121,7 @@ design rules under a new name.</description>
 <contactref element="IC30" pad="9"/>
 <contactref element="IC45" pad="11"/>
 <wire x1="-59.518" y1="90.17" x2="-97.8662" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.388" y1="-355.6" x2="-97.8662" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-406.4" x2="-97.8662" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B28">
 <contactref element="IC14" pad="8"/>
@@ -2834,7 +3144,7 @@ design rules under a new name.</description>
 <contactref element="IC15" pad="5"/>
 <contactref element="IC31" pad="5"/>
 <contactref element="IC48" pad="3"/>
-<wire x1="-20.2438" y1="22.86" x2="-167.812" y2="-384.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2438" y1="22.86" x2="-153.842" y2="-374.65" width="0" layer="19" extent="1-1"/>
 <wire x1="-78.912" y1="90.17" x2="-20.2438" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B13">
@@ -2848,8 +3158,8 @@ design rules under a new name.</description>
 <contactref element="IC15" pad="2"/>
 <contactref element="IC31" pad="2"/>
 <contactref element="IC46" pad="8"/>
-<wire x1="-20.2438" y1="26.67" x2="-162.388" y2="-369.57" width="0" layer="19" extent="1-1"/>
-<wire x1="-78.912" y1="93.98" x2="-20.2438" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2438" y1="26.67" x2="-78.912" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-369.57" x2="-20.2438" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$204">
 <contactref element="IC15" pad="14"/>
@@ -2858,8 +3168,8 @@ design rules under a new name.</description>
 <contactref element="IC15" pad="13"/>
 <contactref element="IC31" pad="12"/>
 <contactref element="IC48" pad="6"/>
-<wire x1="-15.3162" y1="25.4" x2="-167.812" y2="-388.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.488" y1="93.98" x2="-15.3162" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.3162" y1="25.4" x2="-73.488" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-378.46" x2="-15.3162" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B15">
 <contactref element="IC15" pad="11"/>
@@ -2872,8 +3182,8 @@ design rules under a new name.</description>
 <contactref element="IC15" pad="10"/>
 <contactref element="IC31" pad="9"/>
 <contactref element="IC48" pad="11"/>
-<wire x1="-15.3162" y1="21.59" x2="-162.388" y2="-386.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.488" y1="90.17" x2="-15.3162" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.3162" y1="21.59" x2="-73.488" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-375.92" x2="-15.3162" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B16">
 <contactref element="IC15" pad="8"/>
@@ -2896,7 +3206,7 @@ design rules under a new name.</description>
 <contactref element="IC16" pad="5"/>
 <contactref element="IC32" pad="5"/>
 <contactref element="IC47" pad="3"/>
-<wire x1="-36.7538" y1="22.86" x2="-167.812" y2="-374.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.7538" y1="22.86" x2="-167.812" y2="-415.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-92.882" y1="90.17" x2="-36.7538" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B29">
@@ -2910,8 +3220,8 @@ design rules under a new name.</description>
 <contactref element="IC16" pad="2"/>
 <contactref element="IC32" pad="2"/>
 <contactref element="IC45" pad="8"/>
+<wire x1="-36.7538" y1="26.67" x2="-162.388" y2="-410.21" width="0" layer="19" extent="1-1"/>
 <wire x1="-92.882" y1="93.98" x2="-36.7538" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-162.388" y1="-359.41" x2="-36.7538" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$218">
 <contactref element="IC16" pad="14"/>
@@ -2920,7 +3230,7 @@ design rules under a new name.</description>
 <contactref element="IC16" pad="13"/>
 <contactref element="IC32" pad="12"/>
 <contactref element="IC47" pad="6"/>
-<wire x1="-31.8262" y1="25.4" x2="-167.812" y2="-378.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.8262" y1="25.4" x2="-167.812" y2="-419.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-87.458" y1="93.98" x2="-31.8262" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B31">
@@ -2934,7 +3244,7 @@ design rules under a new name.</description>
 <contactref element="IC16" pad="10"/>
 <contactref element="IC32" pad="9"/>
 <contactref element="IC47" pad="11"/>
-<wire x1="-31.8262" y1="21.59" x2="-162.388" y2="-375.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.8262" y1="21.59" x2="-162.388" y2="-416.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-87.458" y1="90.17" x2="-31.8262" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SUM_B32">
@@ -4021,291 +4331,279 @@ design rules under a new name.</description>
 <contactref element="IC40" pad="14"/>
 </signal>
 <signal name="AND1_B17">
-<contactref element="IC41" pad="1"/>
 <contactref element="IC34" pad="3"/>
-<wire x1="-69.7738" y1="25.4" x2="-23.032" y2="115.57" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="1"/>
+<wire x1="-167.812" y1="-382.27" x2="-69.7738" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B17">
-<contactref element="IC41" pad="2"/>
 <contactref element="IC26" pad="3"/>
-<wire x1="-36.7538" y1="10.16" x2="-23.032" y2="114.3" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="2"/>
+<wire x1="-36.7538" y1="10.16" x2="-167.812" y2="-383.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B18">
-<contactref element="IC41" pad="4"/>
 <contactref element="IC34" pad="6"/>
-<wire x1="-69.7738" y1="21.59" x2="-23.032" y2="111.76" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="4"/>
+<wire x1="-167.812" y1="-386.08" x2="-69.7738" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B18">
-<contactref element="IC41" pad="5"/>
 <contactref element="IC26" pad="6"/>
-<wire x1="-36.7538" y1="6.35" x2="-23.032" y2="110.49" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$343">
-<contactref element="IC41" pad="7"/>
-</signal>
-<signal name="N$344">
-<contactref element="IC41" pad="14"/>
+<contactref element="IC41" pad="5"/>
+<wire x1="-36.7538" y1="6.35" x2="-167.812" y2="-387.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B19">
-<contactref element="IC41" pad="13"/>
 <contactref element="IC26" pad="11"/>
-<wire x1="-31.8262" y1="8.89" x2="-17.608" y2="114.3" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="13"/>
+<wire x1="-31.8262" y1="8.89" x2="-162.388" y2="-383.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B19">
-<contactref element="IC41" pad="12"/>
 <contactref element="IC34" pad="11"/>
-<wire x1="-64.8462" y1="24.13" x2="-17.608" y2="113.03" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="12"/>
+<wire x1="-162.388" y1="-384.81" x2="-64.8462" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B20">
-<contactref element="IC41" pad="10"/>
 <contactref element="IC26" pad="8"/>
-<wire x1="-31.8262" y1="5.08" x2="-17.608" y2="110.49" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="10"/>
+<wire x1="-31.8262" y1="5.08" x2="-162.388" y2="-387.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B20">
-<contactref element="IC41" pad="9"/>
 <contactref element="IC34" pad="8"/>
-<wire x1="-64.8462" y1="20.32" x2="-17.608" y2="109.22" width="0" layer="19" extent="1-1"/>
+<contactref element="IC41" pad="9"/>
+<wire x1="-162.388" y1="-388.62" x2="-64.8462" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B1">
-<contactref element="IC42" pad="1"/>
 <contactref element="IC33" pad="3"/>
-<wire x1="-53.2638" y1="25.4" x2="-37.002" y2="115.57" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="1"/>
+<wire x1="-53.2638" y1="25.4" x2="-153.842" y2="-341.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B1">
-<contactref element="IC42" pad="2"/>
 <contactref element="IC25" pad="3"/>
-<wire x1="-20.2438" y1="10.16" x2="-37.002" y2="114.3" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="2"/>
+<wire x1="-20.2438" y1="10.16" x2="-153.842" y2="-342.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B2">
-<contactref element="IC42" pad="4"/>
 <contactref element="IC33" pad="6"/>
-<wire x1="-53.2638" y1="21.59" x2="-37.002" y2="111.76" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="4"/>
+<wire x1="-53.2638" y1="21.59" x2="-153.842" y2="-345.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B2">
-<contactref element="IC42" pad="5"/>
 <contactref element="IC25" pad="6"/>
-<wire x1="-20.2438" y1="6.35" x2="-37.002" y2="110.49" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$701">
-<contactref element="IC42" pad="7"/>
-</signal>
-<signal name="N$702">
-<contactref element="IC42" pad="14"/>
+<contactref element="IC42" pad="5"/>
+<wire x1="-20.2438" y1="6.35" x2="-153.842" y2="-346.71" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B3">
-<contactref element="IC42" pad="13"/>
 <contactref element="IC25" pad="11"/>
-<wire x1="-15.3162" y1="8.89" x2="-31.578" y2="114.3" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="13"/>
+<wire x1="-15.3162" y1="8.89" x2="-148.418" y2="-342.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B3">
-<contactref element="IC42" pad="12"/>
 <contactref element="IC33" pad="11"/>
-<wire x1="-48.3362" y1="24.13" x2="-31.578" y2="113.03" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="12"/>
+<wire x1="-48.3362" y1="24.13" x2="-148.418" y2="-344.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B4">
-<contactref element="IC42" pad="10"/>
 <contactref element="IC25" pad="8"/>
-<wire x1="-15.3162" y1="5.08" x2="-31.578" y2="110.49" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="10"/>
+<wire x1="-15.3162" y1="5.08" x2="-148.418" y2="-346.71" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B4">
-<contactref element="IC42" pad="9"/>
 <contactref element="IC33" pad="8"/>
-<wire x1="-48.3362" y1="20.32" x2="-31.578" y2="109.22" width="0" layer="19" extent="1-1"/>
+<contactref element="IC42" pad="9"/>
+<wire x1="-48.3362" y1="20.32" x2="-148.418" y2="-347.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B21">
 <contactref element="IC36" pad="3"/>
 <contactref element="IC43" pad="1"/>
-<wire x1="-167.812" y1="-341.63" x2="-102.7938" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-392.43" x2="-102.7938" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B21">
 <contactref element="IC28" pad="3"/>
 <contactref element="IC43" pad="2"/>
-<wire x1="-167.812" y1="-342.9" x2="-69.7738" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-393.7" x2="-69.7738" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B22">
 <contactref element="IC36" pad="6"/>
 <contactref element="IC43" pad="4"/>
-<wire x1="-167.812" y1="-345.44" x2="-102.7938" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-396.24" x2="-102.7938" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B22">
 <contactref element="IC28" pad="6"/>
 <contactref element="IC43" pad="5"/>
-<wire x1="-167.812" y1="-346.71" x2="-69.7738" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-397.51" x2="-69.7738" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B23">
 <contactref element="IC28" pad="11"/>
 <contactref element="IC43" pad="13"/>
-<wire x1="-64.8462" y1="8.89" x2="-162.388" y2="-342.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-393.7" x2="-64.8462" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B23">
 <contactref element="IC36" pad="11"/>
 <contactref element="IC43" pad="12"/>
-<wire x1="-97.8662" y1="24.13" x2="-162.388" y2="-344.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-394.97" x2="-97.8662" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B24">
 <contactref element="IC28" pad="8"/>
 <contactref element="IC43" pad="10"/>
-<wire x1="-64.8462" y1="5.08" x2="-162.388" y2="-346.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-397.51" x2="-64.8462" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B24">
 <contactref element="IC36" pad="8"/>
 <contactref element="IC43" pad="9"/>
-<wire x1="-162.388" y1="-347.98" x2="-97.8662" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-398.78" x2="-97.8662" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B5">
 <contactref element="IC35" pad="3"/>
 <contactref element="IC44" pad="1"/>
-<wire x1="-86.2838" y1="25.4" x2="-153.842" y2="-341.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.2838" y1="25.4" x2="-153.842" y2="-351.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B5">
 <contactref element="IC27" pad="3"/>
 <contactref element="IC44" pad="2"/>
-<wire x1="-53.2638" y1="10.16" x2="-153.842" y2="-342.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.2638" y1="10.16" x2="-153.842" y2="-353.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B6">
 <contactref element="IC35" pad="6"/>
 <contactref element="IC44" pad="4"/>
-<wire x1="-86.2838" y1="21.59" x2="-153.842" y2="-345.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-355.6" x2="-86.2838" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B6">
 <contactref element="IC27" pad="6"/>
 <contactref element="IC44" pad="5"/>
-<wire x1="-53.2638" y1="6.35" x2="-153.842" y2="-346.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-356.87" x2="-53.2638" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B7">
 <contactref element="IC27" pad="11"/>
 <contactref element="IC44" pad="13"/>
-<wire x1="-48.3362" y1="8.89" x2="-148.418" y2="-342.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.3362" y1="8.89" x2="-148.418" y2="-353.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B7">
 <contactref element="IC35" pad="11"/>
 <contactref element="IC44" pad="12"/>
-<wire x1="-81.3562" y1="24.13" x2="-148.418" y2="-344.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.3562" y1="24.13" x2="-148.418" y2="-354.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B8">
 <contactref element="IC27" pad="8"/>
 <contactref element="IC44" pad="10"/>
-<wire x1="-48.3362" y1="5.08" x2="-148.418" y2="-346.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.3362" y1="5.08" x2="-148.418" y2="-356.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B8">
 <contactref element="IC35" pad="8"/>
 <contactref element="IC44" pad="9"/>
-<wire x1="-81.3562" y1="20.32" x2="-148.418" y2="-347.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.3562" y1="20.32" x2="-148.418" y2="-358.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B25">
 <contactref element="IC38" pad="3"/>
 <contactref element="IC45" pad="1"/>
-<wire x1="-36.7538" y1="40.64" x2="-167.812" y2="-351.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.7538" y1="40.64" x2="-167.812" y2="-402.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B25">
 <contactref element="IC30" pad="3"/>
 <contactref element="IC45" pad="2"/>
-<wire x1="-167.812" y1="-353.06" x2="-102.7938" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-403.86" x2="-102.7938" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B26">
 <contactref element="IC38" pad="6"/>
 <contactref element="IC45" pad="4"/>
-<wire x1="-36.7538" y1="36.83" x2="-167.812" y2="-355.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.7538" y1="36.83" x2="-167.812" y2="-406.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B26">
 <contactref element="IC30" pad="6"/>
 <contactref element="IC45" pad="5"/>
-<wire x1="-167.812" y1="-356.87" x2="-102.7938" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-407.67" x2="-102.7938" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B27">
 <contactref element="IC30" pad="11"/>
 <contactref element="IC45" pad="13"/>
-<wire x1="-162.388" y1="-353.06" x2="-97.8662" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-403.86" x2="-97.8662" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B27">
 <contactref element="IC38" pad="11"/>
 <contactref element="IC45" pad="12"/>
-<wire x1="-162.388" y1="-354.33" x2="-31.8262" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.8262" y1="39.37" x2="-162.388" y2="-405.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B28">
 <contactref element="IC30" pad="8"/>
 <contactref element="IC45" pad="10"/>
-<wire x1="-162.388" y1="-356.87" x2="-97.8662" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-162.388" y1="-407.67" x2="-97.8662" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B28">
 <contactref element="IC38" pad="8"/>
 <contactref element="IC45" pad="9"/>
-<wire x1="-31.8262" y1="35.56" x2="-162.388" y2="-358.14" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.8262" y1="35.56" x2="-162.388" y2="-408.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B9">
 <contactref element="IC37" pad="3"/>
 <contactref element="IC46" pad="1"/>
-<wire x1="-167.812" y1="-361.95" x2="-20.2438" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-361.95" x2="-20.2438" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B9">
 <contactref element="IC29" pad="3"/>
 <contactref element="IC46" pad="2"/>
-<wire x1="-167.812" y1="-363.22" x2="-86.2838" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-363.22" x2="-86.2838" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B10">
 <contactref element="IC37" pad="6"/>
 <contactref element="IC46" pad="4"/>
-<wire x1="-20.2438" y1="36.83" x2="-167.812" y2="-365.76" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-365.76" x2="-20.2438" y2="36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B10">
 <contactref element="IC29" pad="6"/>
 <contactref element="IC46" pad="5"/>
-<wire x1="-167.812" y1="-367.03" x2="-86.2838" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-153.842" y1="-367.03" x2="-86.2838" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B11">
 <contactref element="IC29" pad="11"/>
 <contactref element="IC46" pad="13"/>
-<wire x1="-162.388" y1="-363.22" x2="-81.3562" y2="8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-363.22" x2="-81.3562" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B11">
 <contactref element="IC37" pad="11"/>
 <contactref element="IC46" pad="12"/>
-<wire x1="-162.388" y1="-364.49" x2="-15.3162" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-364.49" x2="-15.3162" y2="39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B12">
 <contactref element="IC29" pad="8"/>
 <contactref element="IC46" pad="10"/>
-<wire x1="-162.388" y1="-367.03" x2="-81.3562" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-367.03" x2="-81.3562" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B12">
 <contactref element="IC37" pad="8"/>
 <contactref element="IC46" pad="9"/>
-<wire x1="-162.388" y1="-368.3" x2="-15.3162" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-148.418" y1="-368.3" x2="-15.3162" y2="35.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B29">
 <contactref element="IC40" pad="3"/>
 <contactref element="IC47" pad="1"/>
-<wire x1="-69.7738" y1="40.64" x2="-167.812" y2="-372.11" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.7738" y1="40.64" x2="-167.812" y2="-412.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B29">
 <contactref element="IC32" pad="3"/>
 <contactref element="IC47" pad="2"/>
-<wire x1="-36.7538" y1="25.4" x2="-167.812" y2="-373.38" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.7538" y1="25.4" x2="-167.812" y2="-414.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B30">
 <contactref element="IC40" pad="6"/>
 <contactref element="IC47" pad="4"/>
-<wire x1="-69.7738" y1="36.83" x2="-167.812" y2="-375.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.7738" y1="36.83" x2="-167.812" y2="-416.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B30">
 <contactref element="IC32" pad="6"/>
 <contactref element="IC47" pad="5"/>
-<wire x1="-36.7538" y1="21.59" x2="-167.812" y2="-377.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.7538" y1="21.59" x2="-167.812" y2="-417.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B31">
 <contactref element="IC32" pad="11"/>
 <contactref element="IC47" pad="13"/>
-<wire x1="-31.8262" y1="24.13" x2="-162.388" y2="-373.38" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.8262" y1="24.13" x2="-162.388" y2="-414.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B31">
 <contactref element="IC40" pad="11"/>
 <contactref element="IC47" pad="12"/>
-<wire x1="-162.388" y1="-374.65" x2="-64.8462" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.8462" y1="39.37" x2="-162.388" y2="-415.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B32">
 <contactref element="IC32" pad="8"/>
 <contactref element="IC47" pad="10"/>
-<wire x1="-31.8262" y1="20.32" x2="-162.388" y2="-377.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.8262" y1="20.32" x2="-162.388" y2="-417.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B32">
 <contactref element="IC40" pad="8"/>
@@ -4313,42 +4611,42 @@ design rules under a new name.</description>
 <signal name="AND1_B13">
 <contactref element="IC39" pad="3"/>
 <contactref element="IC48" pad="1"/>
-<wire x1="-53.2638" y1="40.64" x2="-167.812" y2="-382.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.2638" y1="40.64" x2="-153.842" y2="-372.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B13">
 <contactref element="IC31" pad="3"/>
 <contactref element="IC48" pad="2"/>
-<wire x1="-20.2438" y1="25.4" x2="-167.812" y2="-383.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2438" y1="25.4" x2="-153.842" y2="-373.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B14">
 <contactref element="IC39" pad="6"/>
 <contactref element="IC48" pad="4"/>
-<wire x1="-53.2638" y1="36.83" x2="-167.812" y2="-386.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.2638" y1="36.83" x2="-153.842" y2="-375.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B14">
 <contactref element="IC31" pad="6"/>
 <contactref element="IC48" pad="5"/>
-<wire x1="-20.2438" y1="21.59" x2="-167.812" y2="-387.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2438" y1="21.59" x2="-153.842" y2="-377.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B15">
 <contactref element="IC31" pad="11"/>
 <contactref element="IC48" pad="13"/>
-<wire x1="-15.3162" y1="24.13" x2="-162.388" y2="-383.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.3162" y1="24.13" x2="-148.418" y2="-373.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B15">
 <contactref element="IC39" pad="11"/>
 <contactref element="IC48" pad="12"/>
-<wire x1="-48.3362" y1="39.37" x2="-162.388" y2="-384.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.3362" y1="39.37" x2="-148.418" y2="-374.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND2_B16">
 <contactref element="IC31" pad="8"/>
 <contactref element="IC48" pad="10"/>
-<wire x1="-15.3162" y1="20.32" x2="-162.388" y2="-387.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.3162" y1="20.32" x2="-148.418" y2="-377.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AND1_B16">
 <contactref element="IC39" pad="8"/>
 <contactref element="IC48" pad="9"/>
-<wire x1="-48.3362" y1="35.56" x2="-162.388" y2="-388.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.3362" y1="35.56" x2="-148.418" y2="-378.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC3" pad="14"/>
@@ -4365,7 +4663,7 @@ design rules under a new name.</description>
 <contactref element="IC28" pad="12"/>
 <contactref element="IC43" pad="6"/>
 <wire x1="-64.8462" y1="10.16" x2="-31.578" y2="93.98" width="0" layer="19" extent="1-1"/>
-<wire x1="-167.812" y1="-347.98" x2="-64.8462" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.812" y1="-398.78" x2="-64.8462" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="JP2" pad="37"/>
@@ -4593,11 +4891,11 @@ design rules under a new name.</description>
 <wire x1="-123.19" y1="-283.21" x2="-123.19" y2="-288.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-123.19" y1="-280.67" x2="-123.19" y2="-283.21" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$715">
-<contactref element="IC43" pad="7"/>
+<signal name="N$701">
+<contactref element="IC42" pad="7"/>
 </signal>
-<signal name="N$716">
-<contactref element="IC43" pad="14"/>
+<signal name="N$702">
+<contactref element="IC42" pad="14"/>
 </signal>
 <signal name="N$729">
 <contactref element="IC44" pad="7"/>
@@ -4605,17 +4903,35 @@ design rules under a new name.</description>
 <signal name="N$730">
 <contactref element="IC44" pad="14"/>
 </signal>
-<signal name="N$743">
-<contactref element="IC45" pad="7"/>
-</signal>
-<signal name="N$744">
-<contactref element="IC45" pad="14"/>
-</signal>
 <signal name="N$757">
 <contactref element="IC46" pad="7"/>
 </signal>
 <signal name="N$758">
 <contactref element="IC46" pad="14"/>
+</signal>
+<signal name="N$785">
+<contactref element="IC48" pad="7"/>
+</signal>
+<signal name="N$786">
+<contactref element="IC48" pad="14"/>
+</signal>
+<signal name="N$343">
+<contactref element="IC41" pad="7"/>
+</signal>
+<signal name="N$344">
+<contactref element="IC41" pad="14"/>
+</signal>
+<signal name="N$715">
+<contactref element="IC43" pad="7"/>
+</signal>
+<signal name="N$716">
+<contactref element="IC43" pad="14"/>
+</signal>
+<signal name="N$743">
+<contactref element="IC45" pad="7"/>
+</signal>
+<signal name="N$744">
+<contactref element="IC45" pad="14"/>
 </signal>
 <signal name="N$771">
 <contactref element="IC47" pad="7"/>
@@ -4628,12 +4944,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="CIN32">
 <contactref element="IC47" pad="8"/>
-</signal>
-<signal name="N$785">
-<contactref element="IC48" pad="7"/>
-</signal>
-<signal name="N$786">
-<contactref element="IC48" pad="14"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
