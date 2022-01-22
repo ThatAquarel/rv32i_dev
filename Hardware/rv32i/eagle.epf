@@ -266,21 +266,12 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
-UsedLibrary="C:/Users/GUEB17799/Documents/GitHub/rv32i_dev/Hardware/libraries/74HC138PW.lbr"
-UsedLibrary="C:/Users/GUEB17799/Documents/GitHub/rv32i_dev/Hardware/libraries/SN74HCS86DR.lbr"
+UsedLibrary="C:/Users/xia_t/Desktop/Projects/riscv/rv32i_dev/Hardware/libraries/SN74ACT08D.lbr"
 
 [Win_1]
-Type="Text Editor"
-Number=1
-File="untitled.sch.final.net"
-CursorPos="0 0"
-Font="Artifakt Element Book,-1,12,5,50,0,0,0,0,0"
-
-[Win_2]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="1920 1080"
 Window="Win_1"
-Window="Win_2"
