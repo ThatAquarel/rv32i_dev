@@ -206,7 +206,7 @@
 <smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
 <smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
 <smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.27" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
 <wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
@@ -311,8 +311,8 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/sn74hcs86"&gt; Datasheet &lt;/a&g
 <smd name="12" x="2.4638" y="1.27" dx="1.9812" dy="0.5588" layer="1"/>
 <smd name="13" x="2.4638" y="2.54" dx="1.9812" dy="0.5588" layer="1"/>
 <smd name="14" x="2.4638" y="3.81" dx="1.9812" dy="0.5588" layer="1"/>
-<text x="-4.6228" y="5.207" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-5.3086" y="-7.1374" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-0.8128" y="7.747" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.2286" y="5.5626" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.0066" y1="3.556" x2="-2.0066" y2="4.064" width="0.1524" layer="51"/>
 <wire x1="-2.0066" y1="4.064" x2="-3.0988" y2="4.064" width="0.1524" layer="51"/>
 <wire x1="-3.0988" y1="4.064" x2="-3.0988" y2="3.556" width="0.1524" layer="51"/>
@@ -371,14 +371,10 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/sn74hcs86"&gt; Datasheet &lt;/a&g
 <wire x1="3.0988" y1="4.064" x2="2.0066" y2="4.064" width="0.1524" layer="51"/>
 <wire x1="-2.0066" y1="-4.3688" x2="2.0066" y2="-4.3688" width="0.1524" layer="51"/>
 <wire x1="2.0066" y1="-4.3688" x2="2.0066" y2="4.3688" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="4.3688" x2="0.3048" y2="4.3688" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="4.3688" x2="-0.3048" y2="4.3688" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="4.3688" x2="-2.0066" y2="4.3688" width="0.1524" layer="51"/>
+<wire x1="2.0066" y1="4.3688" x2="-2.0066" y2="4.3688" width="0.1524" layer="51"/>
 <wire x1="-2.0066" y1="4.3688" x2="-2.0066" y2="-4.3688" width="0.1524" layer="51"/>
 <wire x1="-1.2954" y1="-4.3688" x2="1.2954" y2="-4.3688" width="0.1524" layer="21"/>
-<wire x1="1.2954" y1="4.3688" x2="0.3048" y2="4.3688" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="4.3688" x2="-0.3048" y2="4.3688" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="4.3688" x2="-1.2954" y2="4.3688" width="0.1524" layer="21"/>
+<wire x1="0.0254" y1="4.3688" x2="-2.5654" y2="4.3688" width="0.1524" layer="21"/>
 <wire x1="3.9624" y1="-1.0668" x2="3.9624" y2="-1.4732" width="0.1524" layer="21"/>
 <wire x1="3.9624" y1="-1.4732" x2="3.7084" y2="-1.4732" width="0.1524" layer="21"/>
 <wire x1="3.7084" y1="-1.4732" x2="3.7084" y2="-1.0668" width="0.1524" layer="21"/>
@@ -1127,8 +1123,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74act08"&gt; Datasheet &lt;/a&gt
 </description>
 <smd name="1" x="-0.8" y="0" dx="0.95" dy="0.8" layer="1" rot="R90"/>
 <smd name="2" x="0.8" y="0" dx="0.95" dy="0.8" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.27" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1.45" y1="0.75" x2="1.45" y2="0.75" width="0.05" layer="51"/>
 <wire x1="1.45" y1="0.75" x2="1.45" y2="-0.75" width="0.05" layer="51"/>
 <wire x1="1.45" y1="-0.75" x2="-1.45" y2="-0.75" width="0.05" layer="51"/>
@@ -1203,7 +1199,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.65" layer="1"/>
 <smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.65" layer="1"/>
 <smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.65" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.27" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
 <wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
@@ -1296,8 +1292,8 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/SN74HCS32"&gt; Datasheet &lt;/a&g
 </description>
 <smd name="1" x="-0.66" y="0" dx="0.94" dy="0.83" layer="1" rot="R90"/>
 <smd name="2" x="0.66" y="0" dx="0.94" dy="0.83" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.27" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1.225" y1="0.62" x2="1.225" y2="0.62" width="0.05" layer="51"/>
 <wire x1="1.225" y1="0.62" x2="1.225" y2="-0.62" width="0.05" layer="51"/>
 <wire x1="1.225" y1="-0.62" x2="-1.225" y2="-0.62" width="0.05" layer="51"/>
@@ -6896,6 +6892,11 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/3/CC0603KRX7R9BB
 <wire x1="459.74" y1="109.22" x2="469.9" y2="109.22" width="0.1524" layer="91"/>
 <label x="459.74" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC47" gate="G$1" pin="3A"/>
+<wire x1="457.2" y1="205.74" x2="464.82" y2="205.74" width="0.1524" layer="91"/>
+<label x="457.2" y="205.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AND1_B13" class="0">
 <segment>
@@ -8046,12 +8047,6 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/3/CC0603KRX7R9BB
 <pinref part="P+14" gate="VCC" pin="VCC"/>
 </segment>
 </net>
-<net name="AND1_B33" class="0">
-<segment>
-<pinref part="IC47" gate="G$1" pin="3A"/>
-<wire x1="457.2" y1="205.74" x2="464.82" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="CIN32" class="0">
 <segment>
 <pinref part="IC47" gate="G$1" pin="3Y"/>
@@ -8062,6 +8057,14 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/3/CC0603KRX7R9BB
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,527.008,40.8661,JP2,,,,,"/>
+<approved hash="113,1,638.768,40.8661,JP1,,,,,"/>
+<approved hash="113,1,750.528,40.8661,JP5,,,,,"/>
+<approved hash="113,1,575.268,40.8661,JP3,,,,,"/>
+<approved hash="113,1,687.028,40.8661,JP4,,,,,"/>
+<approved hash="113,1,798.788,40.8661,JP6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

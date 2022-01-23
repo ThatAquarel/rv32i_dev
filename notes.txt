@@ -24,19 +24,12 @@ rv32_objcopy -O binary simple output.bin
 
 find ./ -type f -name "*.asm" | xargs rv32_as -march=rv32i -o
 
-0110011
-add x 0 
-sub x 0 2
+FPGA
+https://github.com/FPGAwars/apio
+https://github.com/wuxx/icesugar-nano
+https://github.com/wuxx/learn-fpga/tree/master
 
-sll x 1
-
-slt x 2
-sltu x 3
-
-xor x 4
-
-srl x 5
-sra x 5 10 0000
-
-or x 6
-and x 7
+RiscV Verilog
+https://github.com/wuxx/learn-fpga/tree/master/FemtoRV#references-to-other-risc-v-cores
+https://serv.readthedocs.io/en/latest/modules.html#instruction-life-cycle
+ice studio
