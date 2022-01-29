@@ -1,0 +1,18 @@
+Added Component: Designator=IC1(SOT95P280X130-3N)
+Add component (AddParameter): Name = "Arrow_Part_Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow_Price-Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "XC6206P122MR-G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "XC6206P122MR-G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Torex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "XC6206P122MR-G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser_Part_Number"; Value = "865-XC6206P122MR-G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser_Price-Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6206P122MR-G?qs=AsjdqWjXhJ%2F35%2FU%2FZk2JYg%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT95P280X130-3N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "XC6206P122MR-G"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=1V2 Pin=IC1-2
+Added Pin To Net: NetName=5V Pin=IC1-3
+Added Member To Class: ClassName=fpga Member=Component IC1 XC6206P122MR-G

@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=U1 Old Footprint=LATC-ucBGA-36 New Footprint=LATC-ucBGA-36
+Added Component: Designator=D2(0603_LED_S1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "?????"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_73152.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C72043"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT95P280X130-3N
+Added Pin To Net: NetName=3V3 Pin=D2-A
+Added Pin To Net: NetName=GND Pin=D2-K
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-2
+Add Pin To Net: Unknown Pin: Pin IC1-3
+Added Member To Class: ClassName=fpga Member=Component D2 ?? 0603
+Add Class Member: Failed to add class member : Component IC1 X6206P122MR
