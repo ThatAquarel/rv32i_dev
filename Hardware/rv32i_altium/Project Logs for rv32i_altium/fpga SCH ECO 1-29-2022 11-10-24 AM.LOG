@@ -1,0 +1,17 @@
+Replace Part C1 0603 1uF (105) 10% 50V in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with 0603 1uF (105) 10% 50V from Cap.SchLib
+Replace Part C2 0603 1uF (105) 10% 50V in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with 0603 1uF (105) 10% 50V from Cap.SchLib
+Replace Part C3 0603 10uF (106) 10% 10V in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with 0603 10uF (106) 10% 10V from Cap.SchLib
+Update Managed Component D1 From CMP-12791-000005-1[1N4148W] To CMP-12791-000005-1[1N4148W-13-F] in fpga.SchDoc
+Replace Part D2 0603 ?? in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with 0603 ?? from LED.SchLib
+Replace Part IC1 XC6206P122MR-G in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with XC6206P122MR-G from XC6206P122MR-G.SCHLIB
+Replace Part IC2 XC6206P332MR in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with XC6206P332MR from XC6206P332MR.SCHLIB
+Replace Part IC3 W25Q16JVSSIQ in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with W25Q16JVSSIQ from W25Q16JVSSIQ.SCHLIB
+Replace Part R1 0603 10KO (1002) 1% in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with 0603 10KO (1002) 1% from RES.SchLib
+Replace Part R2 0603 10KO (1002) 1% in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with 0603 10KO (1002) 1% from RES.SchLib
+Replace Part R3 0603 10KO (1002) 1% in C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.SchDoc with 0603 10KO (1002) 1% from RES.SchLib
+Update Managed Component U1 From CMP-0962-00009-1[ICE40HX1K-TQ144] To CMP-0962-00009-1[ICE40HX1K-TQ144] in fpga.SchDoc
+Update Managed Component U1 From CMP-0962-00009-1[ICE40HX1K-TQ144] To CMP-0962-00009-1[ICE40HX1K-TQ144] in fpga.SchDoc
+Update Managed Component U1 From CMP-0962-00009-1[ICE40HX1K-TQ144] To CMP-0962-00009-1[ICE40HX1K-TQ144] in fpga.SchDoc
+Update Managed Component U1 From CMP-0962-00009-1[ICE40HX1K-TQ144] To CMP-0962-00009-1[ICE40HX1K-TQ144] in fpga.SchDoc
+Update Managed Component U1 From CMP-0962-00009-1[ICE40HX1K-TQ144] To CMP-0962-00009-1[ICE40HX1K-TQ144] in fpga.SchDoc
+Update Managed Component U1 From CMP-0962-00009-1[ICE40HX1K-TQ144] To CMP-0962-00009-1[ICE40HX1K-TQ144] in fpga.SchDoc

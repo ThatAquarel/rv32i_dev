@@ -53,7 +53,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -61,43 +61,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UXJVSNRY
+DocumentUniqueId=VKTGRBLL
 
 [Document2]
-DocumentPath=..\libraries\Lattice_Semiconductor_ICE40LP1K_CM36.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JPBWFORQ
-
-[Document3]
-DocumentPath=..\libraries\Lattice_Semiconductor_ICE40LP1K_CM36_0.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YEEXMFKH
-
-[Document4]
 DocumentPath=..\libraries\XC6206P122MR-G.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -114,7 +80,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AYYHBVVY
 
-[Document5]
+[Document3]
 DocumentPath=..\libraries\XC6206P122MR-G.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -131,7 +97,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJARQPWQ
 
-[Document6]
+[Document4]
 DocumentPath=..\libraries\XC6206P332MR.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -148,7 +114,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GGRPNEYT
 
-[Document7]
+[Document5]
 DocumentPath=..\libraries\XC6206P332MR.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -165,7 +131,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KQQPZFLQ
 
-[Document8]
+[Document6]
 DocumentPath=..\..\..\..\JLCSMT_LIB-master\Cap.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -182,7 +148,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VTPOGMYO
 
-[Document9]
+[Document7]
 DocumentPath=..\..\..\..\JLCSMT_LIB-master\Miscellaneous Devices LC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -199,7 +165,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XSJYQOIQ
 
-[Document10]
+[Document8]
 DocumentPath=..\libraries\W25Q16JVSSIQ.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -216,7 +182,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ATFHXTHI
 
-[Document11]
+[Document9]
 DocumentPath=..\libraries\W25Q16JVSSIQ.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -233,7 +199,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EQGLLQFO
 
-[Document12]
+[Document10]
 DocumentPath=..\..\..\..\..\..\Downloads\JLCSMT_LIB-master\RES.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -250,24 +216,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HLBESONQ
 
-[Document13]
-DocumentPath=fpga.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DMKLEESR
-
-[Document14]
+[Document11]
 DocumentPath=..\..\..\..\JLCSMT_LIB-master\LED.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -283,6 +232,74 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SQBERQTN
+
+[Document12]
+DocumentPath=..\libraries\ICE40HX1K-TQ144.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MJLPHHIA
+
+[Document13]
+DocumentPath=..\libraries\ICE40HX1K-TQ144.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DLSXNFFI
+
+[Document14]
+DocumentPath=..\libraries\headers.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VGAEQTAQ
+
+[Document15]
+DocumentPath=..\libraries\headers.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HHASOTBZ
 
 [Configuration1]
 Name=Sources
@@ -1208,6 +1225,60 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Cap.SchLib
+ComponentDesignItemID0=0603 10uF (106) 10% 10V
+ComponentSymbolReference0=0603 10uF (106) 10% 10V
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Cap.SchLib
+ComponentDesignItemID1=0603 1uF (105) 10% 50V
+ComponentSymbolReference1=0603 1uF (105) 10% 50V
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=LED.SchLib
+ComponentDesignItemID2=0603 绿灯
+ComponentSymbolReference2=0603 绿灯
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=RES.SchLib
+ComponentDesignItemID3=0603 10KΩ (1002) 1%
+ComponentSymbolReference3=0603 10KΩ (1002) 1%
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=W25Q16JVSSIQ.SCHLIB
+ComponentDesignItemID4=W25Q16JVSSIQ
+ComponentSymbolReference4=W25Q16JVSSIQ
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=XC6206P122MR-G.SCHLIB
+ComponentDesignItemID5=XC6206P122MR-G
+ComponentSymbolReference5=XC6206P122MR-G
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=XC6206P332MR.SCHLIB
+ComponentDesignItemID6=XC6206P332MR
+ComponentSymbolReference6=XC6206P332MR
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name Only
+ComponentLibraryIdentifier7=Altium Content Vault
+ComponentDesignItemID7=CMP-0962-00009-1
+ComponentSymbolReference7=LATC-HX1K-TQFP-144
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name Only
+ComponentLibraryIdentifier8=Altium Content Vault
+ComponentDesignItemID8=CMP-12791-000005-1
+ComponentSymbolReference8=d7152d700b627762746794eb795d46e
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1221,6 +1292,168 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Arrow_Part_Number
+ParameterUpdate0=1
+ParameterName1=Arrow_Price-Stock
+ParameterUpdate1=1
+ParameterName2=Automotive
+ParameterUpdate2=1
+ParameterName3=Capacitance
+ParameterUpdate3=1
+ParameterName4=Category
+ParameterUpdate4=1
+ParameterName5=Comment
+ParameterUpdate5=1
+ParameterName6=Component Kind
+ParameterUpdate6=1
+ParameterName7=ComponentLink1Description
+ParameterUpdate7=1
+ParameterName8=ComponentLink1URL
+ParameterUpdate8=1
+ParameterName9=ComponentLink2Description
+ParameterUpdate9=1
+ParameterName10=ComponentLink2URL
+ParameterUpdate10=1
+ParameterName11=ComponentLink3Description
+ParameterUpdate11=1
+ParameterName12=ComponentLink3URL
+ParameterUpdate12=1
+ParameterName13=DatasheetVersion
+ParameterUpdate13=1
+ParameterName14=Description
+ParameterUpdate14=1
+ParameterName15=Device Class L1
+ParameterUpdate15=1
+ParameterName16=Device Class L2
+ParameterUpdate16=1
+ParameterName17=Device Class L3
+ParameterUpdate17=1
+ParameterName18=DeviceName
+ParameterUpdate18=1
+ParameterName19=DeviceSetName
+ParameterUpdate19=1
+ParameterName20=Digikey Description
+ParameterUpdate20=1
+ParameterName21=Embedded RAM Bits
+ParameterUpdate21=1
+ParameterName22=Footprint Url
+ParameterUpdate22=1
+ParameterName23=Forward Current
+ParameterUpdate23=1
+ParameterName24=GateName_1
+ParameterUpdate24=1
+ParameterName25=Height
+ParameterUpdate25=1
+ParameterName26=Lead Free
+ParameterUpdate26=1
+ParameterName27=Library Reference
+ParameterUpdate27=1
+ParameterName28=LibraryName
+ParameterUpdate28=1
+ParameterName29=Logic Cells
+ParameterUpdate29=1
+ParameterName30=Manufacturer
+ParameterUpdate30=1
+ParameterName31=Manufacturer Part Number
+ParameterUpdate31=1
+ParameterName32=Manufacturer_Name
+ParameterUpdate32=1
+ParameterName33=Manufacturer_Part_Number
+ParameterUpdate33=1
+ParameterName34=Max Junction Temp
+ParameterUpdate34=1
+ParameterName35=Max Repetitive Reverse Voltage
+ParameterUpdate35=1
+ParameterName36=Max Surge Forward Current
+ParameterUpdate36=1
+ParameterName37=Mounting Technology
+ParameterUpdate37=1
+ParameterName38=Mouser Description
+ParameterUpdate38=1
+ParameterName39=Mouser_Part_Number
+ParameterUpdate39=1
+ParameterName40=Mouser_Price-Stock
+ParameterUpdate40=1
+ParameterName41=Notepad
+ParameterUpdate41=1
+ParameterName42=Octopart
+ParameterUpdate42=1
+ParameterName43=Package
+ParameterUpdate43=1
+ParameterName44=PackageDescription
+ParameterUpdate44=1
+ParameterName45=PackageReference
+ParameterUpdate45=1
+ParameterName46=PackageVersion
+ParameterUpdate46=1
+ParameterName47=Packing
+ParameterUpdate47=1
+ParameterName48=PartNumber
+ParameterUpdate48=1
+ParameterName49=Peak Reverse Current
+ParameterUpdate49=1
+ParameterName50=Phase-Locked Loops
+ParameterUpdate50=1
+ParameterName51=Reverse Voltage
+ParameterUpdate51=1
+ParameterName52=RoHS
+ParameterUpdate52=1
+ParameterName53=Standoff Height
+ParameterUpdate53=1
+ParameterName54=Supplier
+ParameterUpdate54=1
+ParameterName55=SuppliersPartNumber
+ParameterUpdate55=1
+ParameterName56=Supply Voltage
+ParameterUpdate56=1
+ParameterName57=SymbolName_1
+ParameterUpdate57=1
+ParameterName58=Temperature
+ParameterUpdate58=1
+ParameterName59=Temperature Range High
+ParameterUpdate59=1
+ParameterName60=Temperature Range Low
+ParameterUpdate60=1
+ParameterName61=Value
+ParameterUpdate61=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=0603_C
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=0603_LED_S1
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=0603_R
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=FP-SOD123-IPC_A
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=FP-SOD123-IPC_B
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=FP-SOD123-IPC_C
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=FP-SOD123-MFG
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=LATC-TQFP-144_L
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=LATC-TQFP-144_M
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=LATC-TQFP-144_N
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=SOIC127P790X216-8N
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SOT95P280X130-3N
+ModelUpdate11=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
