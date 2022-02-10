@@ -1,0 +1,358 @@
+*************************************************************
+FileName = fpga.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Layer
+      File : fpga.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : fpga.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : fpga.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : fpga.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : fpga.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : fpga.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : fpga.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : fpga.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : fpga.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : fpga.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 3
+      File : fpga.GM3
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : fpga.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 7
+      File : fpga.GM7
+
+    Adding Layer      : Mechanical 7
+
+
+Used DCodes :
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : fpga.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D13
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : fpga.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : fpga.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D12
+    D37
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : fpga.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : fpga.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : fpga.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : fpga.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : fpga.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : fpga.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : fpga.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : fpga.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : fpga.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+

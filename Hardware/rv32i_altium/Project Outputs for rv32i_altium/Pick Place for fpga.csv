@@ -1,0 +1,29 @@
+Altium Designer Pick and Place Locations
+C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\Project Outputs for rv32i_altium\Pick Place for fpga.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/02/22
+Time:       16:54
+Revision:   c420304659a712b878498df81aeddbd49cb8c182
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"U3","LD1117S12TR","TopLayer","SOT-223_M","1772.985","3142.015","315","Fixed Low Drop Positive Voltage Regulator, 1.2V, 4-Pin SOT-223, Tape and Reel"
+"D2","?? 0603","TopLayer","0603_LED_S1","1475.000","3415.000","45","?????"
+"R1","10KO (1002) ±1%","TopLayer","0603_R","3215.000","1519.685","270","????"
+"C3","10uF (106) 10% 10V","TopLayer","0603_C","1455.000","3195.000","135","????"
+"P4","61301011121","TopLayer","61301011121","2400.000","3725.000","180","THT Vertical Pin Header WR-PHD, Pitch 2.54 mm, Single Row, 25 pins"
+"U2","LD1117D33TR","TopLayer","FP-SO-8-0016023-MFG","1645.000","3375.000","45","IC REG LINEAR 3.3V 800MA 8SO"
+"U1","ICE40HX1K-TQ144","TopLayer","LATC-TQFP-144_L","2400.000","2400.000","0","iCE40 HX1K Series FPGA Family, 1280 Logic Cells, 1.2 V Core, 64 K Embedded RAM Bits, 144-pin TQFP, Pb-Free, Tray"
+"R3","10KO (1002) ±1%","TopLayer","0603_R","2785.000","1825.000","270","????"
+"R2","10KO (1002) ±1%","TopLayer","0603_R","3130.000","1520.000","270","????"
+"P3","61301011121","TopLayer","61301011121","3725.000","2400.000","90","THT Vertical Pin Header WR-PHD, Pitch 2.54 mm, Single Row, 25 pins"
+"P2","61301011121","TopLayer","61301011121","2400.000","1075.000","0","THT Vertical Pin Header WR-PHD, Pitch 2.54 mm, Single Row, 25 pins"
+"P1","61301011121","TopLayer","61301011121","1075.000","2400.000","270","THT Vertical Pin Header WR-PHD, Pitch 2.54 mm, Single Row, 25 pins"
+"IC3","W25Q16JVSSIQ","TopLayer","SOIC127P790X216-8N","2890.000","1645.000","0",""
+"D1","1N4148W-13-F","TopLayer","FP-SOD123-MFG","2910.000","2850.000","90","DIODE GEN PURP 100V 150MA SOD123"
+"C2","1uF (105) 10% 50V","TopLayer","0603_C","1510.000","3250.000","135","????"
+"C1","1uF (105) 10% 50V","TopLayer","0603_C","1928.564","3236.436","135","????"

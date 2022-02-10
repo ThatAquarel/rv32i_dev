@@ -301,6 +301,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PRMQPCLS
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for rv32i_altium\Design Rule Check - fpga.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
