@@ -53,7 +53,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -61,9 +61,230 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UXJVSNRY
+DocumentUniqueId=VKTGRBLL
 
 [Document2]
+DocumentPath=..\libraries\XC6206P122MR-G.PCBLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AYYHBVVY
+
+[Document3]
+DocumentPath=..\libraries\XC6206P122MR-G.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AJARQPWQ
+
+[Document4]
+DocumentPath=..\libraries\XC6206P332MR.PCBLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GGRPNEYT
+
+[Document5]
+DocumentPath=..\libraries\XC6206P332MR.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KQQPZFLQ
+
+[Document6]
+DocumentPath=..\..\..\..\JLCSMT_LIB-master\Cap.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VTPOGMYO
+
+[Document7]
+DocumentPath=..\..\..\..\JLCSMT_LIB-master\Miscellaneous Devices LC.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XSJYQOIQ
+
+[Document8]
+DocumentPath=..\libraries\W25Q16JVSSIQ.PCBLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ATFHXTHI
+
+[Document9]
+DocumentPath=..\libraries\W25Q16JVSSIQ.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EQGLLQFO
+
+[Document10]
+DocumentPath=..\..\..\..\JLCSMT_LIB-master\LED.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SQBERQTN
+
+[Document11]
+DocumentPath=..\libraries\ICE40HX1K-TQ144.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MJLPHHIA
+
+[Document12]
+DocumentPath=..\libraries\ICE40HX1K-TQ144.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DLSXNFFI
+
+[Document13]
+DocumentPath=..\libraries\headers.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VGAEQTAQ
+
+[Document14]
+DocumentPath=..\libraries\headers.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HHASOTBZ
+
+[Document15]
 DocumentPath=fpga.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -78,10 +299,176 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DMKLEESR
+DocumentUniqueId=PRMQPCLS
+
+[Document16]
+DocumentPath=fpga.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document17]
+DocumentPath=fpga_drill.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for rv32i_altium\Design Rule Check - fpga.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for rv32i_altium\fpga.1
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for rv32i_altium\fpga.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for rv32i_altium\fpga.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM16
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM20
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM21
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM23
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GM24
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GML
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for rv32i_altium\fpga.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for rv32i_altium\fpga.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for rv32i_altium\fpga.REP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for rv32i_altium\fpga.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for rv32i_altium\fpga.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for rv32i_altium\Pick Place for fpga.csv
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for rv32i_altium\Pick Place for fpga.txt
 DItemRevisionGUID=
 
 [Configuration1]
@@ -97,7 +484,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -203,7 +590,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -281,7 +668,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -294,6 +681,10 @@ OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#18=Name:SymbolName_1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:94|Column#19=Name:Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:95|Column#20=Name:Max Output Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#21=Name:Output Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#22=Name:Package Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#23=Name:Max Repetitive Reverse Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#24=Name:Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#25=Name:Phase-Locked Loops,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83|Column#26=Name:Standoff Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:90|Column#27=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#28=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#29=Name:Category,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#30=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#31=Name:Supplier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:91|Column#32=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:79|Column#33=Name:Arrow_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#34=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#35=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#36=Name:Notepad,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#37=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#38=Name:Dropout Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#39=Name:Case/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#40=Name:Logic Cells,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#41=Name:LibraryName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#42=Name:Mouser_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#43=Name:Mouser_Price-Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#44=Name:Device Class L2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#45=Name:Digikey Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#46=Name:Width,Fixed:False,Metric:False,Visible:False,Sort:None,Position:99|Column#47=Name:Packing,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80|Column#48=Name:DeviceSetName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#49=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#50=Name:Number of Outputs,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#51=Name:Polarity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:84|Column#52=Name:Octopart,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#53=Name:GateName_1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#54=Name:Temperature Range High,Fixed:False,Metric:False,Visible:False,Sort:None,Position:96|Column#55=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#56=Name:Forward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#57=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#58=Name:Reverse Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:88|Column#59=Name:Number of Regulators,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#60=Name:Max Surge Forward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#61=Name:Min Output Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#62=Name:Quiescent Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:86|Column#63=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:89|Column#64=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:81|Column#65=Name:Max Input Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#66=Name:Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:93|Column#67=Name:Arrow_Price-Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#68=Name:Radiation Hardening,Fixed:False,Metric:False,Visible:False,Sort:None,Position:87|Column#69=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#70=Name:Lead Free,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#71=Name:DeviceName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#72=Name:SuppliersPartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:92|Column#73=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#74=Name:Power Dissipation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:85|Column#75=Name:Max Power Dissipation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#76=Name:Output Voltage Accuracy,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#77=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#78=Name:Output Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#79=Name:Embedded RAM Bits,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#80=Name:Device Class L1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#81=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#82=Name:Accuracy,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#83=Name:Device Class L3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#84=Name:Mouser Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#85=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#86=Name:Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#87=Name:Peak Reverse Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82|Column#88=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77|Column#89=Name:Input Bias Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#90=Name:Output Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#91=Name:Automotive,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#92=Name:Max Junction Temp,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#93=Name:Temperature Range Low,Fixed:False,Metric:False,Visible:False,Sort:None,Position:97|Column#94=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#95=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:98|Column#96=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#97=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78|Column#98=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#99=Name:Footprint Url,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#100=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|DocumentPath=C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.PcbDoc
 OutputType3=Test Points For Assembly
 OutputName3=Test Point Report
 OutputDocumentPath3=
@@ -303,79 +694,87 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.PcbDoc
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="All Layers","Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908291~1,16908293~1,16908295~1,16908301~1,16908303~1,16908304~1,16908308~1,16908309~1,16908311~1,16908312~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\xia_t\Desktop\Projects\riscv\rv32i_dev\Hardware\rv32i_altium\fpga.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -383,6 +782,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -424,7 +835,7 @@ OutputDefault8=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -532,7 +943,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -576,7 +987,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -637,7 +1048,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP Officejet 5740 series [7C066E]
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1008,6 +1419,66 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Cap.SchLib
+ComponentDesignItemID0=0603 10uF (106) 10% 10V
+ComponentSymbolReference0=0603 10uF (106) 10% 10V
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Cap.SchLib
+ComponentDesignItemID1=0603 1uF (105) 10% 50V
+ComponentSymbolReference1=0603 1uF (105) 10% 50V
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=headers.SchLib
+ComponentDesignItemID2=CMP-1502-01082-1
+ComponentSymbolReference2=CMP-1502-01082-1
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=LED.SchLib
+ComponentDesignItemID3=0603 绿灯
+ComponentSymbolReference3=0603 绿灯
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=RES.SchLib
+ComponentDesignItemID4=0603 10KΩ (1002) 1%
+ComponentSymbolReference4=0603 10KΩ (1002) 1%
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=W25Q16JVSSIQ.SCHLIB
+ComponentDesignItemID5=W25Q16JVSSIQ
+ComponentSymbolReference5=W25Q16JVSSIQ
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=XC6206P122MR-G.SCHLIB
+ComponentDesignItemID6=XC6206P122MR-G
+ComponentSymbolReference6=XC6206P122MR-G
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=XC6206P332MR.SCHLIB
+ComponentDesignItemID7=XC6206P332MR
+ComponentSymbolReference7=XC6206P332MR
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name Only
+ComponentLibraryIdentifier8=Altium Content Vault
+ComponentDesignItemID8=CMP-0962-00009-1
+ComponentSymbolReference8=LATC-HX1K-TQFP-144
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name Only
+ComponentLibraryIdentifier9=Altium Content Vault
+ComponentDesignItemID9=CMP-12791-000005-1
+ComponentSymbolReference9=d7152d700b627762746794eb795d46e
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1021,6 +1492,203 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Arrow_Part_Number
+ParameterUpdate0=1
+ParameterName1=Arrow_Price-Stock
+ParameterUpdate1=1
+ParameterName2=Automotive
+ParameterUpdate2=1
+ParameterName3=Capacitance
+ParameterUpdate3=1
+ParameterName4=Category
+ParameterUpdate4=1
+ParameterName5=Comment
+ParameterUpdate5=1
+ParameterName6=Component Kind
+ParameterUpdate6=1
+ParameterName7=ComponentLink1Description
+ParameterUpdate7=1
+ParameterName8=ComponentLink1URL
+ParameterUpdate8=1
+ParameterName9=ComponentLink2Description
+ParameterUpdate9=1
+ParameterName10=ComponentLink2URL
+ParameterUpdate10=1
+ParameterName11=ComponentLink3Description
+ParameterUpdate11=1
+ParameterName12=ComponentLink3URL
+ParameterUpdate12=1
+ParameterName13=Contact Resistance
+ParameterUpdate13=1
+ParameterName14=Datasheet URL
+ParameterUpdate14=1
+ParameterName15=DatasheetVersion
+ParameterUpdate15=1
+ParameterName16=Description
+ParameterUpdate16=1
+ParameterName17=Device Class L1
+ParameterUpdate17=1
+ParameterName18=Device Class L2
+ParameterUpdate18=1
+ParameterName19=Device Class L3
+ParameterUpdate19=1
+ParameterName20=DeviceName
+ParameterUpdate20=1
+ParameterName21=DeviceSetName
+ParameterUpdate21=1
+ParameterName22=Digikey Description
+ParameterUpdate22=1
+ParameterName23=Embedded RAM Bits
+ParameterUpdate23=1
+ParameterName24=Footprint Url
+ParameterUpdate24=1
+ParameterName25=Forward Current
+ParameterUpdate25=1
+ParameterName26=GateName_1
+ParameterUpdate26=1
+ParameterName27=Gender
+ParameterUpdate27=1
+ParameterName28=Height
+ParameterUpdate28=1
+ParameterName29=Lead Free
+ParameterUpdate29=1
+ParameterName30=Library Reference
+ParameterUpdate30=1
+ParameterName31=LibraryName
+ParameterUpdate31=1
+ParameterName32=Logic Cells
+ParameterUpdate32=1
+ParameterName33=Manufacturer
+ParameterUpdate33=1
+ParameterName34=Manufacturer Part Number
+ParameterUpdate34=1
+ParameterName35=Manufacturer URL
+ParameterUpdate35=1
+ParameterName36=Manufacturer_Name
+ParameterUpdate36=1
+ParameterName37=Manufacturer_Part_Number
+ParameterUpdate37=1
+ParameterName38=Max Junction Temp
+ParameterUpdate38=1
+ParameterName39=Max Repetitive Reverse Voltage
+ParameterUpdate39=1
+ParameterName40=Max Surge Forward Current
+ParameterUpdate40=1
+ParameterName41=Mounting Technology
+ParameterUpdate41=1
+ParameterName42=Mouser Description
+ParameterUpdate42=1
+ParameterName43=Mouser_Part_Number
+ParameterUpdate43=1
+ParameterName44=Mouser_Price-Stock
+ParameterUpdate44=1
+ParameterName45=Notepad
+ParameterUpdate45=1
+ParameterName46=Octopart
+ParameterUpdate46=1
+ParameterName47=Operating Temperature
+ParameterUpdate47=1
+ParameterName48=Orientation
+ParameterUpdate48=1
+ParameterName49=Package
+ParameterUpdate49=1
+ParameterName50=Package Reference
+ParameterUpdate50=1
+ParameterName51=PackageDescription
+ParameterUpdate51=1
+ParameterName52=PackageReference
+ParameterUpdate52=1
+ParameterName53=PackageVersion
+ParameterUpdate53=1
+ParameterName54=Packaging
+ParameterUpdate54=1
+ParameterName55=Packing
+ParameterUpdate55=1
+ParameterName56=Part Number
+ParameterUpdate56=1
+ParameterName57=PartNumber
+ParameterUpdate57=1
+ParameterName58=Peak Reverse Current
+ParameterUpdate58=1
+ParameterName59=Phase-Locked Loops
+ParameterUpdate59=1
+ParameterName60=Pin Number
+ParameterUpdate60=1
+ParameterName61=Pitch
+ParameterUpdate61=1
+ParameterName62=Publisher
+ParameterUpdate62=1
+ParameterName63=Rated Current
+ParameterUpdate63=1
+ParameterName64=Reverse Voltage
+ParameterUpdate64=1
+ParameterName65=RoHS
+ParameterUpdate65=1
+ParameterName66=Row Number
+ParameterUpdate66=1
+ParameterName67=Standoff Height
+ParameterUpdate67=1
+ParameterName68=Supplier
+ParameterUpdate68=1
+ParameterName69=SuppliersPartNumber
+ParameterUpdate69=1
+ParameterName70=Supply Voltage
+ParameterUpdate70=1
+ParameterName71=SymbolName_1
+ParameterUpdate71=1
+ParameterName72=Temperature
+ParameterUpdate72=1
+ParameterName73=Temperature Range High
+ParameterUpdate73=1
+ParameterName74=Temperature Range Low
+ParameterUpdate74=1
+ParameterName75=Value
+ParameterUpdate75=1
+ParameterName76=Withstanding Voltage
+ParameterUpdate76=1
+ParameterName77=Working Voltage
+ParameterUpdate77=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=0603_C
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=0603_LED_S1
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=0603_R
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=61301011121
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=FP-SOD123-IPC_A
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=FP-SOD123-IPC_B
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=FP-SOD123-IPC_C
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=FP-SOD123-MFG
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=LATC-TQFP-144_L
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=LATC-TQFP-144_M
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=LATC-TQFP-144_N
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SOIC127P790X216-8N
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=SOT95P280X130-3N
+ModelUpdate12=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
