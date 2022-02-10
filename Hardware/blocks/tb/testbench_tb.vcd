@@ -1,0 +1,62 @@
+$date
+	Thu Feb 10 17:17:37 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module and_tb $end
+$var wire 32 ! c [32:1] $end
+$var reg 32 " a [32:1] $end
+$var reg 32 # b [32:1] $end
+$var reg 1 $ carry $end
+$scope module uut $end
+$var wire 32 % a [32:1] $end
+$var wire 32 & b [32:1] $end
+$var wire 32 ' c [32:1] $end
+$var wire 1 ( carry $end
+$var wire 8 ) vinit [0:7] $end
+$var wire 1 * w0 $end
+$var wire 32 + w1 [0:31] $end
+$var wire 32 , w2 [0:31] $end
+$var wire 32 - w3 [0:31] $end
+$scope module vf6510f $end
+$var wire 32 . a [32:1] $end
+$var wire 32 / b [32:1] $end
+$var wire 1 * sub $end
+$var wire 32 0 out [32:1] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 0
+b0 /
+b0 .
+bx -
+b0 ,
+b0 +
+z*
+b0 )
+z(
+bx '
+b0 &
+b0 %
+0$
+b0 #
+b0 "
+bx !
+$end
+#41700
+b11111111111111111111111111111111 ,
+b11111111111111111111111111111111 .
+b11111111111111111111111111111111 #
+b11111111111111111111111111111111 &
+b11111111111111111111111111111111 +
+b11111111111111111111111111111111 /
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 %
+#10000000
