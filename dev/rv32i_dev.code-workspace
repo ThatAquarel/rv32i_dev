@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "rv32i_programmer",
+			"path": "..\\Hardware\\rv32i_programmer"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"system_error": "cpp",
+			"fstream": "cpp",
+			"ios": "cpp",
+			"istream": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"ostream": "cpp",
+			"streambuf": "cpp",
+			"xlocale": "cpp",
+			"xlocnum": "cpp",
+			"xstring": "cpp"
+		}
+	}
+}
