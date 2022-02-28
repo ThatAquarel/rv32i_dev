@@ -14,6 +14,7 @@ void w25q16::init(int FLASH_SS)
     SPI.begin();
     SPI.setBitOrder(MSBFIRST);
     SPI.setDataMode(SPI_MODE3);
+    SPI.setClockDivider(SPI_CLOCK_DIV2);
     // SPI.beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE3));
 }
 
@@ -131,13 +132,9 @@ void w25q16::writeDisable()
 */
 void w25q16::awaitReady()
 {
-    byte a = 0xFF;
-
     digitalWrite(_FLASH_SS, LOW);
     SPI.transfer(0x05);
-    while (a != 0)
-    {
-        a = SPI.transfer(0);
+    while (SPI.transfer(0) & 1) {
     }
     digitalWrite(_FLASH_SS, HIGH);
 }
