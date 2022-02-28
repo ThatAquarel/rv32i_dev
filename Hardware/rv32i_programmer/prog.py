@@ -14,16 +14,17 @@ def main():
 	sync()
 
 	a = bytearray(PAGE_SIZE + 1)
-	a[0] = 255
-	a[-2] = 15
+	# a[0] = 255
+	# a[-2] = 15
+	a[0:128] = [15] * 128
 	a[-1] = ord('\n')
 	a = bytes(a)
 
 	ser.write(a)
 
 	print(a)
-	sync()
 
+	sync()
 	print(ser.read_until(b'\n'))
 
 	ser.close()

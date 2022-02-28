@@ -46,23 +46,18 @@ void setup()
 
   Serial.write("sync___\n");
 
-
-  flash.initWrite(0, 0);
-  for (int i =0; i<256; i++)
+  digitalWrite(9, HIGH);
+  for (int i = 0; i < 256; i++)
   {
-    // flash.writeByte(buffer[i]);
-    SPI.transfer(buffer[i]);
-  }
-  flash.endWrite();
+    flash.initWrite(0, (byte)i);
+    flash.writeByte(buffer[i]);
+    flash.endWrite();
 
-  flash.initFastRead(0, 0);
-  // digitalWrite(9, HIGH);
-  for (int i =0; i<256; i++)
-  {
+    flash.initRead(0, (byte)i);
     Serial.write(flash.readByte());
+    flash.endRead();
   }
   Serial.write("\n");
-  flash.endRead();
 }
 
 void loop()

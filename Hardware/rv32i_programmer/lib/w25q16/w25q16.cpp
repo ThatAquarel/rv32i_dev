@@ -14,6 +14,7 @@ void w25q16::init(int FLASH_SS)
     SPI.begin();
     SPI.setBitOrder(MSBFIRST);
     SPI.setDataMode(SPI_MODE3);
+    // SPI.beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE3));
 }
 
 /*
