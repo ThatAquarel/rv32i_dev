@@ -19,7 +19,9 @@ void setup()
 
   flash.init(10);
   flash.releasePowerDown();
-  pyserial::comm::init(500000);
+  // pyserial::comm::init(500000);
+  pyserial::comm::init(1000000);
+  // pyserial::comm::init(2000000);
   pyserial::comm::send_packet(ack_packet);
 }
 

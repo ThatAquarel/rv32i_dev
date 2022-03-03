@@ -2,6 +2,7 @@ import time
 import serial
 import struct
 import logging
+import serial.tools.list_ports
 from tqdm import tqdm
 
 
@@ -190,5 +191,38 @@ if __name__ == "__main__":
     # logging.basicConfig(level=logging.DEBUG)
     logging.basicConfig(level=logging.INFO)
 
-    with serial.Serial("COM4", 500000) as ser:
+    ports = serial.tools.list_ports.comports()
+    for i, port in enumerate(ports):
+        print(f"{i} - {port.device}")
+
+    COM = len(ports) - 1
+    BAUD = 1_000_000
+
+    com = ""
+    while com == "":
+        com_in = input(f"Input COM port (default: {COM}): ")
+
+        if com_in == "":
+            com = ports[COM].device
+            break
+        try:
+            j = int(com_in)
+            com = ports[j].device
+        except (ValueError, IndexError()):
+            continue
+    logging.info(f"Using {com}")
+
+    baud = 0
+    while baud < 9600:
+        baud_in = input(f"Input baud rate (default: {BAUD}): ")
+        if baud_in == "":
+            baud = BAUD
+            break
+        try:
+            baud = int(baud_in)
+        except ValueError:
+            continue
+    logging.info(f"Using {baud}")
+
+    with serial.Serial(com, baud) as ser:
         main(ser)
