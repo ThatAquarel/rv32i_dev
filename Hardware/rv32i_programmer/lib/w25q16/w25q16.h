@@ -16,6 +16,8 @@
 #define WRITE_DISABLE 0x04
 #define WRITE_ENABLE 0x06
 
+#define READ_JEDEC_ID 0x9f
+
 class w25q16
 {
   public:
@@ -34,6 +36,8 @@ class w25q16
 
     void powerDown();
     void releasePowerDown();
+
+    uint32_t getChipInfo();
   private:
     void writeEnable();
     void writeDisable();

@@ -20,7 +20,10 @@
 			"streambuf": "cpp",
 			"xlocale": "cpp",
 			"xlocnum": "cpp",
-			"xstring": "cpp"
+			"xstring": "cpp",
+			"initializer_list": "cpp",
+			"xmemory": "cpp",
+			"xutility": "cpp"
 		}
 	}
 }
