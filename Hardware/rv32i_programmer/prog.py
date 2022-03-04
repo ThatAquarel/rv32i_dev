@@ -7,6 +7,7 @@ from tqdm import tqdm
 
 
 PAGE_COUNT = 8192
+# PAGE_COUNT = 128
 PAGE_SIZE = 256
 
 
@@ -178,11 +179,16 @@ def main(ser, buffers):
             logging.error(f"Page check error {page_check} != {page}")
             raise Exception("Page check error")
 
-        if b.buffer != bytes_buffer:
+        # if b.buffer != bytes_buffer:
+        if b.buffer != buffers[page]:
             logging.error(
-                f"Page data check error {b.buffer.hex()} != {bytes_buffer.hex()}"
+                f"Page data check error {b.buffer.hex()} != {buffers[page].hex()}"
             )
             raise Exception("Page data check error")
+
+        if page == 0 or page == 125 or page == 8191:
+            print(buffers[page].hex())
+
     print("OK")
 
     logging.info("DONE")
@@ -231,7 +237,12 @@ if __name__ == "__main__":
 
     with open("./test.bin", "rb") as f:
         bytes_buffer = f.read()
+    bytes_buffer = bytearray(bytes_buffer)
+    if len(bytes_buffer) > (PAGE_COUNT * PAGE_SIZE):
+        raise Exception("Bitstream too large")
+    bytes_buffer.extend(b"\x00" * (PAGE_COUNT * PAGE_SIZE - len(bytes_buffer)))
     buffers = list(chunks(bytes_buffer, PAGE_SIZE))
+    buffers = [bytes(b) for b in buffers]
 
     with serial.Serial(com, baud) as ser:
         main(ser, buffers)
