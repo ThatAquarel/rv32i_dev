@@ -7,6 +7,7 @@ from tqdm import tqdm
 
 
 PAGE_COUNT = 8192
+PAGE_SIZE = 256
 
 
 class commands:
@@ -115,7 +116,7 @@ def send_command(command, buffers: list[bytes] = [], recv_packet_len=0):
     return recv
 
 
-def main(ser):
+def main(ser, buffers):
     logging.info("Init serial communications")
     acknowledge()
 
@@ -147,13 +148,13 @@ def main(ser):
     #
     # WRITE ALL PAGES
     #
-    bytes_buffer = bytes([i for i in range(256)])
+    # bytes_buffer = bytes([i for i in range(256)])
 
     logging.info("Writing pages of flash chip... ")
     for page in tqdm(range(PAGE_COUNT)):
         (a,) = send_command(
             command=commands.PAGE_PROGRAM,
-            buffers=[struct.pack("<H", page), bytes_buffer],
+            buffers=[struct.pack("<H", page), buffers[page]],
             recv_packet_len=1,
         )
         (page_check,) = struct.unpack("<H", a.buffer)
@@ -224,5 +225,13 @@ if __name__ == "__main__":
             continue
     logging.info(f"Using {baud}")
 
+    def chunks(lst, n):
+        for i in range(0, len(lst), n):
+            yield lst[i : i + n]
+
+    with open("./test.bin", "rb") as f:
+        bytes_buffer = f.read()
+    buffers = list(chunks(bytes_buffer, PAGE_SIZE))
+
     with serial.Serial(com, baud) as ser:
-        main(ser)
+        main(ser, buffers)
