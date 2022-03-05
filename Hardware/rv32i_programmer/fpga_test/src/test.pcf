@@ -1,3 +1,4 @@
 set_io a 38
 set_io b 39
-set_io y 41
+set_io y[0] 41
+set_io y[1] 42

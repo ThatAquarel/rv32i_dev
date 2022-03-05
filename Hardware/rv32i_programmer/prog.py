@@ -179,15 +179,17 @@ def main(ser, buffers):
             logging.error(f"Page check error {page_check} != {page}")
             raise Exception("Page check error")
 
+        (crc_check,) = struct.unpack("<H", b.buffer)
+
         # if b.buffer != bytes_buffer:
-        if b.buffer != buffers[page]:
+        if crc_check != crc16(buffers[page]):
             logging.error(
-                f"Page data check error {b.buffer.hex()} != {buffers[page].hex()}"
+                f"Page data check error {crc_check} != {crc16(buffers[page])}"
             )
             raise Exception("Page data check error")
 
         if page == 0 or page == 125 or page == 8191:
-            print(buffers[page].hex())
+            logging.debug(buffers[page].hex())
 
     print("OK")
 
@@ -197,6 +199,7 @@ def main(ser, buffers):
 if __name__ == "__main__":
     # logging.basicConfig(level=logging.DEBUG)
     logging.basicConfig(level=logging.INFO)
+    start_time = time.time()
 
     ports = serial.tools.list_ports.comports()
     for i, port in enumerate(ports):
@@ -235,7 +238,7 @@ if __name__ == "__main__":
         for i in range(0, len(lst), n):
             yield lst[i : i + n]
 
-    with open("./test.bin", "rb") as f:
+    with open("./test_add.bin", "rb") as f:
         bytes_buffer = f.read()
     bytes_buffer = bytearray(bytes_buffer)
     if len(bytes_buffer) > (PAGE_COUNT * PAGE_SIZE):
@@ -244,5 +247,7 @@ if __name__ == "__main__":
     buffers = list(chunks(bytes_buffer, PAGE_SIZE))
     buffers = [bytes(b) for b in buffers]
 
-    with serial.Serial(com, baud) as ser:
+    with serial.Serial("COM4", baud) as ser:
         main(ser, buffers)
+
+    logging.info(f"Took {time.time() - start_time} seconds")

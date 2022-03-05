@@ -77,17 +77,21 @@ void loop()
         pyserial::SYN,
         (uint8_t *)&page, 2);
     pyserial::comm::send_packet(resp);
-    delete resp;
 
-    data_packet->cmd = pyserial::SYN;
-    data_packet->len = PAGE_SIZE;
     flash.initRead(page, 0);
     for (int i = 0; i < PAGE_SIZE; i++)
     {
-      data_packet->buf[i] = flash.readByte();
+      buffer[i] = flash.readByte();
     }
     flash.endRead();
-    pyserial::comm::send_packet(data_packet);
+    
+    uint16_t crc = pyserial::comm::crc16(buffer, PAGE_SIZE);
+    resp->buf = (uint8_t*)&crc;
+    resp->len = 2;
+
+    pyserial::comm::send_packet(resp);
+
+    delete resp;
   }
 
   pyserial::comm::send_packet(ack_packet);

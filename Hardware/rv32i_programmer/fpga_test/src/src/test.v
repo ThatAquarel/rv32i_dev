@@ -5,6 +5,6 @@
 // endmodule
 
 
-module top(input a, b, output[1:0] y);
+module top(input a, b, output[0:1] y);
   assign y = a + b;
 endmodule

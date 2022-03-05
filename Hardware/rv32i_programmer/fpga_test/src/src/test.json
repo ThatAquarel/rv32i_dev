@@ -9676,6 +9676,7 @@
         },
         "y": {
           "direction": "output",
+          "upto": 1,
           "bits": [ 4, 5 ]
         }
       },
@@ -9749,6 +9750,7 @@
         "y": {
           "hide_name": 0,
           "bits": [ 4, 5 ],
+          "upto": 1,
           "attributes": {
             "src": "test.v:8.36-8.37"
           }
